@@ -1,0 +1,500 @@
+{"kind": "unsupported_sentence", "key": "synthetic-5", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-5", "split": "train", "reason": "missing object", "text": "Fry."}
+{"kind": "unsupported_sentence", "key": "synthetic-6", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-7", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-11", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-19", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-20", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-32", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-33", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-36", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-36", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-37", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-38", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-40", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-40", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-43", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-43", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-43", "split": "train", "reason": "missing object", "text": "Fry for about 5 minutes at 400 degrees."}
+{"kind": "unsupported_sentence", "key": "synthetic-44", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-46", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-46", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-47", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-47", "split": "train", "reason": "missing object", "text": "Fry for 20-25 minutes at 400 degrees."}
+{"kind": "unsupported_sentence", "key": "synthetic-50", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-52", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-53", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-55", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-57", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-57", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-59", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-59", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-63", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-64", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-64", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-66", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-66", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-66", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-66", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-70", "split": "train", "reason": "missing object", "text": "Fry at 400 degrees."}
+{"kind": "unsupported_sentence", "key": "synthetic-70", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-71", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-71", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-72", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-72", "split": "train", "reason": "missing object", "text": "Fry."}
+{"kind": "unsupported_sentence", "key": "synthetic-72", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-75", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-75", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-76", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-77", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-79", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-79", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-79", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-82", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-92", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-93", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-95", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-95", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-95", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-97", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-97", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-97", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-98", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-99", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-101", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-105", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-110", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-110", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-111", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-112", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-112", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-112", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-113", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-116", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-118", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-120", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-120", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-122", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-126", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-133", "split": "train", "reason": "missing object", "text": "Fry for about 10 minutes."}
+{"kind": "unsupported_sentence", "key": "synthetic-133", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-134", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-134", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-134", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-135", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-135", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-140", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-142", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-144", "split": "train", "reason": "missing object", "text": "Fry for about 20-25 minutes."}
+{"kind": "unsupported_sentence", "key": "synthetic-144", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-145", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-145", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-145", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-149", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-151", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-154", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-156", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-157", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-159", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-161", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-165", "split": "train", "reason": "missing object", "text": "Fry for 45 minutes at 350 degrees."}
+{"kind": "unsupported_sentence", "key": "synthetic-165", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-166", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-172", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-172", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-172", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-180", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-186", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-188", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-190", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-190", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-191", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-196", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-198", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-200", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-202", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-204", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-208", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-212", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-212", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-215", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-217", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-218", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-219", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-222", "split": "train", "reason": "missing object", "text": "Fry."}
+{"kind": "unsupported_sentence", "key": "synthetic-225", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-230", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-230", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-236", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-236", "split": "train", "reason": "missing object", "text": "Fry."}
+{"kind": "unsupported_sentence", "key": "synthetic-238", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-239", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-250", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-253", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-255", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-256", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-256", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-257", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-258", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-259", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-263", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-264", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-264", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-269", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-270", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-270", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-271", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-273", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-276", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-279", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-280", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-280", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-284", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-284", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-285", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-287", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-288", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-290", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-296", "split": "train", "reason": "missing object", "text": "Fry for about 20-25 minutes."}
+{"kind": "unsupported_sentence", "key": "synthetic-296", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-298", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-298", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-303", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-304", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-305", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-305", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-307", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-307", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-308", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-308", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-311", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-311", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-313", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-313", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-314", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-318", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-318", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-320", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-322", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-322", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-324", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-328", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-328", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-330", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-333", "split": "train", "reason": "missing object", "text": "Fry at 350 degrees."}
+{"kind": "unsupported_sentence", "key": "synthetic-333", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-335", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-335", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-335", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-340", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-342", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-345", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-346", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-347", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-348", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-352", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-352", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-353", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-354", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-354", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-355", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-359", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-360", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-367", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-369", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-372", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-373", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-373", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-374", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-375", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-375", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-378", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-379", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-384", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-386", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-390", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-395", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-395", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-398", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-401", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-405", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-413", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-413", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-413", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-416", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-418", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-418", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-418", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-421", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-423", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-423", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-424", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-425", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-425", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-426", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-429", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-429", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-430", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-435", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-435", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-437", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-439", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-441", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-441", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-441", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-442", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-442", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-448", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-451", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-457", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-461", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-465", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-465", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-466", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-470", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-475", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-480", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-480", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-483", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-488", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-489", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-490", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-491", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-491", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-491", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-492", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-492", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-492", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-494", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-497", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-499", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-499", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-505", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-508", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-508", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-509", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-514", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-518", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-520", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-520", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-521", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-524", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-526", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-528", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-529", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-530", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-530", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-532", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-534", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-536", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-536", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-536", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-540", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-544", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-545", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-545", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-546", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-548", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-548", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-549", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-553", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-554", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-555", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-558", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-559", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-564", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-565", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-565", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-572", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-577", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-577", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-580", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-581", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-581", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-582", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-585", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-586", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-586", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-588", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-588", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-588", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-590", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-590", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-591", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-591", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-591", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-593", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-594", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-597", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-606", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-611", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-611", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-614", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-614", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-615", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-619", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-619", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-620", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-620", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-621", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-621", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-621", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-623", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-624", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-624", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-626", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-626", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-630", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-633", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-634", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-636", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-637", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-637", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-638", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-638", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-639", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-640", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-641", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-642", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-644", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-647", "split": "train", "reason": "missing object", "text": "Fry for about 5 minutes."}
+{"kind": "unsupported_sentence", "key": "synthetic-650", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-650", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-651", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-652", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-652", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-655", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-656", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-656", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-656", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-657", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-661", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-661", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-663", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-664", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-667", "split": "train", "reason": "missing object", "text": "Fry for 45 minutes."}
+{"kind": "unsupported_sentence", "key": "synthetic-668", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-671", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-672", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-673", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-676", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-679", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-681", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-686", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-687", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-687", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-688", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-690", "split": "train", "reason": "missing object", "text": "Fry for about 20-25 minutes."}
+{"kind": "unsupported_sentence", "key": "synthetic-690", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-690", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-691", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-692", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-692", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-695", "split": "train", "reason": "missing object", "text": "Fry for 5 minutes."}
+{"kind": "unsupported_sentence", "key": "synthetic-695", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-696", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-697", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-698", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-701", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-701", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-703", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-708", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-708", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-711", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-711", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-717", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-718", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-718", "split": "train", "reason": "missing object", "text": "Fry."}
+{"kind": "unsupported_sentence", "key": "synthetic-721", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-721", "split": "train", "reason": "missing object", "text": "Fry."}
+{"kind": "unsupported_sentence", "key": "synthetic-722", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-722", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-724", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-727", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-729", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-730", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-730", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-736", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-737", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-738", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-739", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-743", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-744", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-744", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-747", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-747", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-754", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-756", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-756", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-757", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-758", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-761", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-763", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-764", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-765", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-767", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-773", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-773", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-774", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-775", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-776", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-778", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-778", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-778", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-782", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-789", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-794", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-799", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-800", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-801", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-804", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-805", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-806", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-807", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-812", "split": "train", "reason": "missing object", "text": "Fry for about 20-25 minutes."}
+{"kind": "unsupported_sentence", "key": "synthetic-815", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-817", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-819", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-819", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-825", "split": "train", "reason": "missing object", "text": "Fry for 20-25 minutes."}
+{"kind": "unsupported_sentence", "key": "synthetic-827", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-828", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-828", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-829", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-829", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-830", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-840", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-842", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-847", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-848", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-851", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-851", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-853", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-859", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-863", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-863", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-864", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-865", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-865", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-866", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-869", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-871", "split": "train", "reason": "no leading verb", "text": "Mélangez bien et laissez reposer 10 min."}
+{"kind": "unsupported_sentence", "key": "synthetic-873", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-876", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-882", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-886", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-887", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-887", "split": "train", "reason": "trailing token 'until'", "text": "Cook until golden brown, stirring occasionally."}
+{"kind": "unsupported_sentence", "key": "synthetic-888", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-889", "split": "train", "reason": "no leading verb", "text": "If the batter is too thick, add a little more milk."}
+{"kind": "unsupported_sentence", "key": "synthetic-892", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-893", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-894", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-898", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}
+{"kind": "unsupported_sentence", "key": "synthetic-900", "split": "train", "reason": "no leading verb", "text": "Enjoy with friends (serves 4)."}
+{"kind": "unsupported_sentence", "key": "synthetic-902", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-903", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-904", "split": "train", "reason": "trailing token ';'", "text": "Bring to a boil; reduce heat."}
+{"kind": "unsupported_sentence", "key": "synthetic-906", "split": "train", "reason": "trailing token '5'", "text": "Let stand 5 minutes before cutting."}
+{"kind": "unsupported_sentence", "key": "synthetic-907", "split": "train", "reason": "no leading verb", "text": "Remove from heat when done."}
+{"kind": "unsupported_sentence", "key": "synthetic-907", "split": "train", "reason": "no leading verb", "text": "Do not overmix!"}

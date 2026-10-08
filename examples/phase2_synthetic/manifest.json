@@ -1,0 +1,282 @@
+{
+  "coding_models": {
+    "families": [
+      "byte",
+      "symbol"
+    ],
+    "orders": [
+      2,
+      3,
+      4
+    ],
+    "primary_order": 3
+  },
+  "compiler": {
+    "arms": {
+      "C0": [
+        "S1",
+        "C0"
+      ],
+      "C1": [
+        "S1",
+        "C1"
+      ],
+      "C2": [
+        "S1",
+        "C2"
+      ],
+      "C3": [
+        "S1",
+        "C3"
+      ],
+      "C4": [
+        "S1",
+        "C4"
+      ],
+      "C5": [
+        "S2k8",
+        "C4"
+      ],
+      "C6": [
+        "S1",
+        "C4P"
+      ],
+      "S0": [
+        "S0",
+        "C0"
+      ],
+      "S1a": [
+        "S1a",
+        "C0"
+      ],
+      "S2k16": [
+        "S2k16",
+        "C0"
+      ],
+      "S2k4": [
+        "S2k4",
+        "C0"
+      ],
+      "S2k8": [
+        "S2k8",
+        "C0"
+      ],
+      "S3": [
+        "S3",
+        "C0"
+      ]
+    },
+    "format_version": 3,
+    "rule_table_sha256": "3a4f93c0c1ca02edcdfdce5f48c033b9eb6f5fdd7234e97774e6fa2ac9e5a709",
+    "rules_version": "0.3.2",
+    "source_sha256": {
+      "codec.py": "28bec56f44044a49567748105357e54b7709ce1d5cab7bb8408063e70e5e570b",
+      "isa.py": "a7a3821d439055b2af536b8c486829bbb1366bf86eae0e8922a8e8917b9bb513",
+      "lexicon.py": "6ff827076c3fcbb568c1905443085571a596ef02ea46eeb03194f0a0c73c9874",
+      "parser.py": "e33358be205245b627356642bd67eaeacd9a62b62e41eff338b118d454306896",
+      "realizer.py": "80118399aa83b657be3d80b7cfa8a65e27b9ce66b98fadf0cee2ec02bb99ae75",
+      "residual.py": "48536c7129708632afd7f85535d462c2f28e1f932209e0362e4ab2c0daa67e40",
+      "serial.py": "b6d24d6f9134d12b576c22b92d3d9e2b6027c6e7744c4cd2a52c8dcbffd4445d",
+      "state.py": "43ddb6cf033932d50ad4636ae2e65dfada506e1ef5d2476a4989f7da571f50f1",
+      "surface.py": "077eccd2e40f1ed97f1713bb5a23104e56520e83051ba828ee6861a5b46cc5a6"
+    },
+    "surface_schema_version": 1
+  },
+  "created_unix": 1791498528,
+  "dataset": {
+    "generator_seed": 20261008,
+    "kind": "synthetic",
+    "n": 2000
+  },
+  "environment": {
+    "numpy": "2.5.3",
+    "platform": "Linux-6.18.44-fc-v80-x86_64-with-glibc2.39",
+    "python": "3.13.16",
+    "scipy": "1.18.1"
+  },
+  "files": [
+    "manifest.json",
+    "dataset_audit.json",
+    "parser_coverage.json",
+    "roundtrip_results.json",
+    "coding_rates.json",
+    "residual_allocation.json",
+    "rank_frequency.json",
+    "bootstrap_intervals.json",
+    "shared_artifact_costs.json",
+    "failure_cases.jsonl",
+    "feasibility_decision.json"
+  ],
+  "hsir_phase": "II",
+  "prereg": {
+    "_comment": "Preregistered Phase II parameters. Edit ONLY before running on real data; the SHA-256 of this file is recorded in every manifest.",
+    "arm_contrasts": [
+      [
+        "C4",
+        "C0",
+        "PRIMARY: full surface layer vs byte patches only (S1 state)"
+      ],
+      [
+        "C1",
+        "C0",
+        "separators + serial comma"
+      ],
+      [
+        "C2",
+        "C1",
+        "articles + initial case"
+      ],
+      [
+        "C3",
+        "C2",
+        "lexical verb variants"
+      ],
+      [
+        "C4",
+        "C3",
+        "reference forms (pronoun vs NP)"
+      ],
+      [
+        "C5",
+        "C4",
+        "checkpoints every 8 actions, with full surface layer"
+      ],
+      [
+        "C6",
+        "C4",
+        "permuted surface ids (control; expected near 0)"
+      ],
+      [
+        "S0",
+        "S3",
+        "serialization overhead of explicit state (ascii vs compact)"
+      ],
+      [
+        "S3",
+        "C0",
+        "explicit-state cost (compact)"
+      ],
+      [
+        "S1a",
+        "C0",
+        "serialization overhead under implicit state"
+      ],
+      [
+        "S0",
+        "S1a",
+        "explicit-state cost (ascii)"
+      ],
+      [
+        "S2k4",
+        "C0",
+        "checkpoint overhead, k=4"
+      ],
+      [
+        "S2k8",
+        "C0",
+        "checkpoint overhead, k=8"
+      ],
+      [
+        "S2k16",
+        "C0",
+        "checkpoint overhead, k=16"
+      ]
+    ],
+    "arms": {
+      "C0": [
+        "S1",
+        "C0"
+      ],
+      "C1": [
+        "S1",
+        "C1"
+      ],
+      "C2": [
+        "S1",
+        "C2"
+      ],
+      "C3": [
+        "S1",
+        "C3"
+      ],
+      "C4": [
+        "S1",
+        "C4"
+      ],
+      "C5": [
+        "S2k8",
+        "C4"
+      ],
+      "C6": [
+        "S1",
+        "C4P"
+      ],
+      "S0": [
+        "S0",
+        "C0"
+      ],
+      "S1a": [
+        "S1a",
+        "C0"
+      ],
+      "S2k16": [
+        "S2k16",
+        "C0"
+      ],
+      "S2k4": [
+        "S2k4",
+        "C0"
+      ],
+      "S2k8": [
+        "S2k8",
+        "C0"
+      ],
+      "S3": [
+        "S3",
+        "C0"
+      ]
+    },
+    "bootstrap_resamples": 2000,
+    "coding_orders": [
+      2,
+      3,
+      4
+    ],
+    "decision_rule": "per arm: most severe of byte/symbol families; overall: least severe across arms, with a selection caveat requiring confirmation on a fresh split",
+    "failure_case_sample": 500,
+    "near_dup_jaccard": 0.8,
+    "primary_contrast": "C4 - C0",
+    "primary_order": 3,
+    "seed": 20261008,
+    "sensitivity_arms": [
+      "S0",
+      "C0",
+      "C4",
+      "C5"
+    ],
+    "sensitivity_orders": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "target_corpus_bytes_for_amortization": 100000000,
+    "test_fraction": 0.2,
+    "thresholds": {
+      "byte_coverage_revise_min": 0.3,
+      "byte_coverage_stop_min": 0.05,
+      "covered_subset_only_rule": "STOP if gamma_covered < 1.0 while gamma_whole >= 1.0",
+      "gamma_revise_max": 1.1,
+      "gamma_stop_ci_low": 1.5,
+      "rho_R_diagnostic_max": 0.85
+    }
+  },
+  "prereg_sha256": "24e3cd6df9cf35755c60c3e827cee95fecfe28865cdc70cf5a6b3b2e2e0080f5",
+  "protocol_version": "0.3.3",
+  "runtime_seconds": 94.62,
+  "seed": 20261008,
+  "synthetic": true
+}

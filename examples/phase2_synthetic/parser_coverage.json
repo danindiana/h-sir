@@ -1,0 +1,44 @@
+{
+  "state_tracking_accuracy": {
+    "status": "UNMEASURED",
+    "why": "requires a gold-annotated entity-state sample; parser statistics above are not accuracy"
+  },
+  "test": {
+    "byte_weighted_coverage": 0.8480270868602683,
+    "doc_fully_covered_fraction": 0.5452261306532663,
+    "doc_mode_B_fraction": 0.9974874371859297,
+    "documents": 398,
+    "mean_anaphora_resolved_per_mode_B_doc": 0.8639798488664987,
+    "mean_entities_per_mode_B_doc": 7.30478589420655,
+    "mean_state_versions_per_mode_B_doc": 2.6171284634760705,
+    "sentence_coverage": 0.8809167912306926,
+    "sentences": 2007
+  },
+  "train": {
+    "byte_weighted_coverage": 0.8309841809615369,
+    "doc_fully_covered_fraction": 0.48626716604244696,
+    "doc_mode_B_fraction": 1.0,
+    "documents": 1602,
+    "mean_anaphora_resolved_per_mode_B_doc": 0.8826466916354557,
+    "mean_entities_per_mode_B_doc": 7.4225967540574285,
+    "mean_state_versions_per_mode_B_doc": 2.531210986267166,
+    "sentence_coverage": 0.8633198973983144,
+    "sentences": 8187
+  },
+  "unsupported_reasons": {
+    "missing object": 51,
+    "no leading verb": 799,
+    "trailing token": 508
+  },
+  "whole": {
+    "byte_weighted_coverage": 0.8343275193674677,
+    "doc_fully_covered_fraction": 0.498,
+    "doc_mode_B_fraction": 0.9995,
+    "documents": 2000,
+    "mean_anaphora_resolved_per_mode_B_doc": 0.8789394697348675,
+    "mean_entities_per_mode_B_doc": 7.3991995997999,
+    "mean_state_versions_per_mode_B_doc": 2.5482741370685345,
+    "sentence_coverage": 0.8667843829703747,
+    "sentences": 10194
+  }
+}

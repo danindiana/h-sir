@@ -1,0 +1,34 @@
+{
+  "dedupe": {
+    "exact_duplicates_merged": 0,
+    "input_docs": 2000,
+    "kept_docs": 2000,
+    "lsh_bands": 16,
+    "minhash_perms": 64,
+    "near_dup_jaccard_threshold": 0.8,
+    "near_duplicates_merged": 0
+  },
+  "fields_used": [
+    "directions"
+  ],
+  "load": {
+    "loaded": 2000,
+    "rows": 2000
+  },
+  "privileged_fields_excluded": [
+    "title",
+    "ingredients",
+    "NER",
+    "link",
+    "source"
+  ],
+  "split": {
+    "test_bytes": 61432,
+    "test_docs": 398,
+    "test_fraction": 0.2,
+    "train_bytes": 251722,
+    "train_docs": 1602,
+    "unit": "document"
+  },
+  "synthetic": true
+}

@@ -1,0 +1,744 @@
+{
+  "C_bytes_per_source_byte": {
+    "C0": 0.0,
+    "C1": 0.030505274124234927,
+    "C2": 0.07930720145852324,
+    "C3": 0.08624169813777835,
+    "C4": 0.09451100403698398,
+    "C5": 0.09451100403698398,
+    "C6": 0.09451100403698398,
+    "S0": 0.0,
+    "S1a": 0.0,
+    "S2k16": 0.0,
+    "S2k4": 0.0,
+    "S2k8": 0.0,
+    "S3": 0.0
+  },
+  "R_bytes_per_source_byte": {
+    "C0": 0.5364793592915744,
+    "C1": 0.46182771194165906,
+    "C2": 0.344511004036984,
+    "C3": 0.3023668446412293,
+    "C4": 0.27248014064331294,
+    "C5": 0.27248014064331294,
+    "C6": 0.27248014064331294,
+    "S0": 0.5364793592915744,
+    "S1a": 0.5364793592915744,
+    "S2k16": 0.5364793592915744,
+    "S2k4": 0.5364793592915744,
+    "S2k8": 0.5364793592915744,
+    "S3": 0.5364793592915744
+  },
+  "S_bytes_per_source_byte": {
+    "C0": 0.6345715587967183,
+    "C1": 0.6345715587967183,
+    "C2": 0.6345715587967183,
+    "C3": 0.6345715587967183,
+    "C4": 0.6345715587967183,
+    "C5": 0.6407572600599036,
+    "C6": 0.6345715587967183,
+    "S0": 1.6452337543951034,
+    "S1a": 1.0882113556452664,
+    "S2k16": 0.6345715587967183,
+    "S2k4": 0.7044374267482745,
+    "S2k8": 0.6407572600599036,
+    "S3": 0.8707025654382081
+  },
+  "S_symbols_per_source_byte": {
+    "C0": 0.2787797890350306,
+    "C1": 0.2787797890350306,
+    "C2": 0.2787797890350306,
+    "C3": 0.2787797890350306,
+    "C4": 0.2787797890350306,
+    "C5": 0.28496549029821594,
+    "C6": 0.2787797890350306,
+    "S0": 0.5115412163042062,
+    "S1a": 0.3719885401745019,
+    "S2k16": 0.2787797890350306,
+    "S2k4": 0.3486456569865868,
+    "S2k8": 0.28496549029821594,
+    "S3": 0.4663693189217346
+  },
+  "arm_decomposition": {
+    "by_family": {
+      "byte": [
+        {
+          "contrast": "C4 - C0",
+          "delta_C_bpb": 0.20293798028450877,
+          "delta_R_bpb": -0.416440407899088,
+          "delta_S_bpb": 0.016982719518756295,
+          "delta_gamma": -0.2554670163355546,
+          "delta_total_bpb": -0.19651970809582275,
+          "meaning": "PRIMARY: full surface layer vs byte patches only (S1 state)"
+        },
+        {
+          "contrast": "C1 - C0",
+          "delta_C_bpb": 0.03839507782452342,
+          "delta_R_bpb": -0.12735875033467325,
+          "delta_S_bpb": 0.0038926466856720188,
+          "delta_gamma": -0.11058860892154065,
+          "delta_total_bpb": -0.08507102582447779,
+          "meaning": "separators + serial comma"
+        },
+        {
+          "contrast": "C2 - C1",
+          "delta_C_bpb": 0.10707485459595686,
+          "delta_R_bpb": -0.19033283182796656,
+          "delta_S_bpb": 0.012443458208572067,
+          "delta_gamma": -0.09205577427040468,
+          "delta_total_bpb": -0.0708145190234375,
+          "meaning": "articles + initial case"
+        },
+        {
+          "contrast": "C3 - C2",
+          "delta_C_bpb": 0.02761955268309127,
+          "delta_R_bpb": -0.04753829410905669,
+          "delta_S_bpb": 0.0009571138428190462,
+          "delta_gamma": -0.02464928566436919,
+          "delta_total_bpb": -0.018961627583146345,
+          "meaning": "lexical verb variants"
+        },
+        {
+          "contrast": "C4 - C3",
+          "delta_C_bpb": 0.029848495180937212,
+          "delta_R_bpb": -0.05121053162739145,
+          "delta_S_bpb": -0.0003104992183068367,
+          "delta_gamma": -0.028173347479240052,
+          "delta_total_bpb": -0.021672535664761128,
+          "meaning": "reference forms (pronoun vs NP)"
+        },
+        {
+          "contrast": "C5 - C4",
+          "delta_C_bpb": 0.0005674325730883611,
+          "delta_R_bpb": 1.018624557619363e-06,
+          "delta_S_bpb": 0.016002745005376573,
+          "delta_gamma": 0.021541829530059564,
+          "delta_total_bpb": 0.01657119620302261,
+          "meaning": "checkpoints every 8 actions, with full surface layer"
+        },
+        {
+          "contrast": "C6 - C4",
+          "delta_C_bpb": 0.008280679348347197,
+          "delta_R_bpb": 0.00011794725428895814,
+          "delta_S_bpb": -0.001331948493171753,
+          "delta_gamma": 0.009186372143136001,
+          "delta_total_bpb": 0.007066678109464375,
+          "meaning": "permuted surface ids (control; expected near 0)"
+        },
+        {
+          "contrast": "S0 - S3",
+          "delta_C_bpb": -3.5649009245045662e-09,
+          "delta_R_bpb": 0.012577306301704616,
+          "delta_S_bpb": 0.382278135606945,
+          "delta_gamma": 0.513294781958253,
+          "delta_total_bpb": 0.3948554383437486,
+          "meaning": "serialization overhead of explicit state (ascii vs compact)"
+        },
+        {
+          "contrast": "S3 - C0",
+          "delta_C_bpb": -9.022536599699279e-10,
+          "delta_R_bpb": 0.0015307375003399404,
+          "delta_S_bpb": 0.33316253162240395,
+          "delta_gamma": 0.4350865948680973,
+          "delta_total_bpb": 0.3346932682204904,
+          "meaning": "explicit-state cost (compact)"
+        },
+        {
+          "contrast": "S1a - C0",
+          "delta_C_bpb": -4.472945637841724e-09,
+          "delta_R_bpb": 0.010165351020807178,
+          "delta_S_bpb": 0.12405796587757989,
+          "delta_gamma": 0.17448442947657372,
+          "delta_total_bpb": 0.1342233124254415,
+          "meaning": "serialization overhead under implicit state"
+        },
+        {
+          "contrast": "S0 - S1a",
+          "delta_C_bpb": 5.791053367229515e-12,
+          "delta_R_bpb": 0.003942692781237378,
+          "delta_S_bpb": 0.5913827013517691,
+          "delta_gamma": 0.7738969473497765,
+          "delta_total_bpb": 0.5953253941387975,
+          "meaning": "explicit-state cost (ascii)"
+        },
+        {
+          "contrast": "S2k4 - C0",
+          "delta_C_bpb": -1.0582077268404792e-10,
+          "delta_R_bpb": 8.75213673938724e-05,
+          "delta_S_bpb": 0.10636532052424663,
+          "delta_gamma": 0.13838403351486672,
+          "delta_total_bpb": 0.10645284178581993,
+          "meaning": "checkpoint overhead, k=4"
+        },
+        {
+          "contrast": "S2k8 - C0",
+          "delta_C_bpb": -8.707993080057705e-10,
+          "delta_R_bpb": 1.0558660118453744e-05,
+          "delta_S_bpb": 0.015122361703067577,
+          "delta_gamma": 0.01967213277805757,
+          "delta_total_bpb": 0.015132919492387042,
+          "meaning": "checkpoint overhead, k=8"
+        },
+        {
+          "contrast": "S2k16 - C0",
+          "delta_C_bpb": 0.0,
+          "delta_R_bpb": 0.0,
+          "delta_S_bpb": 0.0,
+          "delta_gamma": 0.0,
+          "delta_total_bpb": 0.0,
+          "meaning": "checkpoint overhead, k=16"
+        }
+      ],
+      "symbol": [
+        {
+          "contrast": "C4 - C0",
+          "delta_C_bpb": 0.18115018546599637,
+          "delta_R_bpb": -0.4118421291989734,
+          "delta_S_bpb": -0.000262909575139636,
+          "delta_gamma": -0.30023119745241345,
+          "delta_total_bpb": -0.2309548533081165,
+          "meaning": "PRIMARY: full surface layer vs byte patches only (S1 state)"
+        },
+        {
+          "contrast": "C1 - C0",
+          "delta_C_bpb": 0.04098828411385221,
+          "delta_R_bpb": -0.12553551448825784,
+          "delta_S_bpb": -6.786615063325563e-05,
+          "delta_gamma": -0.10999592079744014,
+          "delta_total_bpb": -0.08461509652503874,
+          "meaning": "separators + serial comma"
+        },
+        {
+          "contrast": "C2 - C1",
+          "delta_C_bpb": 0.09434785417366398,
+          "delta_R_bpb": -0.18854000965041245,
+          "delta_S_bpb": -0.00010902064761741936,
+          "delta_gamma": -0.12258740019296344,
+          "delta_total_bpb": -0.09430117612436595,
+          "meaning": "articles + initial case"
+        },
+        {
+          "contrast": "C3 - C2",
+          "delta_C_bpb": 0.022624676464625626,
+          "delta_R_bpb": -0.046226860664623504,
+          "delta_S_bpb": -5.2534588616759414e-05,
+          "delta_gamma": -0.03075009875558332,
+          "delta_total_bpb": -0.023654718788614693,
+          "meaning": "lexical verb variants"
+        },
+        {
+          "contrast": "C4 - C3",
+          "delta_C_bpb": 0.023189370713854546,
+          "delta_R_bpb": -0.0515397443956796,
+          "delta_S_bpb": -3.348818827220157e-05,
+          "delta_gamma": -0.03689777770642655,
+          "delta_total_bpb": -0.028383861870097116,
+          "meaning": "reference forms (pronoun vs NP)"
+        },
+        {
+          "contrast": "C5 - C4",
+          "delta_C_bpb": -0.00013260489477820436,
+          "delta_R_bpb": 1.0496909514934316e-06,
+          "delta_S_bpb": 0.011794487635542472,
+          "delta_gamma": 0.015161301525493887,
+          "delta_total_bpb": 0.011662932431715678,
+          "meaning": "checkpoints every 8 actions, with full surface layer"
+        },
+        {
+          "contrast": "C6 - C4",
+          "delta_C_bpb": 0.0,
+          "delta_R_bpb": 0.0,
+          "delta_S_bpb": 0.0,
+          "delta_gamma": 0.0,
+          "delta_total_bpb": 0.0,
+          "meaning": "permuted surface ids (control; expected near 0)"
+        },
+        {
+          "contrast": "S0 - S3",
+          "delta_C_bpb": -8.149461151453655e-09,
+          "delta_R_bpb": -0.00010304603166144677,
+          "delta_S_bpb": 0.08973035769586057,
+          "delta_gamma": 0.11651157043563631,
+          "delta_total_bpb": 0.08962730351473813,
+          "meaning": "serialization overhead of explicit state (ascii vs compact)"
+        },
+        {
+          "contrast": "S3 - C0",
+          "delta_C_bpb": -1.2751515842843871e-08,
+          "delta_R_bpb": -6.407583910350567e-05,
+          "delta_S_bpb": 0.15230446616981386,
+          "delta_gamma": 0.19790582534427625,
+          "delta_total_bpb": 0.1522403775791945,
+          "meaning": "explicit-state cost (compact)"
+        },
+        {
+          "contrast": "S1a - C0",
+          "delta_C_bpb": -2.1043232599779374e-08,
+          "delta_R_bpb": -0.00018536009867797798,
+          "delta_S_bpb": 0.017937756575763353,
+          "delta_gamma": 0.02307731081546005,
+          "delta_total_bpb": 0.017752375433852885,
+          "meaning": "serialization overhead under implicit state"
+        },
+        {
+          "contrast": "S0 - S1a",
+          "delta_C_bpb": 1.4225560548184765e-10,
+          "delta_R_bpb": 1.823822791302554e-05,
+          "delta_S_bpb": 0.22409706728991108,
+          "delta_gamma": 0.2913400849644525,
+          "delta_total_bpb": 0.22411530566007976,
+          "meaning": "explicit-state cost (ascii)"
+        },
+        {
+          "contrast": "S2k4 - C0",
+          "delta_C_bpb": 5.803432118715255e-09,
+          "delta_R_bpb": 7.625124813270823e-05,
+          "delta_S_bpb": 0.0722429034787232,
+          "delta_gamma": 0.09401174235466292,
+          "delta_total_bpb": 0.0723191605302882,
+          "meaning": "checkpoint overhead, k=4"
+        },
+        {
+          "contrast": "S2k8 - C0",
+          "delta_C_bpb": 1.7121020857643866e-08,
+          "delta_R_bpb": -9.926760561129733e-05,
+          "delta_S_bpb": 0.011857802139131568,
+          "delta_gamma": 0.015285602328690473,
+          "delta_total_bpb": 0.011758551654541316,
+          "meaning": "checkpoint overhead, k=8"
+        },
+        {
+          "contrast": "S2k16 - C0",
+          "delta_C_bpb": 0.0,
+          "delta_R_bpb": 0.0,
+          "delta_S_bpb": 0.0,
+          "delta_gamma": 0.0,
+          "delta_total_bpb": 0.0,
+          "meaning": "checkpoint overhead, k=16"
+        }
+      ]
+    },
+    "primary_contrast": "C4 - C0",
+    "primary_order": 3,
+    "unit": "bits per source byte; delta_gamma = change in hybrid/baseline (negative = improvement)"
+  },
+  "by_family": {
+    "byte": {
+      "C0": {
+        "residual_cost_relative_to_baseline": 0.8650574310220951,
+        "rho_R_residual_share_of_hybrid": 0.5115821018622309,
+        "semantic_cost_relative_to_baseline": 0.8258880011339139,
+        "surface_cost_relative_to_baseline": 2.4835477446125064e-08
+      },
+      "C1": {
+        "residual_cost_relative_to_baseline": 0.6994966317135632,
+        "rho_R_residual_share_of_hybrid": 0.4426194201441546,
+        "semantic_cost_relative_to_baseline": 0.8309482713941985,
+        "surface_cost_relative_to_baseline": 0.04991194496218405
+      },
+      "C2": {
+        "residual_cost_relative_to_baseline": 0.4520722836472688,
+        "rho_R_residual_share_of_hybrid": 0.3037505593496322,
+        "semantic_cost_relative_to_baseline": 0.8471242222555241,
+        "surface_cost_relative_to_baseline": 0.18910456789674787
+      },
+      "C3": {
+        "residual_cost_relative_to_baseline": 0.39027458266655524,
+        "rho_R_residual_share_of_hybrid": 0.26664442036708835,
+        "semantic_cost_relative_to_baseline": 0.8483684283460359,
+        "surface_cost_relative_to_baseline": 0.22500877712258052
+      },
+      "C4": {
+        "residual_cost_relative_to_baseline": 0.32370313369295833,
+        "rho_R_residual_share_of_hybrid": 0.2255019124808621,
+        "semantic_cost_relative_to_baseline": 0.8479647929567716,
+        "surface_cost_relative_to_baseline": 0.263810514006202
+      },
+      "C5": {
+        "residual_cost_relative_to_baseline": 0.32370445786028496,
+        "rho_R_residual_share_of_hybrid": 0.22216880882443968,
+        "semantic_cost_relative_to_baseline": 0.8687676608182935,
+        "surface_cost_relative_to_baseline": 0.2645481515074128
+      },
+      "C6": {
+        "residual_cost_relative_to_baseline": 0.3238564599594694,
+        "rho_R_residual_share_of_hybrid": 0.2241741178232138,
+        "semantic_cost_relative_to_baseline": 0.8462333182321231,
+        "surface_cost_relative_to_baseline": 0.2745750346074753
+      },
+      "S0": {
+        "residual_cost_relative_to_baseline": 0.8833972702746663,
+        "rho_R_residual_share_of_hybrid": 0.3347055237553946,
+        "semantic_cost_relative_to_baseline": 1.7559295445147984,
+        "surface_cost_relative_to_baseline": 1.9028372070978978e-08
+      },
+      "S1a": {
+        "residual_cost_relative_to_baseline": 0.8782719422813063,
+        "rho_R_residual_share_of_hybrid": 0.47081476964229185,
+        "semantic_cost_relative_to_baseline": 0.9871579251659097,
+        "surface_cost_relative_to_baseline": 1.902084395515029e-08
+      },
+      "S2k16": {
+        "residual_cost_relative_to_baseline": 0.8650574310220951,
+        "rho_R_residual_share_of_hybrid": 0.5115821018622309,
+        "semantic_cost_relative_to_baseline": 0.8258880011339139,
+        "surface_cost_relative_to_baseline": 2.4835477446125064e-08
+      },
+      "S2k4": {
+        "residual_cost_relative_to_baseline": 0.8651712049677739,
+        "rho_R_residual_share_of_hybrid": 0.4729444364493884,
+        "semantic_cost_relative_to_baseline": 0.9641582608406642,
+        "surface_cost_relative_to_baseline": 2.4697915074768723e-08
+      },
+      "S2k8": {
+        "residual_cost_relative_to_baseline": 0.8650711568179609,
+        "rho_R_residual_share_of_hybrid": 0.5057069224539567,
+        "semantic_cost_relative_to_baseline": 0.8455464092481068,
+        "surface_cost_relative_to_baseline": 2.3703476471775822e-08
+      },
+      "S3": {
+        "residual_cost_relative_to_baseline": 0.8670473227525167,
+        "rho_R_residual_share_of_hybrid": 0.4078242009541359,
+        "semantic_cost_relative_to_baseline": 1.2589847054444798,
+        "surface_cost_relative_to_baseline": 2.3662587191382967e-08
+      }
+    },
+    "symbol": {
+      "C0": {
+        "residual_cost_relative_to_baseline": 0.8403044405013477,
+        "rho_R_residual_share_of_hybrid": 0.5264949275841617,
+        "semantic_cost_relative_to_baseline": 0.7557307197062805,
+        "surface_cost_relative_to_baseline": 4.635572961540425e-08
+      },
+      "C1": {
+        "residual_cost_relative_to_baseline": 0.677113767961842,
+        "rho_R_residual_share_of_hybrid": 0.4556499780642418,
+        "semantic_cost_relative_to_baseline": 0.7556424966818267,
+        "surface_cost_relative_to_baseline": 0.05328302112224908
+      },
+      "C2": {
+        "residual_cost_relative_to_baseline": 0.43202001022419695,
+        "rho_R_residual_share_of_hybrid": 0.3168575398923241,
+        "semantic_cost_relative_to_baseline": 0.7555007746131523,
+        "surface_cost_relative_to_baseline": 0.17593110073560494
+      },
+      "C3": {
+        "residual_cost_relative_to_baseline": 0.37192711530117856,
+        "rho_R_residual_share_of_hybrid": 0.2790775243045024,
+        "semantic_cost_relative_to_baseline": 0.7554324819480616,
+        "surface_cost_relative_to_baseline": 0.20534218956813077
+      },
+      "C4": {
+        "residual_cost_relative_to_baseline": 0.3049277041406667,
+        "rho_R_residual_share_of_hybrid": 0.23531930909048404,
+        "semantic_cost_relative_to_baseline": 0.755388948769514,
+        "surface_cost_relative_to_baseline": 0.23548735620076375
+      },
+      "C5": {
+        "residual_cost_relative_to_baseline": 0.3049290686929452,
+        "rho_R_residual_share_of_hybrid": 0.232598884363241,
+        "semantic_cost_relative_to_baseline": 0.7707212663001287,
+        "surface_cost_relative_to_baseline": 0.2353149756433645
+      },
+      "C6": {
+        "residual_cost_relative_to_baseline": 0.3049277041406667,
+        "rho_R_residual_share_of_hybrid": 0.23531930909048404,
+        "semantic_cost_relative_to_baseline": 0.755388948769514,
+        "surface_cost_relative_to_baseline": 0.23548735620076375
+      },
+      "S0": {
+        "residual_cost_relative_to_baseline": 0.8400871893864152,
+        "rho_R_residual_share_of_hybrid": 0.4397320238963292,
+        "semantic_cost_relative_to_baseline": 1.0703653937714805,
+        "surface_cost_relative_to_baseline": 1.9185374625930825e-08
+      },
+      "S1a": {
+        "residual_cost_relative_to_baseline": 0.8400634804886489,
+        "rho_R_residual_share_of_hybrid": 0.5188419405518697,
+        "semantic_cost_relative_to_baseline": 0.7790490178897206,
+        "surface_cost_relative_to_baseline": 1.9000448567151906e-08
+      },
+      "S2k16": {
+        "residual_cost_relative_to_baseline": 0.8403044405013477,
+        "rho_R_residual_share_of_hybrid": 0.5264949275841617,
+        "semantic_cost_relative_to_baseline": 0.7557307197062805,
+        "surface_cost_relative_to_baseline": 4.635572961540425e-08
+      },
+      "S2k4": {
+        "residual_cost_relative_to_baseline": 0.8404035637854278,
+        "rho_R_residual_share_of_hybrid": 0.4972664009857594,
+        "semantic_cost_relative_to_baseline": 0.8496433312326558,
+        "surface_cost_relative_to_baseline": 5.38999372792769e-08
+      },
+      "S2k8": {
+        "residual_cost_relative_to_baseline": 0.8401753969602659,
+        "rho_R_residual_share_of_hybrid": 0.5214203107933388,
+        "semantic_cost_relative_to_baseline": 0.7711453433194754,
+        "surface_cost_relative_to_baseline": 6.861230712425851e-08
+      },
+      "S3": {
+        "residual_cost_relative_to_baseline": 0.8402211447159322,
+        "rho_R_residual_share_of_hybrid": 0.46836608883540676,
+        "semantic_cost_relative_to_baseline": 0.9537198574123846,
+        "surface_cost_relative_to_baseline": 2.9779317316663913e-08
+      }
+    }
+  },
+  "conditioning_note": "R is an edit script against G(S, C); it changes with the surface set but not with the S serialization mode.",
+  "container_framing_bytes_per_source_byte": {
+    "C0": 0.11020315145201198,
+    "C1": 0.10986131006641489,
+    "C2": 0.10951946868081781,
+    "C3": 0.10945435603594218,
+    "C4": 0.10943807787472327,
+    "C5": 0.10945435603594218,
+    "C6": 0.10943807787472327,
+    "S0": 0.11401224117723661,
+    "S1a": 0.11292160437556974,
+    "S2k16": 0.11020315145201198,
+    "S2k4": 0.11067521812736034,
+    "S2k8": 0.11021942961323089,
+    "S3": 0.11184724573512177
+  },
+  "primary_order": 3,
+  "surface_choice_usage_test_split": {
+    "C1": {
+      "C_bytes_per_source_byte": 0.030505274124234927,
+      "R_bytes_per_source_byte": 0.46182771194165906,
+      "fields": {
+        "LIST": {
+          "emit_rate": 0.46757679180887374,
+          "emitted": 137,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 293,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        },
+        "SEP": {
+          "emit_rate": 0.5835156819839533,
+          "emitted": 800,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 1371,
+          "unobserved": 142,
+          "unobserved_rate": 0.10357403355215171,
+          "unrepresentable": 0
+        }
+      }
+    },
+    "C2": {
+      "C_bytes_per_source_byte": 0.07930720145852324,
+      "R_bytes_per_source_byte": 0.344511004036984,
+      "fields": {
+        "ART": {
+          "emit_rate": 0.5472800292077401,
+          "emitted": 1499,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 2739,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        },
+        "CASE": {
+          "emit_rate": 0.0,
+          "emitted": 0,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 1768,
+          "unobserved": 188,
+          "unobserved_rate": 0.10633484162895927,
+          "unrepresentable": 0
+        },
+        "LIST": {
+          "emit_rate": 0.46757679180887374,
+          "emitted": 137,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 293,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        },
+        "SEP": {
+          "emit_rate": 0.5835156819839533,
+          "emitted": 800,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 1371,
+          "unobserved": 142,
+          "unobserved_rate": 0.10357403355215171,
+          "unrepresentable": 0
+        }
+      }
+    },
+    "C3": {
+      "C_bytes_per_source_byte": 0.08624169813777835,
+      "R_bytes_per_source_byte": 0.3023668446412293,
+      "fields": {
+        "ART": {
+          "emit_rate": 0.5472800292077401,
+          "emitted": 1499,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 2739,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        },
+        "CASE": {
+          "emit_rate": 0.0,
+          "emitted": 0,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 1768,
+          "unobserved": 188,
+          "unobserved_rate": 0.10633484162895927,
+          "unrepresentable": 0
+        },
+        "LIST": {
+          "emit_rate": 0.46757679180887374,
+          "emitted": 137,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 293,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        },
+        "SEP": {
+          "emit_rate": 0.5835156819839533,
+          "emitted": 800,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 1371,
+          "unobserved": 142,
+          "unobserved_rate": 0.10357403355215171,
+          "unrepresentable": 0
+        },
+        "VERB": {
+          "emit_rate": 0.20780487804878048,
+          "emitted": 213,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 1025,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        }
+      }
+    },
+    "C4": {
+      "C_bytes_per_source_byte": 0.09451100403698398,
+      "R_bytes_per_source_byte": 0.27248014064331294,
+      "fields": {
+        "ART": {
+          "emit_rate": 0.5472800292077401,
+          "emitted": 1499,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 2739,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        },
+        "CASE": {
+          "emit_rate": 0.0,
+          "emitted": 0,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 1768,
+          "unobserved": 188,
+          "unobserved_rate": 0.10633484162895927,
+          "unrepresentable": 0
+        },
+        "LIST": {
+          "emit_rate": 0.46757679180887374,
+          "emitted": 137,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 293,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        },
+        "REF": {
+          "emit_rate": 0.08306082406801832,
+          "emitted": 254,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 3058,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        },
+        "SEP": {
+          "emit_rate": 0.5835156819839533,
+          "emitted": 800,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 1371,
+          "unobserved": 142,
+          "unobserved_rate": 0.10357403355215171,
+          "unrepresentable": 0
+        },
+        "VERB": {
+          "emit_rate": 0.20780487804878048,
+          "emitted": 213,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 1025,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        }
+      }
+    },
+    "C4P": {
+      "C_bytes_per_source_byte": 0.09451100403698398,
+      "R_bytes_per_source_byte": 0.27248014064331294,
+      "fields": {
+        "ART": {
+          "emit_rate": 0.5472800292077401,
+          "emitted": 1499,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 2739,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        },
+        "CASE": {
+          "emit_rate": 0.0,
+          "emitted": 0,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 1768,
+          "unobserved": 188,
+          "unobserved_rate": 0.10633484162895927,
+          "unrepresentable": 0
+        },
+        "LIST": {
+          "emit_rate": 0.46757679180887374,
+          "emitted": 137,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 293,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        },
+        "REF": {
+          "emit_rate": 0.08306082406801832,
+          "emitted": 254,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 3058,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        },
+        "SEP": {
+          "emit_rate": 0.5835156819839533,
+          "emitted": 800,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 1371,
+          "unobserved": 142,
+          "unobserved_rate": 0.10357403355215171,
+          "unrepresentable": 0
+        },
+        "VERB": {
+          "emit_rate": 0.20780487804878048,
+          "emitted": 213,
+          "fallback_rate_unrepresentable": 0.0,
+          "slots": 1025,
+          "unobserved": 0,
+          "unobserved_rate": 0.0,
+          "unrepresentable": 0
+        }
+      }
+    }
+  },
+  "threshold_rho_R": 0.85
+}

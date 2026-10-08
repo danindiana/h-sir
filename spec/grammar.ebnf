@@ -1,0 +1,24 @@
+(* Supported sentence grammar, rules v0.3.1. Tokens are lowercased.        *)
+(* Anything not derivable here becomes a `U` instruction.                 *)
+
+sentence    = { leader | "and" } , verb , [ np_list ] , { modifier } , [ terminal ] ;
+leader      = "then" | "next" | "now" | "finally" | "gently" | "slowly" | "carefully" ;
+verb        = (* any key of lexicon.VERBS *) ;
+np_list     = np , { ( "," , [ "and" ] | "and" ) , np } ;
+np          = [ quantity ] , [ determiner ] , word , [ word ] , [ word ] ;
+quantity    = number , [ qty_unit ] ;
+determiner  = "the" | "a" | "an" | "some" | "your" ;
+word        = ascii_letters (* not a hard stop word; a verb form only as a
+                               modifier when the NP is headed or followed by
+                               another NP word *) ;
+modifier    = skip_mod
+            | ( "at" | "to" ) , [ skip_mod ] , number , temp_unit , { temp_unit }
+            | "for" , [ skip_mod ] , number , dur_unit , { dur_unit }
+            | preposition , [ determiner ] , word , [ word ] , [ word ] ;
+skip_mod    = "about" | "approximately" | "approx" | "another" | "more" ;
+number      = digit , { digit } , { ( "." | "/" | "-" ) , digit , { digit } } ;
+digit       = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;
+terminal    = "." | "!" | "?" ;
+
+(* At most one destination, one temperature, one duration per sentence.     *)
+(* Sentence segmentation: maximal runs of [^.!?\n] plus trailing [.!?]*.     *)

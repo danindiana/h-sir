@@ -1,0 +1,21 @@
+{
+  "files": {
+    "spec/phase3_prediction.md": "4010ddb33e5f9c3eab9578f8e7f7c80df49c12f778afb06da83f5daa0b656d29",
+    "spec/prereg.json": "24e3cd6df9cf35755c60c3e827cee95fecfe28865cdc70cf5a6b3b2e2e0080f5",
+    "spec/surface_schema.md": "075fc2b8b7bdffe51e6658074ac844d20852e2227e759b280c9e404fefe51378",
+    "src/hsir/codec.py": "28bec56f44044a49567748105357e54b7709ce1d5cab7bb8408063e70e5e570b",
+    "src/hsir/isa.py": "a7a3821d439055b2af536b8c486829bbb1366bf86eae0e8922a8e8917b9bb513",
+    "src/hsir/lexicon.py": "6ff827076c3fcbb568c1905443085571a596ef02ea46eeb03194f0a0c73c9874",
+    "src/hsir/parser.py": "e33358be205245b627356642bd67eaeacd9a62b62e41eff338b118d454306896",
+    "src/hsir/realizer.py": "80118399aa83b657be3d80b7cfa8a65e27b9ce66b98fadf0cee2ec02bb99ae75",
+    "src/hsir/residual.py": "48536c7129708632afd7f85535d462c2f28e1f932209e0362e4ab2c0daa67e40",
+    "src/hsir/serial.py": "b6d24d6f9134d12b576c22b92d3d9e2b6027c6e7744c4cd2a52c8dcbffd4445d",
+    "src/hsir/state.py": "43ddb6cf033932d50ad4636ae2e65dfada506e1ef5d2476a4989f7da571f50f1",
+    "src/hsir/surface.py": "077eccd2e40f1ed97f1713bb5a23104e56520e83051ba828ee6861a5b46cc5a6"
+  },
+  "format_version": 3,
+  "protocol_version": "0.3.3",
+  "rule_table_sha256": "3a4f93c0c1ca02edcdfdce5f48c033b9eb6f5fdd7234e97774e6fa2ac9e5a709",
+  "rules_version": "0.3.2",
+  "surface_schema_version": 1
+}

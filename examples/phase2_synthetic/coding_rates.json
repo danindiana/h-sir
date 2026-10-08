@@ -1,0 +1,2806 @@
+{
+  "arm_decomposition": {
+    "by_family": {
+      "byte": [
+        {
+          "contrast": "C4 - C0",
+          "delta_C_bpb": 0.20293798028450877,
+          "delta_R_bpb": -0.416440407899088,
+          "delta_S_bpb": 0.016982719518756295,
+          "delta_gamma": -0.2554670163355546,
+          "delta_total_bpb": -0.19651970809582275,
+          "meaning": "PRIMARY: full surface layer vs byte patches only (S1 state)"
+        },
+        {
+          "contrast": "C1 - C0",
+          "delta_C_bpb": 0.03839507782452342,
+          "delta_R_bpb": -0.12735875033467325,
+          "delta_S_bpb": 0.0038926466856720188,
+          "delta_gamma": -0.11058860892154065,
+          "delta_total_bpb": -0.08507102582447779,
+          "meaning": "separators + serial comma"
+        },
+        {
+          "contrast": "C2 - C1",
+          "delta_C_bpb": 0.10707485459595686,
+          "delta_R_bpb": -0.19033283182796656,
+          "delta_S_bpb": 0.012443458208572067,
+          "delta_gamma": -0.09205577427040468,
+          "delta_total_bpb": -0.0708145190234375,
+          "meaning": "articles + initial case"
+        },
+        {
+          "contrast": "C3 - C2",
+          "delta_C_bpb": 0.02761955268309127,
+          "delta_R_bpb": -0.04753829410905669,
+          "delta_S_bpb": 0.0009571138428190462,
+          "delta_gamma": -0.02464928566436919,
+          "delta_total_bpb": -0.018961627583146345,
+          "meaning": "lexical verb variants"
+        },
+        {
+          "contrast": "C4 - C3",
+          "delta_C_bpb": 0.029848495180937212,
+          "delta_R_bpb": -0.05121053162739145,
+          "delta_S_bpb": -0.0003104992183068367,
+          "delta_gamma": -0.028173347479240052,
+          "delta_total_bpb": -0.021672535664761128,
+          "meaning": "reference forms (pronoun vs NP)"
+        },
+        {
+          "contrast": "C5 - C4",
+          "delta_C_bpb": 0.0005674325730883611,
+          "delta_R_bpb": 1.018624557619363e-06,
+          "delta_S_bpb": 0.016002745005376573,
+          "delta_gamma": 0.021541829530059564,
+          "delta_total_bpb": 0.01657119620302261,
+          "meaning": "checkpoints every 8 actions, with full surface layer"
+        },
+        {
+          "contrast": "C6 - C4",
+          "delta_C_bpb": 0.008280679348347197,
+          "delta_R_bpb": 0.00011794725428895814,
+          "delta_S_bpb": -0.001331948493171753,
+          "delta_gamma": 0.009186372143136001,
+          "delta_total_bpb": 0.007066678109464375,
+          "meaning": "permuted surface ids (control; expected near 0)"
+        },
+        {
+          "contrast": "S0 - S3",
+          "delta_C_bpb": -3.5649009245045662e-09,
+          "delta_R_bpb": 0.012577306301704616,
+          "delta_S_bpb": 0.382278135606945,
+          "delta_gamma": 0.513294781958253,
+          "delta_total_bpb": 0.3948554383437486,
+          "meaning": "serialization overhead of explicit state (ascii vs compact)"
+        },
+        {
+          "contrast": "S3 - C0",
+          "delta_C_bpb": -9.022536599699279e-10,
+          "delta_R_bpb": 0.0015307375003399404,
+          "delta_S_bpb": 0.33316253162240395,
+          "delta_gamma": 0.4350865948680973,
+          "delta_total_bpb": 0.3346932682204904,
+          "meaning": "explicit-state cost (compact)"
+        },
+        {
+          "contrast": "S1a - C0",
+          "delta_C_bpb": -4.472945637841724e-09,
+          "delta_R_bpb": 0.010165351020807178,
+          "delta_S_bpb": 0.12405796587757989,
+          "delta_gamma": 0.17448442947657372,
+          "delta_total_bpb": 0.1342233124254415,
+          "meaning": "serialization overhead under implicit state"
+        },
+        {
+          "contrast": "S0 - S1a",
+          "delta_C_bpb": 5.791053367229515e-12,
+          "delta_R_bpb": 0.003942692781237378,
+          "delta_S_bpb": 0.5913827013517691,
+          "delta_gamma": 0.7738969473497765,
+          "delta_total_bpb": 0.5953253941387975,
+          "meaning": "explicit-state cost (ascii)"
+        },
+        {
+          "contrast": "S2k4 - C0",
+          "delta_C_bpb": -1.0582077268404792e-10,
+          "delta_R_bpb": 8.75213673938724e-05,
+          "delta_S_bpb": 0.10636532052424663,
+          "delta_gamma": 0.13838403351486672,
+          "delta_total_bpb": 0.10645284178581993,
+          "meaning": "checkpoint overhead, k=4"
+        },
+        {
+          "contrast": "S2k8 - C0",
+          "delta_C_bpb": -8.707993080057705e-10,
+          "delta_R_bpb": 1.0558660118453744e-05,
+          "delta_S_bpb": 0.015122361703067577,
+          "delta_gamma": 0.01967213277805757,
+          "delta_total_bpb": 0.015132919492387042,
+          "meaning": "checkpoint overhead, k=8"
+        },
+        {
+          "contrast": "S2k16 - C0",
+          "delta_C_bpb": 0.0,
+          "delta_R_bpb": 0.0,
+          "delta_S_bpb": 0.0,
+          "delta_gamma": 0.0,
+          "delta_total_bpb": 0.0,
+          "meaning": "checkpoint overhead, k=16"
+        }
+      ],
+      "symbol": [
+        {
+          "contrast": "C4 - C0",
+          "delta_C_bpb": 0.18115018546599637,
+          "delta_R_bpb": -0.4118421291989734,
+          "delta_S_bpb": -0.000262909575139636,
+          "delta_gamma": -0.30023119745241345,
+          "delta_total_bpb": -0.2309548533081165,
+          "meaning": "PRIMARY: full surface layer vs byte patches only (S1 state)"
+        },
+        {
+          "contrast": "C1 - C0",
+          "delta_C_bpb": 0.04098828411385221,
+          "delta_R_bpb": -0.12553551448825784,
+          "delta_S_bpb": -6.786615063325563e-05,
+          "delta_gamma": -0.10999592079744014,
+          "delta_total_bpb": -0.08461509652503874,
+          "meaning": "separators + serial comma"
+        },
+        {
+          "contrast": "C2 - C1",
+          "delta_C_bpb": 0.09434785417366398,
+          "delta_R_bpb": -0.18854000965041245,
+          "delta_S_bpb": -0.00010902064761741936,
+          "delta_gamma": -0.12258740019296344,
+          "delta_total_bpb": -0.09430117612436595,
+          "meaning": "articles + initial case"
+        },
+        {
+          "contrast": "C3 - C2",
+          "delta_C_bpb": 0.022624676464625626,
+          "delta_R_bpb": -0.046226860664623504,
+          "delta_S_bpb": -5.2534588616759414e-05,
+          "delta_gamma": -0.03075009875558332,
+          "delta_total_bpb": -0.023654718788614693,
+          "meaning": "lexical verb variants"
+        },
+        {
+          "contrast": "C4 - C3",
+          "delta_C_bpb": 0.023189370713854546,
+          "delta_R_bpb": -0.0515397443956796,
+          "delta_S_bpb": -3.348818827220157e-05,
+          "delta_gamma": -0.03689777770642655,
+          "delta_total_bpb": -0.028383861870097116,
+          "meaning": "reference forms (pronoun vs NP)"
+        },
+        {
+          "contrast": "C5 - C4",
+          "delta_C_bpb": -0.00013260489477820436,
+          "delta_R_bpb": 1.0496909514934316e-06,
+          "delta_S_bpb": 0.011794487635542472,
+          "delta_gamma": 0.015161301525493887,
+          "delta_total_bpb": 0.011662932431715678,
+          "meaning": "checkpoints every 8 actions, with full surface layer"
+        },
+        {
+          "contrast": "C6 - C4",
+          "delta_C_bpb": 0.0,
+          "delta_R_bpb": 0.0,
+          "delta_S_bpb": 0.0,
+          "delta_gamma": 0.0,
+          "delta_total_bpb": 0.0,
+          "meaning": "permuted surface ids (control; expected near 0)"
+        },
+        {
+          "contrast": "S0 - S3",
+          "delta_C_bpb": -8.149461151453655e-09,
+          "delta_R_bpb": -0.00010304603166144677,
+          "delta_S_bpb": 0.08973035769586057,
+          "delta_gamma": 0.11651157043563631,
+          "delta_total_bpb": 0.08962730351473813,
+          "meaning": "serialization overhead of explicit state (ascii vs compact)"
+        },
+        {
+          "contrast": "S3 - C0",
+          "delta_C_bpb": -1.2751515842843871e-08,
+          "delta_R_bpb": -6.407583910350567e-05,
+          "delta_S_bpb": 0.15230446616981386,
+          "delta_gamma": 0.19790582534427625,
+          "delta_total_bpb": 0.1522403775791945,
+          "meaning": "explicit-state cost (compact)"
+        },
+        {
+          "contrast": "S1a - C0",
+          "delta_C_bpb": -2.1043232599779374e-08,
+          "delta_R_bpb": -0.00018536009867797798,
+          "delta_S_bpb": 0.017937756575763353,
+          "delta_gamma": 0.02307731081546005,
+          "delta_total_bpb": 0.017752375433852885,
+          "meaning": "serialization overhead under implicit state"
+        },
+        {
+          "contrast": "S0 - S1a",
+          "delta_C_bpb": 1.4225560548184765e-10,
+          "delta_R_bpb": 1.823822791302554e-05,
+          "delta_S_bpb": 0.22409706728991108,
+          "delta_gamma": 0.2913400849644525,
+          "delta_total_bpb": 0.22411530566007976,
+          "meaning": "explicit-state cost (ascii)"
+        },
+        {
+          "contrast": "S2k4 - C0",
+          "delta_C_bpb": 5.803432118715255e-09,
+          "delta_R_bpb": 7.625124813270823e-05,
+          "delta_S_bpb": 0.0722429034787232,
+          "delta_gamma": 0.09401174235466292,
+          "delta_total_bpb": 0.0723191605302882,
+          "meaning": "checkpoint overhead, k=4"
+        },
+        {
+          "contrast": "S2k8 - C0",
+          "delta_C_bpb": 1.7121020857643866e-08,
+          "delta_R_bpb": -9.926760561129733e-05,
+          "delta_S_bpb": 0.011857802139131568,
+          "delta_gamma": 0.015285602328690473,
+          "delta_total_bpb": 0.011758551654541316,
+          "meaning": "checkpoint overhead, k=8"
+        },
+        {
+          "contrast": "S2k16 - C0",
+          "delta_C_bpb": 0.0,
+          "delta_R_bpb": 0.0,
+          "delta_S_bpb": 0.0,
+          "delta_gamma": 0.0,
+          "delta_total_bpb": 0.0,
+          "meaning": "checkpoint overhead, k=16"
+        }
+      ]
+    },
+    "primary_contrast": "C4 - C0",
+    "primary_order": 3,
+    "unit": "bits per source byte; delta_gamma = change in hybrid/baseline (negative = improvement)"
+  },
+  "arms": {
+    "C0": {
+      "checkpoint_k": 0,
+      "cset": "C0",
+      "encoding": "compact",
+      "permuted_ids": false,
+      "smode": "S1",
+      "state": "implicit",
+      "surface_fields": []
+    },
+    "C1": {
+      "checkpoint_k": 0,
+      "cset": "C1",
+      "encoding": "compact",
+      "permuted_ids": false,
+      "smode": "S1",
+      "state": "implicit",
+      "surface_fields": [
+        "SEP",
+        "LIST"
+      ]
+    },
+    "C2": {
+      "checkpoint_k": 0,
+      "cset": "C2",
+      "encoding": "compact",
+      "permuted_ids": false,
+      "smode": "S1",
+      "state": "implicit",
+      "surface_fields": [
+        "SEP",
+        "LIST",
+        "ART",
+        "CASE"
+      ]
+    },
+    "C3": {
+      "checkpoint_k": 0,
+      "cset": "C3",
+      "encoding": "compact",
+      "permuted_ids": false,
+      "smode": "S1",
+      "state": "implicit",
+      "surface_fields": [
+        "SEP",
+        "LIST",
+        "ART",
+        "CASE",
+        "VERB"
+      ]
+    },
+    "C4": {
+      "checkpoint_k": 0,
+      "cset": "C4",
+      "encoding": "compact",
+      "permuted_ids": false,
+      "smode": "S1",
+      "state": "implicit",
+      "surface_fields": [
+        "SEP",
+        "LIST",
+        "ART",
+        "CASE",
+        "VERB",
+        "REF"
+      ]
+    },
+    "C5": {
+      "checkpoint_k": 8,
+      "cset": "C4",
+      "encoding": "compact",
+      "permuted_ids": false,
+      "smode": "S2k8",
+      "state": "ckpt",
+      "surface_fields": [
+        "SEP",
+        "LIST",
+        "ART",
+        "CASE",
+        "VERB",
+        "REF"
+      ]
+    },
+    "C6": {
+      "checkpoint_k": 0,
+      "cset": "C4P",
+      "encoding": "compact",
+      "permuted_ids": true,
+      "smode": "S1",
+      "state": "implicit",
+      "surface_fields": [
+        "SEP",
+        "LIST",
+        "ART",
+        "CASE",
+        "VERB",
+        "REF"
+      ]
+    },
+    "S0": {
+      "checkpoint_k": 0,
+      "cset": "C0",
+      "encoding": "ascii",
+      "permuted_ids": false,
+      "smode": "S0",
+      "state": "explicit",
+      "surface_fields": []
+    },
+    "S1a": {
+      "checkpoint_k": 0,
+      "cset": "C0",
+      "encoding": "ascii",
+      "permuted_ids": false,
+      "smode": "S1a",
+      "state": "implicit",
+      "surface_fields": []
+    },
+    "S2k16": {
+      "checkpoint_k": 16,
+      "cset": "C0",
+      "encoding": "compact",
+      "permuted_ids": false,
+      "smode": "S2k16",
+      "state": "ckpt",
+      "surface_fields": []
+    },
+    "S2k4": {
+      "checkpoint_k": 4,
+      "cset": "C0",
+      "encoding": "compact",
+      "permuted_ids": false,
+      "smode": "S2k4",
+      "state": "ckpt",
+      "surface_fields": []
+    },
+    "S2k8": {
+      "checkpoint_k": 8,
+      "cset": "C0",
+      "encoding": "compact",
+      "permuted_ids": false,
+      "smode": "S2k8",
+      "state": "ckpt",
+      "surface_fields": []
+    },
+    "S3": {
+      "checkpoint_k": 0,
+      "cset": "C0",
+      "encoding": "compact",
+      "permuted_ids": false,
+      "smode": "S3",
+      "state": "explicit",
+      "surface_fields": []
+    }
+  },
+  "families": {
+    "byte": {
+      "desc": "Witten-Bell order-k over bytes",
+      "hybrid": "MODE + S + SEP | C + CSEP | R + EOR"
+    },
+    "symbol": {
+      "desc": "Witten-Bell order-k over model-facing symbols",
+      "hybrid": "<MODE> + S symbols + <SEP> | C symbols + <CSEP> | R bytes + <EOR>; unseen symbols pay ESC + 8 bits/char"
+    }
+  },
+  "family_note": "Within each family: same model class, order and train split for every arm and the baseline; held-out test costs; model parameters excluded symmetrically. L_hybrid = L(S) + L(C|S) + L(R|S,C).",
+  "lzma_xz_preset9e": {
+    "C0": {
+      "L_X_bits": 74624,
+      "L_hybrid_bits": 129376,
+      "gamma_no_shared": 1.733704974271012
+    },
+    "C1": {
+      "L_X_bits": 74624,
+      "L_hybrid_bits": 123648,
+      "gamma_no_shared": 1.6569468267581475
+    },
+    "C2": {
+      "L_X_bits": 74624,
+      "L_hybrid_bits": 116864,
+      "gamma_no_shared": 1.5660377358490567
+    },
+    "C3": {
+      "L_X_bits": 74624,
+      "L_hybrid_bits": 114464,
+      "gamma_no_shared": 1.533876500857633
+    },
+    "C4": {
+      "L_X_bits": 74624,
+      "L_hybrid_bits": 111872,
+      "gamma_no_shared": 1.4991423670668953
+    },
+    "C5": {
+      "L_X_bits": 74624,
+      "L_hybrid_bits": 112992,
+      "gamma_no_shared": 1.5141509433962264
+    },
+    "C6": {
+      "L_X_bits": 74624,
+      "L_hybrid_bits": 112768,
+      "gamma_no_shared": 1.5111492281303602
+    },
+    "S0": {
+      "L_X_bits": 74624,
+      "L_hybrid_bits": 157312,
+      "gamma_no_shared": 2.1080617495711835
+    },
+    "S1a": {
+      "L_X_bits": 74624,
+      "L_hybrid_bits": 137056,
+      "gamma_no_shared": 1.8366209262435678
+    },
+    "S2k16": {
+      "L_X_bits": 74624,
+      "L_hybrid_bits": 129376,
+      "gamma_no_shared": 1.733704974271012
+    },
+    "S2k4": {
+      "L_X_bits": 74624,
+      "L_hybrid_bits": 136768,
+      "gamma_no_shared": 1.832761578044597
+    },
+    "S2k8": {
+      "L_X_bits": 74624,
+      "L_hybrid_bits": 130624,
+      "gamma_no_shared": 1.7504288164665522
+    },
+    "S3": {
+      "L_X_bits": 74624,
+      "L_hybrid_bits": 146880,
+      "gamma_no_shared": 1.9682675814751287
+    }
+  },
+  "nonsemantic_bpe_control": {
+    "bpe_fit": {
+      "merges": 31,
+      "target_symbols_per_byte": 0.6797498828072238,
+      "train_symbols_per_byte": 0.6791142609704356,
+      "untrained_tail_bytes_fraction": 0.0
+    },
+    "bpe_reversible_on_test": true,
+    "bpe_symbols_per_byte_test": 0.678669097538742,
+    "hybrid_symbols_per_byte": {
+      "C0": {
+        "test": 0.8411739809871077,
+        "train": 0.848439945654333
+      },
+      "C1": {
+        "test": 0.7970276077614272,
+        "train": 0.8010702282676921
+      },
+      "C2": {
+        "test": 0.7285128271910405,
+        "train": 0.7307068909352381
+      },
+      "C3": {
+        "test": 0.693303164474541,
+        "train": 0.699136348829264
+      },
+      "C4": {
+        "test": 0.6716857663758302,
+        "train": 0.6797498828072238
+      },
+      "C5": {
+        "test": 0.6778714676390155,
+        "train": 0.6846362256775331
+      },
+      "C6": {
+        "test": 0.6716857663758302,
+        "train": 0.6797498828072238
+      },
+      "S0": {
+        "test": 1.0739354082562833,
+        "train": 1.0793454684135673
+      },
+      "S1a": {
+        "test": 0.934382732126579,
+        "train": 0.9406845647182209
+      },
+      "S2k16": {
+        "test": 0.8411739809871077,
+        "train": 0.848439945654333
+      },
+      "S2k4": {
+        "test": 0.9110398489386639,
+        "train": 0.9189383526271045
+      },
+      "S2k8": {
+        "test": 0.847359682250293,
+        "train": 0.8533262885246423
+      },
+      "S3": {
+        "test": 1.0287635108738118,
+        "train": 1.0343275518230428
+      }
+    },
+    "length_matched_to_arm": "C4"
+  },
+  "order_sweep": {
+    "arms": [
+      "S0",
+      "C0",
+      "C4",
+      "C5"
+    ],
+    "by_family": {
+      "byte": {
+        "order_0": {
+          "C0": {
+            "gamma": 1.4317778682831246,
+            "gamma_ci95": [
+              1.4180207727751823,
+              1.4457585796077348
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.2473529245346296,
+            "delta_gamma_vs_C0_ci95": [
+              -0.2591380873315032,
+              -0.23504871245585965
+            ],
+            "gamma": 1.184424943748495,
+            "gamma_ci95": [
+              1.1714395083492826,
+              1.1976054420834195
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.24037575556083773,
+            "delta_gamma_vs_C0_ci95": [
+              -0.2522436445540142,
+              -0.2284069547196447
+            ],
+            "gamma": 1.191402112722287,
+            "gamma_ci95": [
+              1.1779737982899505,
+              1.204933465691948
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "S0": {
+            "delta_gamma_vs_C0": 1.0554354051308459,
+            "delta_gamma_vs_C0_ci95": [
+              1.0325603421855842,
+              1.07957724625493
+            ],
+            "gamma": 2.4872132734139707,
+            "gamma_ci95": [
+              2.45735992485705,
+              2.517324636429594
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "baseline_bits_per_source_byte": 4.649109647526533
+        },
+        "order_1": {
+          "C0": {
+            "gamma": 1.2321095380850677,
+            "gamma_ci95": [
+              1.2200641873073066,
+              1.2445925577932313
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.15109256593462347,
+            "delta_gamma_vs_C0_ci95": [
+              -0.1583805406550168,
+              -0.14332760040725373
+            ],
+            "gamma": 1.0810169721504443,
+            "gamma_ci95": [
+              1.0702509085846441,
+              1.0917832803840013
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.1410772320049252,
+            "delta_gamma_vs_C0_ci95": [
+              -0.14956469525087912,
+              -0.13181159821318675
+            ],
+            "gamma": 1.0910323060801426,
+            "gamma_ci95": [
+              1.0793969417757163,
+              1.1033072230659282
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "S0": {
+            "delta_gamma_vs_C0": 0.7694611092983212,
+            "delta_gamma_vs_C0_ci95": [
+              0.7553076688049489,
+              0.7842033538906225
+            ],
+            "gamma": 2.0015706473833887,
+            "gamma_ci95": [
+              1.9796400307943673,
+              2.0246310776573546
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "baseline_bits_per_source_byte": 2.894315977048749
+        },
+        "order_2": {
+          "C0": {
+            "gamma": 1.3564441275722923,
+            "gamma_ci95": [
+              1.3397166450655484,
+              1.3737695246805826
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.1875215329897233,
+            "delta_gamma_vs_C0_ci95": [
+              -0.19736949079140495,
+              -0.17734903816346698
+            ],
+            "gamma": 1.1689225945825688,
+            "gamma_ci95": [
+              1.1566875845714626,
+              1.18270319579791
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.16946076145190783,
+            "delta_gamma_vs_C0_ci95": [
+              -0.18158420907844522,
+              -0.1561014661547787
+            ],
+            "gamma": 1.1869833661203844,
+            "gamma_ci95": [
+              1.171532348959823,
+              1.2037752654797906
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "S0": {
+            "delta_gamma_vs_C0": 0.6756819990629673,
+            "delta_gamma_vs_C0_ci95": [
+              0.658138223551294,
+              0.6933755522154789
+            ],
+            "gamma": 2.0321261266352595,
+            "gamma_ci95": [
+              2.0024148994961397,
+              2.063821710374611
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "baseline_bits_per_source_byte": 1.4046883132363222
+        },
+        "order_3": {
+          "C0": {
+            "gamma": 1.6909454569914864,
+            "gamma_ci95": [
+              1.666475768139348,
+              1.7163131087326287
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.2554670163355542,
+            "delta_gamma_vs_C0_ci95": [
+              -0.27054766305588746,
+              -0.23992108994473724
+            ],
+            "gamma": 1.4354784406559322,
+            "gamma_ci95": [
+              1.4159143901062756,
+              1.4560535805510704
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.23392518680549504,
+            "delta_gamma_vs_C0_ci95": [
+              -0.2508085746068694,
+              -0.2156503173322594
+            ],
+            "gamma": 1.4570202701859913,
+            "gamma_ci95": [
+              1.4332997049658036,
+              1.481963310000033
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "S0": {
+            "delta_gamma_vs_C0": 0.9483813768263502,
+            "delta_gamma_vs_C0_ci95": [
+              0.9269771431213016,
+              0.9716711763631126
+            ],
+            "gamma": 2.6393268338178366,
+            "gamma_ci95": [
+              2.6008330620897264,
+              2.6809900756383342
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "baseline_bits_per_source_byte": 0.7692566771034559
+        },
+        "order_4": {
+          "C0": {
+            "gamma": 1.8111385882930067,
+            "gamma_ci95": [
+              1.7845667109553731,
+              1.837493003411181
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.22192348843719356,
+            "delta_gamma_vs_C0_ci95": [
+              -0.24102450454893706,
+              -0.2026067734531787
+            ],
+            "gamma": 1.5892150998558132,
+            "gamma_ci95": [
+              1.5663461527538856,
+              1.612825251845289
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.20214822320617779,
+            "delta_gamma_vs_C0_ci95": [
+              -0.2219277186259267,
+              -0.18009141393324693
+            ],
+            "gamma": 1.608990365086829,
+            "gamma_ci95": [
+              1.5824149511981669,
+              1.6381286202057699
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "S0": {
+            "delta_gamma_vs_C0": 1.0158690422408776,
+            "delta_gamma_vs_C0_ci95": [
+              0.9938804388560898,
+              1.0393902451927408
+            ],
+            "gamma": 2.8270076305338843,
+            "gamma_ci95": [
+              2.7899492050264247,
+              2.8642019109627888
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "baseline_bits_per_source_byte": 0.625076035592812
+        },
+        "order_5": {
+          "C0": {
+            "gamma": 1.8902933539558853,
+            "gamma_ci95": [
+              1.859989034091304,
+              1.9196043325259025
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.18656840243721404,
+            "delta_gamma_vs_C0_ci95": [
+              -0.2083954601717753,
+              -0.1641205814626676
+            ],
+            "gamma": 1.7037249515186712,
+            "gamma_ci95": [
+              1.6774841161683391,
+              1.732834693714785
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.1664030930741717,
+            "delta_gamma_vs_C0_ci95": [
+              -0.18915627827326661,
+              -0.1415766567392189
+            ],
+            "gamma": 1.7238902608817135,
+            "gamma_ci95": [
+              1.6932946243260394,
+              1.7575186623304888
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "S0": {
+            "delta_gamma_vs_C0": 0.8180748262316805,
+            "delta_gamma_vs_C0_ci95": [
+              0.7960519469564464,
+              0.8416114082724794
+            ],
+            "gamma": 2.708368180187566,
+            "gamma_ci95": [
+              2.669926276385358,
+              2.7490029283602615
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "baseline_bits_per_source_byte": 0.5909504836394083
+        },
+        "order_6": {
+          "C0": {
+            "gamma": 1.984061335696594,
+            "gamma_ci95": [
+              1.9500775320551544,
+              2.017765364735162
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.1700668143828232,
+            "delta_gamma_vs_C0_ci95": [
+              -0.19474764612357914,
+              -0.14464205803103744
+            ],
+            "gamma": 1.813994521313771,
+            "gamma_ci95": [
+              1.7839556353016728,
+              1.8461870483335314
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.14856503256153056,
+            "delta_gamma_vs_C0_ci95": [
+              -0.17416618284509874,
+              -0.12086840201547742
+            ],
+            "gamma": 1.8354963031350635,
+            "gamma_ci95": [
+              1.801871981616736,
+              1.8733605186078892
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "S0": {
+            "delta_gamma_vs_C0": 0.7148826764821202,
+            "delta_gamma_vs_C0_ci95": [
+              0.6912994532377871,
+              0.7388630373874627
+            ],
+            "gamma": 2.698944012178714,
+            "gamma_ci95": [
+              2.6571834208794947,
+              2.745016555280127
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "baseline_bits_per_source_byte": 0.5758555302567809
+        },
+        "summary": {
+          "C0": {
+            "gamma_monotone_nondecreasing_in_order": false,
+            "orders_where_hybrid_beats_baseline_ci": [],
+            "spearman_gamma_vs_order": 0.8928571428571429
+          },
+          "C4": {
+            "gamma_monotone_nondecreasing_in_order": false,
+            "orders_where_hybrid_beats_baseline_ci": [],
+            "spearman_gamma_vs_order": 0.8928571428571429
+          },
+          "C5": {
+            "gamma_monotone_nondecreasing_in_order": false,
+            "orders_where_hybrid_beats_baseline_ci": [],
+            "spearman_gamma_vs_order": 0.8928571428571429
+          },
+          "S0": {
+            "gamma_monotone_nondecreasing_in_order": false,
+            "orders_where_hybrid_beats_baseline_ci": [],
+            "spearman_gamma_vs_order": 0.7500000000000002
+          }
+        }
+      },
+      "symbol": {
+        "order_0": {
+          "C0": {
+            "gamma": 1.1273511628042276,
+            "gamma_ci95": [
+              1.1120520481034855,
+              1.1436167330230331
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.17485672470555225,
+            "delta_gamma_vs_C0_ci95": [
+              -0.18458189566744587,
+              -0.16447771336995357
+            ],
+            "gamma": 0.9524944380986754,
+            "gamma_ci95": [
+              0.9355215390048557,
+              0.9709119299361607
+            ],
+            "hybrid_beats_baseline": true
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.16190659008756825,
+            "delta_gamma_vs_C0_ci95": [
+              -0.17264396721351732,
+              -0.15022188657355798
+            ],
+            "gamma": 0.9654445727166594,
+            "gamma_ci95": [
+              0.9487325640917836,
+              0.9835386758374242
+            ],
+            "hybrid_beats_baseline": true
+          },
+          "S0": {
+            "delta_gamma_vs_C0": 0.29028601644188606,
+            "delta_gamma_vs_C0_ci95": [
+              0.28484472260032473,
+              0.295883031235295
+            ],
+            "gamma": 1.4176371792461138,
+            "gamma_ci95": [
+              1.4019196926386082,
+              1.434321402588845
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "baseline_bits_per_source_byte": 4.648842963066373
+        },
+        "order_1": {
+          "C0": {
+            "gamma": 0.7510087591835991,
+            "gamma_ci95": [
+              0.7386422450168679,
+              0.7637707483725837
+            ],
+            "hybrid_beats_baseline": true
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.1653256794740972,
+            "delta_gamma_vs_C0_ci95": [
+              -0.17286172804441263,
+              -0.15770383904659854
+            ],
+            "gamma": 0.585683079709502,
+            "gamma_ci95": [
+              0.573786992299932,
+              0.598535359442194
+            ],
+            "hybrid_beats_baseline": true
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.1532092559690995,
+            "delta_gamma_vs_C0_ci95": [
+              -0.16194787000654418,
+              -0.14357012477549683
+            ],
+            "gamma": 0.5977995032144996,
+            "gamma_ci95": [
+              0.5849332132867117,
+              0.6110930328975493
+            ],
+            "hybrid_beats_baseline": true
+          },
+          "S0": {
+            "delta_gamma_vs_C0": 0.20998502948607836,
+            "delta_gamma_vs_C0_ci95": [
+              0.2044038627107242,
+              0.2157139726377364
+            ],
+            "gamma": 0.9609937886696774,
+            "gamma_ci95": [
+              0.9486753085220522,
+              0.9743446160076005
+            ],
+            "hybrid_beats_baseline": true
+          },
+          "baseline_bits_per_source_byte": 2.894315895063835
+        },
+        "order_2": {
+          "C0": {
+            "gamma": 1.0761745089198138,
+            "gamma_ci95": [
+              1.0599841606765197,
+              1.092974006482776
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.23734957919704777,
+            "delta_gamma_vs_C0_ci95": [
+              -0.24818429136085804,
+              -0.22606861223780558
+            ],
+            "gamma": 0.838824929722766,
+            "gamma_ci95": [
+              0.8275510583649937,
+              0.8519021681891463
+            ],
+            "hybrid_beats_baseline": true
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.2290230980718974,
+            "delta_gamma_vs_C0_ci95": [
+              -0.24003169343998382,
+              -0.21736338550975365
+            ],
+            "gamma": 0.8471514108479163,
+            "gamma_ci95": [
+              0.834195311186968,
+              0.8615526797220916
+            ],
+            "hybrid_beats_baseline": true
+          },
+          "S0": {
+            "delta_gamma_vs_C0": 0.27366504621782617,
+            "delta_gamma_vs_C0_ci95": [
+              0.26295932247860815,
+              0.28485235035808754
+            ],
+            "gamma": 1.3498395551376399,
+            "gamma_ci95": [
+              1.3264640173690598,
+              1.3735193243903812
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "baseline_bits_per_source_byte": 1.4046883130195011
+        },
+        "order_3": {
+          "C0": {
+            "gamma": 1.5960352065633574,
+            "gamma_ci95": [
+              1.5701399657135742,
+              1.6220490299004597
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.300231197452413,
+            "delta_gamma_vs_C0_ci95": [
+              -0.31642098031347654,
+              -0.28370969108111255
+            ],
+            "gamma": 1.2958040091109444,
+            "gamma_ci95": [
+              1.2748317857518803,
+              1.3177160562066885
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.28506989592691906,
+            "delta_gamma_vs_C0_ci95": [
+              -0.30192320974101333,
+              -0.2675309543464941
+            ],
+            "gamma": 1.3109653106364383,
+            "gamma_ci95": [
+              1.2871921390462155,
+              1.3370991055087387
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "S0": {
+            "delta_gamma_vs_C0": 0.3144173957799133,
+            "delta_gamma_vs_C0_ci95": [
+              0.29764699923222493,
+              0.33196520189465833
+            ],
+            "gamma": 1.9104526023432706,
+            "gamma_ci95": [
+              1.8757380460072701,
+              1.9464636539798545
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "baseline_bits_per_source_byte": 0.7692566770804122
+        },
+        "order_4": {
+          "C0": {
+            "gamma": 1.8336272459464662,
+            "gamma_ci95": [
+              1.8053382110116918,
+              1.8616824271558636
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.23887323035034297,
+            "delta_gamma_vs_C0_ci95": [
+              -0.2582393423530415,
+              -0.2188894514733298
+            ],
+            "gamma": 1.594754015596123,
+            "gamma_ci95": [
+              1.57012229159787,
+              1.621243415357556
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.218941377411263,
+            "delta_gamma_vs_C0_ci95": [
+              -0.23926444663789315,
+              -0.19747898825663615
+            ],
+            "gamma": 1.6146858685352032,
+            "gamma_ci95": [
+              1.5864064440190675,
+              1.646549572940097
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "S0": {
+            "delta_gamma_vs_C0": 0.10866742072210529,
+            "delta_gamma_vs_C0_ci95": [
+              0.09232328628460247,
+              0.1261540527758848
+            ],
+            "gamma": 1.9422946666685714,
+            "gamma_ci95": [
+              1.9090728921800189,
+              1.9798945627955846
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "baseline_bits_per_source_byte": 0.6250760355757113
+        },
+        "order_5": {
+          "C0": {
+            "gamma": 1.9606809525445084,
+            "gamma_ci95": [
+              1.9302078898432202,
+              1.9917854680890539
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.19026000955695696,
+            "delta_gamma_vs_C0_ci95": [
+              -0.21239985192090385,
+              -0.16751432801374638
+            ],
+            "gamma": 1.7704209429875515,
+            "gamma_ci95": [
+              1.7426601449362118,
+              1.8003727390108824
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.1680433969408448,
+            "delta_gamma_vs_C0_ci95": [
+              -0.19128082940961075,
+              -0.14327463700825002
+            ],
+            "gamma": 1.7926375556036636,
+            "gamma_ci95": [
+              1.7603037710578004,
+              1.8287191425590552
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "S0": {
+            "delta_gamma_vs_C0": 0.001530152065118062,
+            "delta_gamma_vs_C0_ci95": [
+              -0.016948068636184973,
+              0.02115138245284607
+            ],
+            "gamma": 1.9622111046096264,
+            "gamma_ci95": [
+              1.9255705746658498,
+              2.0028869653723587
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "baseline_bits_per_source_byte": 0.5909504836230377
+        },
+        "order_6": {
+          "C0": {
+            "gamma": 2.0816483445475984,
+            "gamma_ci95": [
+              2.0484477730071857,
+              2.115624139997897
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C4": {
+            "delta_gamma_vs_C0": -0.17098459025805515,
+            "delta_gamma_vs_C0_ci95": [
+              -0.1952607234076019,
+              -0.14493913883561071
+            ],
+            "gamma": 1.910663754289543,
+            "gamma_ci95": [
+              1.8803034893197188,
+              1.944134893897626
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "C5": {
+            "delta_gamma_vs_C0": -0.14724618804380893,
+            "delta_gamma_vs_C0_ci95": [
+              -0.1729922479014779,
+              -0.11919173650626683
+            ],
+            "gamma": 1.9344021565037894,
+            "gamma_ci95": [
+              1.9003467866618768,
+              1.972373312628247
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "S0": {
+            "delta_gamma_vs_C0": -0.008882777975005278,
+            "delta_gamma_vs_C0_ci95": [
+              -0.03040477623213958,
+              0.014271656712486482
+            ],
+            "gamma": 2.072765566572593,
+            "gamma_ci95": [
+              2.0316385082533017,
+              2.1180281443773095
+            ],
+            "hybrid_beats_baseline": false
+          },
+          "baseline_bits_per_source_byte": 0.5758555302405406
+        },
+        "summary": {
+          "C0": {
+            "gamma_monotone_nondecreasing_in_order": false,
+            "orders_where_hybrid_beats_baseline_ci": [
+              1
+            ],
+            "spearman_gamma_vs_order": 0.8928571428571429
+          },
+          "C4": {
+            "gamma_monotone_nondecreasing_in_order": false,
+            "orders_where_hybrid_beats_baseline_ci": [
+              0,
+              1,
+              2
+            ],
+            "spearman_gamma_vs_order": 0.8928571428571429
+          },
+          "C5": {
+            "gamma_monotone_nondecreasing_in_order": false,
+            "orders_where_hybrid_beats_baseline_ci": [
+              0,
+              1,
+              2
+            ],
+            "spearman_gamma_vs_order": 0.8928571428571429
+          },
+          "S0": {
+            "gamma_monotone_nondecreasing_in_order": false,
+            "orders_where_hybrid_beats_baseline_ci": [
+              1
+            ],
+            "spearman_gamma_vs_order": 0.8928571428571429
+          }
+        }
+      }
+    },
+    "figure": "order_sweep.png",
+    "note": "sensitivity analysis only; the decision uses the preregistered primary order",
+    "orders": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "primary_order": 3
+  },
+  "results": {
+    "byte": {
+      "C0": {
+        "order_2": {
+          "C_bits_per_source_byte": 6.862781795206867e-08,
+          "L_C_given_S_bits": 0.004215944112431483,
+          "L_R_given_SC_bits": 59201.66229072905,
+          "L_S_bits": 57849.71220467334,
+          "L_X_bits": 86292.81245873374,
+          "R_bits_per_source_byte": 0.963694203195876,
+          "S_bits_per_source_byte": 0.9416869417351436,
+          "baseline_bits_per_source_byte": 1.4046883132363222,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.4278805644420454
+          },
+          "gamma_no_shared": 1.3564441275722923,
+          "hybrid_bits_per_source_byte": 1.9053812135588375,
+          "rho_R": 0.5057750104483841,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 1.910485685448399e-08,
+          "L_C_given_S_bits": 0.0011736495662846606,
+          "L_R_given_SC_bits": 40879.99841890746,
+          "L_S_bits": 39028.96960339122,
+          "L_X_bits": 47256.976187819506,
+          "R_bits_per_source_byte": 0.6654512048917088,
+          "S_bits_per_source_byte": 0.6353198594118898,
+          "baseline_bits_per_source_byte": 0.7692566771034559,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.77593909844114
+          },
+          "gamma_no_shared": 1.6909454569914864,
+          "hybrid_bits_per_source_byte": 1.3007710834084556,
+          "rho_R": 0.5115821018622309,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 1.71666190496096e-08,
+          "L_C_given_S_bits": 0.0010545797414556169,
+          "L_R_given_SC_bits": 33490.669943954956,
+          "L_S_bits": 36056.454960895426,
+          "L_X_bits": 38399.67101853763,
+          "R_bits_per_source_byte": 0.5451665246769591,
+          "S_bits_per_source_byte": 0.5869327868357765,
+          "baseline_bits_per_source_byte": 0.625076035592812,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.8461612793838578
+          },
+          "gamma_no_shared": 1.8111385882930067,
+          "hybrid_bits_per_source_byte": 1.1320993286793548,
+          "rho_R": 0.48155361536422836,
+          "test_source_bytes": 61432
+        }
+      },
+      "C1": {
+        "order_2": {
+          "C_bits_per_source_byte": 0.050927078642613526,
+          "L_C_given_S_bits": 3128.552295173034,
+          "L_R_given_SC_bits": 49400.76177172043,
+          "L_S_bits": 58389.68226190155,
+          "L_X_bits": 86292.81245873374,
+          "R_bits_per_source_byte": 0.8041535644569675,
+          "S_bits_per_source_byte": 0.9504766613800878,
+          "baseline_bits_per_source_byte": 1.4046883132363222,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.3224896231823595
+          },
+          "gamma_no_shared": 1.2853793168676453,
+          "hybrid_bits_per_source_byte": 1.8055573044796687,
+          "rho_R": 0.445376927368534,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 0.03839509692938028,
+          "L_C_given_S_bits": 2358.6875945656893,
+          "L_R_given_SC_bits": 33056.09566834781,
+          "L_S_bits": 39268.10267458542,
+          "L_X_bits": 47256.976187819506,
+          "R_bits_per_source_byte": 0.5380924545570356,
+          "S_bits_per_source_byte": 0.6392125060975619,
+          "baseline_bits_per_source_byte": 0.7692566771034559,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.6097283602106984
+          },
+          "gamma_no_shared": 1.5803568480699457,
+          "hybrid_bits_per_source_byte": 1.2157000575839776,
+          "rho_R": 0.4426194201441546,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 0.036100967466193616,
+          "L_C_given_S_bits": 2217.754633383206,
+          "L_R_given_SC_bits": 27673.57141883179,
+          "L_S_bits": 36140.08071859341,
+          "L_X_bits": 38399.67101853763,
+          "R_bits_per_source_byte": 0.4504748570587282,
+          "S_bits_per_source_byte": 0.5882940604016378,
+          "baseline_bits_per_source_byte": 0.625076035592812,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.698902914999827
+          },
+          "gamma_no_shared": 1.719582616708654,
+          "hybrid_bits_per_source_byte": 1.0748698849265594,
+          "rho_R": 0.41909710503193315,
+          "test_source_bytes": 61432
+        }
+      },
+      "C2": {
+        "order_2": {
+          "C_bits_per_source_byte": 0.16854958101919676,
+          "L_C_given_S_bits": 10354.337861171296,
+          "L_R_given_SC_bits": 35771.44493151888,
+          "L_S_bits": 59255.26846485119,
+          "L_X_bits": 86292.81245873374,
+          "R_bits_per_source_byte": 0.5822933476285793,
+          "S_bits_per_source_byte": 0.964566813140565,
+          "baseline_bits_per_source_byte": 1.4046883132363222,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.252870797310015
+          },
+          "gamma_no_shared": 1.2212031136189456,
+          "hybrid_bits_per_source_byte": 1.7154097417883412,
+          "rho_R": 0.33944854890559817,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 0.14546995152533715,
+          "L_C_given_S_bits": 8936.510062104511,
+          "L_R_given_SC_bits": 21363.56914349217,
+          "L_S_bits": 40032.52919925442,
+          "L_X_bits": 47256.976187819506,
+          "R_bits_per_source_byte": 0.347759622729069,
+          "S_bits_per_source_byte": 0.6516559643061339,
+          "baseline_bits_per_source_byte": 0.7692566771034559,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.5193788796618288
+          },
+          "gamma_no_shared": 1.488301073799541,
+          "hybrid_bits_per_source_byte": 1.1448855385605403,
+          "rho_R": 0.3037505593496322,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 0.13555044947149494,
+          "L_C_given_S_bits": 8327.135211932877,
+          "L_R_given_SC_bits": 18281.269554589966,
+          "L_S_bits": 36407.00078742378,
+          "L_X_bits": 38399.67101853763,
+          "R_bits_per_source_byte": 0.2975854530959429,
+          "S_bits_per_source_byte": 0.5926390283146207,
+          "baseline_bits_per_source_byte": 0.625076035592812,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.6300455109509429
+          },
+          "gamma_no_shared": 1.6410402454626662,
+          "hybrid_bits_per_source_byte": 1.0257749308820585,
+          "rho_R": 0.29010794096912734,
+          "test_source_bytes": 61432
+        }
+      },
+      "C3": {
+        "order_2": {
+          "C_bits_per_source_byte": 0.19901381092113363,
+          "L_C_given_S_bits": 12225.816432507081,
+          "L_R_given_SC_bits": 31278.42924140404,
+          "L_S_bits": 59090.47934364641,
+          "L_X_bits": 86292.81245873374,
+          "R_bits_per_source_byte": 0.5091553138658035,
+          "S_bits_per_source_byte": 0.9618843492584713,
+          "baseline_bits_per_source_byte": 1.4046883132363222,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.2172855266892755
+          },
+          "gamma_no_shared": 1.1889139094477836,
+          "hybrid_bits_per_source_byte": 1.6700534740454085,
+          "rho_R": 0.30487365930413296,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 0.17308950420842842,
+          "L_C_given_S_bits": 10633.234422532174,
+          "L_R_given_SC_bits": 18443.196659784597,
+          "L_S_bits": 40091.326616846476,
+          "L_X_bits": 47256.976187819506,
+          "R_bits_per_source_byte": 0.30022132862001233,
+          "S_bits_per_source_byte": 0.652613078148953,
+          "baseline_bits_per_source_byte": 0.7692566771034559,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.49475151376621
+          },
+          "gamma_no_shared": 1.4636517881351718,
+          "hybrid_bits_per_source_byte": 1.1259239109773937,
+          "rho_R": 0.26664442036708835,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 0.16091077183211203,
+          "L_C_given_S_bits": 9885.070535190305,
+          "L_R_given_SC_bits": 15796.615075587897,
+          "L_S_bits": 36511.078827803736,
+          "L_X_bits": 38399.67101853763,
+          "R_bits_per_source_byte": 0.25713984691346364,
+          "S_bits_per_source_byte": 0.5943332274352737,
+          "baseline_bits_per_source_byte": 0.625076035592812,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.6109576854298797
+          },
+          "gamma_no_shared": 1.6196171162132633,
+          "hybrid_bits_per_source_byte": 1.0123838461808494,
+          "rho_R": 0.25399441909657744,
+          "test_source_bytes": 61432
+        }
+      },
+      "C4": {
+        "order_2": {
+          "C_bits_per_source_byte": 0.232158896584917,
+          "L_C_given_S_bits": 14261.985335004621,
+          "L_R_given_SC_bits": 27119.714147338156,
+          "L_S_bits": 59487.91875074728,
+          "L_X_bits": 86292.81245873374,
+          "R_bits_per_source_byte": 0.44145907910108995,
+          "S_bits_per_source_byte": 0.9683539320020068,
+          "baseline_bits_per_source_byte": 1.4046883132363222,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.1922651056249074
+          },
+          "gamma_no_shared": 1.1689225945825688,
+          "hybrid_bits_per_source_byte": 1.6419719076880137,
+          "rho_R": 0.2688590937726142,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 0.20293799938936563,
+          "L_C_given_S_bits": 12466.88717848751,
+          "L_R_given_SC_bits": 15297.231280850687,
+          "L_S_bits": 40072.25202886746,
+          "L_X_bits": 47256.976187819506,
+          "R_bits_per_source_byte": 0.24901079699262088,
+          "S_bits_per_source_byte": 0.6523025789306461,
+          "baseline_bits_per_source_byte": 0.7692566771034559,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.4575548065340733
+          },
+          "gamma_no_shared": 1.4354784406559318,
+          "hybrid_bits_per_source_byte": 1.1042513753126326,
+          "rho_R": 0.2255019124808621,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 0.19033700695233308,
+          "L_C_given_S_bits": 11692.783011095726,
+          "L_R_given_SC_bits": 12767.465341939052,
+          "L_S_bits": 36565.08865912086,
+          "L_X_bits": 38399.67101853763,
+          "R_bits_per_source_byte": 0.20783085919291333,
+          "S_bits_per_source_byte": 0.5952124081768599,
+          "baseline_bits_per_source_byte": 0.625076035592812,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.5653273331930067
+          },
+          "gamma_no_shared": 1.5892150998558128,
+          "hybrid_bits_per_source_byte": 0.9933802743221063,
+          "rho_R": 0.2092158104656743,
+          "test_source_bytes": 61432
+        }
+      },
+      "C5": {
+        "order_2": {
+          "C_bits_per_source_byte": 0.2325296234689033,
+          "L_C_given_S_bits": 14284.759828941667,
+          "L_R_given_SC_bits": 27119.894581424687,
+          "L_S_bits": 61023.47859389645,
+          "L_X_bits": 86292.81245873374,
+          "R_bits_per_source_byte": 0.4414620162362399,
+          "S_bits_per_source_byte": 0.9933500226900711,
+          "baseline_bits_per_source_byte": 1.4046883132363222,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.230584468558892
+          },
+          "gamma_no_shared": 1.1869833661203841,
+          "hybrid_bits_per_source_byte": 1.6673416623952142,
+          "rho_R": 0.26476997857899087,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 0.203505431962454,
+          "L_C_given_S_bits": 12501.745696317474,
+          "L_R_given_SC_bits": 15297.293856994509,
+          "L_S_bits": 41055.33266003775,
+          "L_X_bits": 47256.976187819506,
+          "R_bits_per_source_byte": 0.2490118156171785,
+          "S_bits_per_source_byte": 0.6683053239360227,
+          "baseline_bits_per_source_byte": 0.7692566771034559,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.5017996760744179
+          },
+          "gamma_no_shared": 1.4570202701859913,
+          "hybrid_bits_per_source_byte": 1.1208225715156552,
+          "rho_R": 0.22216880882443968,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 0.190270386521563,
+          "L_C_given_S_bits": 11688.690384792659,
+          "L_R_given_SC_bits": 12767.513984777008,
+          "L_S_bits": 37328.49632176131,
+          "L_X_bits": 38399.67101853763,
+          "R_bits_per_source_byte": 0.20783165100887172,
+          "S_bits_per_source_byte": 0.6076392811850715,
+          "baseline_bits_per_source_byte": 0.625076035592812,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.6050013898973448
+          },
+          "gamma_no_shared": 1.6089903650868287,
+          "hybrid_bits_per_source_byte": 1.0057413187155062,
+          "rho_R": 0.20664523485453123,
+          "test_source_bytes": 61432
+        }
+      },
+      "C6": {
+        "order_2": {
+          "C_bits_per_source_byte": 0.2609612175434362,
+          "L_C_given_S_bits": 16031.369516128372,
+          "L_R_given_SC_bits": 27122.217840854497,
+          "L_S_bits": 60045.400677765865,
+          "L_X_bits": 86292.81245873374,
+          "R_bits_per_source_byte": 0.44149983462779163,
+          "S_bits_per_source_byte": 0.9774287126866432,
+          "baseline_bits_per_source_byte": 1.4046883132363222,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.225935821931932
+          },
+          "gamma_no_shared": 1.195916381611733,
+          "hybrid_bits_per_source_byte": 1.679889764857871,
+          "rho_R": 0.262814765506441,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 0.21121867873771283,
+          "L_C_given_S_bits": 12975.585872215175,
+          "L_R_given_SC_bits": 15304.477016576166,
+          "L_S_bits": 39990.427769034926,
+          "L_X_bits": 47256.976187819506,
+          "R_bits_per_source_byte": 0.24912874424690984,
+          "S_bits_per_source_byte": 0.6509706304374744,
+          "baseline_bits_per_source_byte": 0.7692566771034559,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.47299456015985
+          },
+          "gamma_no_shared": 1.4446648127990678,
+          "hybrid_bits_per_source_byte": 1.1113180534220972,
+          "rho_R": 0.2241741178232138,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 0.19883673984268319,
+          "L_C_given_S_bits": 12214.938602015713,
+          "L_R_given_SC_bits": 12787.419485659051,
+          "L_S_bits": 36435.0122457182,
+          "L_X_bits": 38399.67101853763,
+          "R_bits_per_source_byte": 0.20815567596137274,
+          "S_bits_per_source_byte": 0.593095003348714,
+          "baseline_bits_per_source_byte": 0.625076035592812,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.5795828216107337
+          },
+          "gamma_no_shared": 1.5999452261904474,
+          "hybrid_bits_per_source_byte": 1.0000874191527698,
+          "rho_R": 0.20813748075914515,
+          "test_source_bytes": 61432
+        }
+      },
+      "S0": {
+        "order_2": {
+          "C_bits_per_source_byte": 1.8230213493552725e-08,
+          "L_C_given_S_bits": 0.001119918475335931,
+          "L_R_given_SC_bits": 63752.834337698485,
+          "L_S_bits": 111605.04328061247,
+          "L_X_bits": 86292.81245873374,
+          "R_bits_per_source_byte": 1.0377789155114352,
+          "S_bits_per_source_byte": 1.8167248873650943,
+          "baseline_bits_per_source_byte": 1.4046883132363222,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 2.2169685577644085
+          },
+          "gamma_no_shared": 2.0321261266352595,
+          "hybrid_bits_per_source_byte": 2.8545038211067433,
+          "rho_R": 0.36355842575438185,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 1.4637702270009496e-08,
+          "L_C_given_S_bits": 0.0008992233258512234,
+          "L_R_given_SC_bits": 41746.68376575466,
+          "L_S_bits": 82979.92067262458,
+          "L_X_bits": 47256.976187819506,
+          "R_bits_per_source_byte": 0.6795592486937534,
+          "S_bits_per_source_byte": 1.3507605266412388,
+          "baseline_bits_per_source_byte": 0.7692566771034559,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 2.842417193281253
+          },
+          "gamma_no_shared": 2.6393268338178366,
+          "hybrid_bits_per_source_byte": 2.0303197899726944,
+          "rho_R": 0.3347055237553946,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 1.4614808607735872e-08,
+          "L_C_given_S_bits": 0.00089781692239043,
+          "L_R_given_SC_bits": 33822.233921396786,
+          "L_S_bits": 74733.92816018303,
+          "L_X_bits": 38399.67101853763,
+          "R_bits_per_source_byte": 0.5505637765561399,
+          "S_bits_per_source_byte": 1.216530931113801,
+          "baseline_bits_per_source_byte": 0.625076035592812,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 2.952571959352098
+          },
+          "gamma_no_shared": 2.8270076305338843,
+          "hybrid_bits_per_source_byte": 1.7670947222847495,
+          "rho_R": 0.31156438283302285,
+          "test_source_bytes": 61432
+        }
+      },
+      "S1a": {
+        "order_2": {
+          "C_bits_per_source_byte": 1.8212404864370723e-08,
+          "L_C_given_S_bits": 0.0011188244556280223,
+          "L_R_given_SC_bits": 62860.937792105906,
+          "L_S_bits": 73838.91754747326,
+          "L_X_bits": 86292.81245873374,
+          "R_bits_per_source_byte": 1.0232604797516913,
+          "S_bits_per_source_byte": 1.2019618040674773,
+          "baseline_bits_per_source_byte": 1.4046883132363222,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.6825230373781264
+          },
+          "gamma_no_shared": 1.584139542604144,
+          "hybrid_bits_per_source_byte": 2.2252223020315736,
+          "rho_R": 0.45984640672416394,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 1.4631911216642267e-08,
+          "L_C_given_S_bits": 0.0008988675698607678,
+          "L_R_given_SC_bits": 41504.47626281768,
+          "L_S_bits": 46650.098563182706,
+          "L_X_bits": 47256.976187819506,
+          "R_bits_per_source_byte": 0.675616555912516,
+          "S_bits_per_source_byte": 0.7593778252894697,
+          "baseline_bits_per_source_byte": 0.7692566771034559,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.96326887216173
+          },
+          "gamma_no_shared": 1.86542988646806,
+          "hybrid_bits_per_source_byte": 1.4349943958338969,
+          "rho_R": 0.47081476964229185,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 1.4600424492585315e-08,
+          "L_C_given_S_bits": 0.0008969332774285011,
+          "L_R_given_SC_bits": 33686.85517587844,
+          "L_S_bits": 41123.58710993415,
+          "L_X_bits": 38399.67101853763,
+          "R_bits_per_source_byte": 0.5483600595109787,
+          "S_bits_per_source_byte": 0.6694163808753444,
+          "baseline_bits_per_source_byte": 0.625076035592812,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.994151489374619
+          },
+          "gamma_no_shared": 1.9482053152650904,
+          "hybrid_bits_per_source_byte": 1.2177764549867474,
+          "rho_R": 0.45029615843323745,
+          "test_source_bytes": 61432
+        }
+      },
+      "S2k16": {
+        "order_2": {
+          "C_bits_per_source_byte": 6.862781795206867e-08,
+          "L_C_given_S_bits": 0.004215944112431483,
+          "L_R_given_SC_bits": 59201.66229072905,
+          "L_S_bits": 57849.71220467334,
+          "L_X_bits": 86292.81245873374,
+          "R_bits_per_source_byte": 0.963694203195876,
+          "S_bits_per_source_byte": 0.9416869417351436,
+          "baseline_bits_per_source_byte": 1.4046883132363222,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.4278805644420454
+          },
+          "gamma_no_shared": 1.3564441275722923,
+          "hybrid_bits_per_source_byte": 1.9053812135588375,
+          "rho_R": 0.5057750104483841,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 1.910485685448399e-08,
+          "L_C_given_S_bits": 0.0011736495662846606,
+          "L_R_given_SC_bits": 40879.99841890746,
+          "L_S_bits": 39028.96960339122,
+          "L_X_bits": 47256.976187819506,
+          "R_bits_per_source_byte": 0.6654512048917088,
+          "S_bits_per_source_byte": 0.6353198594118898,
+          "baseline_bits_per_source_byte": 0.7692566771034559,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.77593909844114
+          },
+          "gamma_no_shared": 1.6909454569914864,
+          "hybrid_bits_per_source_byte": 1.3007710834084556,
+          "rho_R": 0.5115821018622309,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 1.71666190496096e-08,
+          "L_C_given_S_bits": 0.0010545797414556169,
+          "L_R_given_SC_bits": 33490.669943954956,
+          "L_S_bits": 36056.454960895426,
+          "L_X_bits": 38399.67101853763,
+          "R_bits_per_source_byte": 0.5451665246769591,
+          "S_bits_per_source_byte": 0.5869327868357765,
+          "baseline_bits_per_source_byte": 0.625076035592812,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.8461612793838578
+          },
+          "gamma_no_shared": 1.8111385882930067,
+          "hybrid_bits_per_source_byte": 1.1320993286793548,
+          "rho_R": 0.48155361536422836,
+          "test_source_bytes": 61432
+        }
+      },
+      "S2k4": {
+        "order_2": {
+          "C_bits_per_source_byte": 6.785441507641202e-08,
+          "L_C_given_S_bits": 0.004168432426974143,
+          "L_R_given_SC_bits": 59202.80319789729,
+          "L_S_bits": 69067.8728600785,
+          "L_X_bits": 86292.81245873374,
+          "R_bits_per_source_byte": 0.9637127750666963,
+          "S_bits_per_source_byte": 1.1242979694634474,
+          "baseline_bits_per_source_byte": 1.4046883132363222,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.594447778588659
+          },
+          "gamma_no_shared": 1.4864584496854683,
+          "hybrid_bits_per_source_byte": 2.0880108123845584,
+          "rho_R": 0.4615458738770194,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 1.8999036081799942e-08,
+          "L_C_given_S_bits": 0.001167148784577134,
+          "L_R_given_SC_bits": 40885.3750315492,
+          "L_S_bits": 45563.20397383674,
+          "L_X_bits": 47256.976187819506,
+          "R_bits_per_source_byte": 0.6655387262591027,
+          "S_bits_per_source_byte": 0.7416851799361365,
+          "baseline_bits_per_source_byte": 0.7692566771034559,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.9462331308108693
+          },
+          "gamma_no_shared": 1.829329490506353,
+          "hybrid_bits_per_source_byte": 1.407223925194275,
+          "rho_R": 0.4729444364493884,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 1.709682978193494e-08,
+          "L_C_given_S_bits": 0.0010502924471638272,
+          "L_R_given_SC_bits": 33491.59139362083,
+          "L_S_bits": 41273.232687656935,
+          "L_X_bits": 38399.67101853763,
+          "R_bits_per_source_byte": 0.5451815241831754,
+          "S_bits_per_source_byte": 0.6718523357152125,
+          "baseline_bits_per_source_byte": 0.625076035592812,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 2.0078663100792045
+          },
+          "gamma_no_shared": 1.9470173350046966,
+          "hybrid_bits_per_source_byte": 1.2170338769952178,
+          "rho_R": 0.44795920186642235,
+          "test_source_bytes": 61432
+        }
+      },
+      "S2k8": {
+        "order_2": {
+          "C_bits_per_source_byte": 6.636233611120555e-08,
+          "L_C_given_S_bits": 0.00407677103198358,
+          "L_R_given_SC_bits": 59201.80721081961,
+          "L_S_bits": 59417.47329488151,
+          "L_X_bits": 86292.81245873374,
+          "R_bits_per_source_byte": 0.9636965622284739,
+          "S_bits_per_source_byte": 0.9672072095142842,
+          "baseline_bits_per_source_byte": 1.4046883132363222,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.4663126337950323
+          },
+          "gamma_no_shared": 1.3746137274086103,
+          "hybrid_bits_per_source_byte": 1.9309038381050943,
+          "rho_R": 0.49909091442596343,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 1.823405754647822e-08,
+          "L_C_given_S_bits": 0.00112015462319525,
+          "L_R_given_SC_bits": 40880.64705851585,
+          "L_S_bits": 39957.96652753407,
+          "L_X_bits": 47256.976187819506,
+          "R_bits_per_source_byte": 0.6654617635518273,
+          "S_bits_per_source_byte": 0.6504422211149574,
+          "baseline_bits_per_source_byte": 0.7692566771034559,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.8163923855163555
+          },
+          "gamma_no_shared": 1.710617589769544,
+          "hybrid_bits_per_source_byte": 1.3159040029008422,
+          "rho_R": 0.5057069224539567,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 1.6550974088462753e-08,
+          "L_C_given_S_bits": 0.0010167594402024438,
+          "L_R_given_SC_bits": 33489.67957765681,
+          "L_S_bits": 36795.73712613186,
+          "L_X_bits": 38399.67101853763,
+          "R_bits_per_source_byte": 0.5451504033346922,
+          "S_bits_per_source_byte": 0.5989669411077592,
+          "baseline_bits_per_source_byte": 0.625076035592812,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.8845777662878336
+          },
+          "gamma_no_shared": 1.8303651009566588,
+          "hybrid_bits_per_source_byte": 1.1441173609934254,
+          "rho_R": 0.47648119145866613,
+          "test_source_bytes": 61432
+        }
+      },
+      "S3": {
+        "order_2": {
+          "C_bits_per_source_byte": 3.5497406661961516e-08,
+          "L_C_given_S_bits": 0.00218067668605762,
+          "L_R_given_SC_bits": 59560.33020054853,
+          "L_S_bits": 92646.74414382534,
+          "L_X_bits": 86292.81245873374,
+          "R_bits_per_source_byte": 0.9695326572559665,
+          "S_bits_per_source_byte": 1.5081186375801756,
+          "baseline_bits_per_source_byte": 1.4046883132363222,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.9212931534731608
+          },
+          "gamma_no_shared": 1.7638441973117729,
+          "hybrid_bits_per_source_byte": 2.477651330333549,
+          "rho_R": 0.39131117659135883,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 1.8202603194514062e-08,
+          "L_C_given_S_bits": 0.0011182223194453878,
+          "L_R_given_SC_bits": 40974.03468502834,
+          "L_S_bits": 59495.81024601874,
+          "L_X_bits": 47256.976187819506,
+          "R_bits_per_source_byte": 0.6669819423920488,
+          "S_bits_per_source_byte": 0.9684823910342938,
+          "baseline_bits_per_source_byte": 0.7692566771034559,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 2.274002681842537
+          },
+          "gamma_no_shared": 2.1260320518595837,
+          "hybrid_bits_per_source_byte": 1.6354643516289458,
+          "rho_R": 0.4078242009541359,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 1.615199714014505e-08,
+          "L_C_given_S_bits": 0.0009922494883133908,
+          "L_R_given_SC_bits": 33500.84290413553,
+          "L_S_bits": 47510.90446671069,
+          "L_X_bits": 38399.67101853763,
+          "R_bits_per_source_byte": 0.5453321217628521,
+          "S_bits_per_source_byte": 0.7733901625652866,
+          "baseline_bits_per_source_byte": 0.625076035592812,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 2.170237213375261
+          },
+          "gamma_no_shared": 2.1096990212230433,
+          "hybrid_bits_per_source_byte": 1.3187223004801358,
+          "rho_R": 0.4135306740200732,
+          "test_source_bytes": 61432
+        }
+      }
+    },
+    "symbol": {
+      "C0": {
+        "order_2": {
+          "C_bits_per_source_byte": 9.795309846662708e-08,
+          "L_C_given_S_bits": 0.006017454745001835,
+          "L_R_given_SC_bits": 54142.36152392182,
+          "L_S_bits": 38723.75751537642,
+          "L_X_bits": 86292.81244541399,
+          "R_bits_per_source_byte": 0.8813380896588393,
+          "S_bits_per_source_byte": 0.6303515678372252,
+          "baseline_bits_per_source_byte": 1.4046883130195011,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.138134292037434
+          },
+          "gamma_no_shared": 1.0761745089198138,
+          "hybrid_bits_per_source_byte": 1.5116897554491633,
+          "rho_R": 0.5830151897781237,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 3.565945452758393e-08,
+          "L_C_given_S_bits": 0.0021906316105385357,
+          "L_R_given_SC_bits": 39710.246934101626,
+          "L_S_bits": 35713.54862449356,
+          "L_X_bits": 47256.97618640388,
+          "R_bits_per_source_byte": 0.6464098016359817,
+          "S_bits_per_source_byte": 0.5813509022088417,
+          "baseline_bits_per_source_byte": 0.7692566770804122,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.6846053035484336
+          },
+          "gamma_no_shared": 1.5960352065633578,
+          "hybrid_bits_per_source_byte": 1.2277607395042778,
+          "rho_R": 0.5264949275841617,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 3.1582232998440774e-08,
+          "L_C_given_S_bits": 0.0019401597375602138,
+          "L_R_given_SC_bits": 32893.64496917192,
+          "L_S_bits": 37517.036103713544,
+          "L_X_bits": 38399.6710174871,
+          "R_bits_per_source_byte": 0.535448055885726,
+          "S_bits_per_source_byte": 0.6107083621518679,
+          "baseline_bits_per_source_byte": 0.6250760355757113,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.8764140835289045
+          },
+          "gamma_no_shared": 1.8336272459464662,
+          "hybrid_bits_per_source_byte": 1.1461564496198269,
+          "rho_R": 0.46716838356869245,
+          "test_source_bytes": 61432
+        }
+      },
+      "C1": {
+        "order_2": {
+          "C_bits_per_source_byte": 0.040095487466216384,
+          "L_C_given_S_bits": 2463.145986024605,
+          "L_R_given_SC_bits": 44519.61324958848,
+          "L_S_bits": 38719.53882180201,
+          "L_X_bits": 86292.81244541399,
+          "R_bits_per_source_byte": 0.7246974418802656,
+          "S_bits_per_source_byte": 0.6302828952630878,
+          "baseline_bits_per_source_byte": 1.4046883130195011,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.0209502405913458
+          },
+          "gamma_no_shared": 0.9931568531461129,
+          "hybrid_bits_per_source_byte": 1.3950758246095698,
+          "rho_R": 0.5194681386462143,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 0.04098831977330674,
+          "L_C_given_S_bits": 2517.9944603137797,
+          "L_R_given_SC_bits": 31998.34920805897,
+          "L_S_bits": 35709.37947112786,
+          "L_X_bits": 47256.97618640388,
+          "R_bits_per_source_byte": 0.5208742871477239,
+          "S_bits_per_source_byte": 0.5812830360582084,
+          "baseline_bits_per_source_byte": 0.7692566770804122,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.5277453548623832
+          },
+          "gamma_no_shared": 1.4860392857659177,
+          "hybrid_bits_per_source_byte": 1.143145642979239,
+          "rho_R": 0.4556499780642418,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 0.04230114499698112,
+          "L_C_given_S_bits": 2598.643939454544,
+          "L_R_given_SC_bits": 27108.770552279937,
+          "L_S_bits": 37512.87113359466,
+          "L_X_bits": 38399.6710174871,
+          "R_bits_per_source_byte": 0.4412809374964178,
+          "S_bits_per_source_byte": 0.6106405640968007,
+          "baseline_bits_per_source_byte": 0.6250760355757113,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.7431441352346093
+          },
+          "gamma_no_shared": 1.7505432688399132,
+          "hybrid_bits_per_source_byte": 1.0942226465901996,
+          "rho_R": 0.4032825850127768,
+          "test_source_bytes": 61432
+        }
+      },
+      "C2": {
+        "order_2": {
+          "C_bits_per_source_byte": 0.1375295213553244,
+          "L_C_given_S_bits": 8448.713555900289,
+          "L_R_given_SC_bits": 30965.140150500316,
+          "L_S_bits": 38712.755998220004,
+          "L_X_bits": 86292.81244541399,
+          "R_bits_per_source_byte": 0.5040555435359473,
+          "S_bits_per_source_byte": 0.6301724833673005,
+          "baseline_bits_per_source_byte": 1.4046883130195011,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 0.9210531044689186
+          },
+          "gamma_no_shared": 0.9053663623959521,
+          "hybrid_bits_per_source_byte": 1.2717575482585723,
+          "rho_R": 0.39634562753423763,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 0.13533617394697073,
+          "L_C_given_S_bits": 8313.971837910305,
+          "L_R_given_SC_bits": 20415.959335214837,
+          "L_S_bits": 35702.68211470343,
+          "L_X_bits": 47256.97618640388,
+          "R_bits_per_source_byte": 0.3323342774973114,
+          "S_bits_per_source_byte": 0.581174015410591,
+          "baseline_bits_per_source_byte": 0.7692566770804122,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.397693097102634
+          },
+          "gamma_no_shared": 1.3634518855729543,
+          "hybrid_bits_per_source_byte": 1.0488444668548733,
+          "rho_R": 0.3168575398923241,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 0.13927759686522806,
+          "L_C_given_S_bits": 8556.10133062469,
+          "L_R_given_SC_bits": 17838.45631677978,
+          "L_S_bits": 37506.18099509984,
+          "L_X_bits": 38399.6710174871,
+          "R_bits_per_source_byte": 0.29037726782100176,
+          "S_bits_per_source_byte": 0.6105316609438053,
+          "baseline_bits_per_source_byte": 0.6250760355757113,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.6624197501828093
+          },
+          "gamma_no_shared": 1.664095992213165,
+          "hybrid_bits_per_source_byte": 1.0401865256300349,
+          "rho_R": 0.27915884379017686,
+          "test_source_bytes": 61432
+        }
+      },
+      "C3": {
+        "order_2": {
+          "C_bits_per_source_byte": 0.16063559691108248,
+          "L_C_given_S_bits": 9868.165989441619,
+          "L_R_given_SC_bits": 26663.42500169422,
+          "L_S_bits": 38709.48477902767,
+          "L_X_bits": 86292.81244541399,
+          "R_bits_per_source_byte": 0.4340315308258598,
+          "S_bits_per_source_byte": 0.6301192339339052,
+          "baseline_bits_per_source_byte": 1.4046883130195011,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 0.8873638435325885
+          },
+          "gamma_no_shared": 0.8719274947465475,
+          "hybrid_bits_per_source_byte": 1.2247863616708476,
+          "rho_R": 0.3543732559478831,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 0.15796085041159635,
+          "L_C_given_S_bits": 9703.850962485187,
+          "L_R_given_SC_bits": 17576.150830865685,
+          "L_S_bits": 35699.454809855524,
+          "L_X_bits": 47256.97618640388,
+          "R_bits_per_source_byte": 0.2861074168326879,
+          "S_bits_per_source_byte": 0.5811214808219742,
+          "baseline_bits_per_source_byte": 0.7692566770804122,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.368222382161803
+          },
+          "gamma_no_shared": 1.332701786817371,
+          "hybrid_bits_per_source_byte": 1.0251897480662586,
+          "rho_R": 0.2790775243045024,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 0.1623434197372559,
+          "L_C_given_S_bits": 9973.080961299105,
+          "L_R_given_SC_bits": 15374.194373546981,
+          "L_S_bits": 37502.95739940066,
+          "L_X_bits": 38399.6710174871,
+          "R_bits_per_source_byte": 0.250263614623437,
+          "S_bits_per_source_byte": 0.6104791867333093,
+          "baseline_bits_per_source_byte": 0.6250760355757113,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.6385631272906307
+          },
+          "gamma_no_shared": 1.6367388331432562,
+          "hybrid_bits_per_source_byte": 1.0230862210940022,
+          "rho_R": 0.24461634754090048,
+          "test_source_bytes": 61432
+        }
+      },
+      "C4": {
+        "order_2": {
+          "C_bits_per_source_byte": 0.1819088153876162,
+          "L_C_given_S_bits": 11175.022346892038,
+          "L_R_given_SC_bits": 22502.141416274844,
+          "L_S_bits": 38707.39857193733,
+          "L_X_bits": 86292.81244541399,
+          "R_bits_per_source_byte": 0.36629348574480475,
+          "S_bits_per_source_byte": 0.6300852743185528,
+          "baseline_bits_per_source_byte": 1.4046883130195011,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 0.8447093105151952
+          },
+          "gamma_no_shared": 0.838824929722766,
+          "hybrid_bits_per_source_byte": 1.1782875754509736,
+          "rho_R": 0.3108693441026999,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 0.1811502211254509,
+          "L_C_given_S_bits": 11128.4203841787,
+          "L_R_given_SC_bits": 14409.961253150295,
+          "L_S_bits": 35697.39756347358,
+          "L_X_bits": 47256.97618640388,
+          "R_bits_per_source_byte": 0.23456767243700832,
+          "S_bits_per_source_byte": 0.581087992633702,
+          "baseline_bits_per_source_byte": 0.7692566770804122,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.3190236815498049
+          },
+          "gamma_no_shared": 1.2958040091109444,
+          "hybrid_bits_per_source_byte": 0.9968058861961613,
+          "rho_R": 0.23531930909048404,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 0.18593757290579377,
+          "L_C_given_S_bits": 11422.516978748723,
+          "L_R_given_SC_bits": 12314.609974654044,
+          "L_S_bits": 37500.902599304856,
+          "L_X_bits": 38399.6710174871,
+          "R_bits_per_source_byte": 0.20045920651539986,
+          "S_bits_per_source_byte": 0.6104457383660772,
+          "baseline_bits_per_source_byte": 0.6250760355757113,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.5809561106049077
+          },
+          "gamma_no_shared": 1.5947540155961233,
+          "hybrid_bits_per_source_byte": 0.9968425177872708,
+          "rho_R": 0.20109415774155256,
+          "test_source_bytes": 61432
+        }
+      },
+      "C5": {
+        "order_2": {
+          "C_bits_per_source_byte": 0.1818106435405144,
+          "L_C_given_S_bits": 11168.991453980881,
+          "L_R_given_SC_bits": 22502.20744227831,
+          "L_S_bits": 39431.87891290791,
+          "L_X_bits": 86292.81244541399,
+          "R_bits_per_source_byte": 0.3662945605267338,
+          "S_bits_per_source_byte": 0.6418784821088017,
+          "baseline_bits_per_source_byte": 1.4046883130195011,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 0.8623786986753117
+          },
+          "gamma_no_shared": 0.8471514108479163,
+          "hybrid_bits_per_source_byte": 1.1899836861760498,
+          "rho_R": 0.3078147749267069,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 0.1810176162306727,
+          "L_C_given_S_bits": 11120.274200282685,
+          "L_R_given_SC_bits": 14410.025737764827,
+          "L_S_bits": 36421.95652790023,
+          "L_X_bits": 47256.97618640388,
+          "R_bits_per_source_byte": 0.23456872212795982,
+          "S_bits_per_source_byte": 0.5928824802692445,
+          "baseline_bits_per_source_byte": 0.7692566770804122,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.349634021253568
+          },
+          "gamma_no_shared": 1.3109653106364383,
+          "hybrid_bits_per_source_byte": 1.008468818627877,
+          "rho_R": 0.232598884363241,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 0.18579249728097627,
+          "L_C_given_S_bits": 11413.604692964935,
+          "L_R_given_SC_bits": 12314.674359570401,
+          "L_S_bits": 38275.12709580187,
+          "L_X_bits": 38399.6710174871,
+          "R_bits_per_source_byte": 0.20046025458344838,
+          "S_bits_per_source_byte": 0.6230486895396841,
+          "baseline_bits_per_source_byte": 0.6250760355757113,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.6194527579898934
+          },
+          "gamma_no_shared": 1.6146858685352028,
+          "hybrid_bits_per_source_byte": 1.0093014414041086,
+          "rho_R": 0.19861286862384178,
+          "test_source_bytes": 61432
+        }
+      },
+      "C6": {
+        "order_2": {
+          "C_bits_per_source_byte": 0.1819088153876162,
+          "L_C_given_S_bits": 11175.022346892038,
+          "L_R_given_SC_bits": 22502.141416274844,
+          "L_S_bits": 38707.39857193733,
+          "L_X_bits": 86292.81244541399,
+          "R_bits_per_source_byte": 0.36629348574480475,
+          "S_bits_per_source_byte": 0.6300852743185528,
+          "baseline_bits_per_source_byte": 1.4046883130195011,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 0.8447093105151952
+          },
+          "gamma_no_shared": 0.838824929722766,
+          "hybrid_bits_per_source_byte": 1.1782875754509736,
+          "rho_R": 0.3108693441026999,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 0.1811502211254509,
+          "L_C_given_S_bits": 11128.4203841787,
+          "L_R_given_SC_bits": 14409.961253150295,
+          "L_S_bits": 35697.39756347358,
+          "L_X_bits": 47256.97618640388,
+          "R_bits_per_source_byte": 0.23456767243700832,
+          "S_bits_per_source_byte": 0.581087992633702,
+          "baseline_bits_per_source_byte": 0.7692566770804122,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.3190236815498049
+          },
+          "gamma_no_shared": 1.2958040091109444,
+          "hybrid_bits_per_source_byte": 0.9968058861961613,
+          "rho_R": 0.23531930909048404,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 0.18593757290579377,
+          "L_C_given_S_bits": 11422.516978748723,
+          "L_R_given_SC_bits": 12314.609974654044,
+          "L_S_bits": 37500.902599304856,
+          "L_X_bits": 38399.6710174871,
+          "R_bits_per_source_byte": 0.20045920651539986,
+          "S_bits_per_source_byte": 0.6104457383660772,
+          "baseline_bits_per_source_byte": 0.6250760355757113,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.5809561106049077
+          },
+          "gamma_no_shared": 1.5947540155961233,
+          "hybrid_bits_per_source_byte": 0.9968425177872708,
+          "rho_R": 0.20109415774155256,
+          "test_source_bytes": 61432
+        }
+      },
+      "S0": {
+        "order_2": {
+          "C_bits_per_source_byte": 1.8175368700109273e-08,
+          "L_C_given_S_bits": 0.0011165492499851128,
+          "L_R_given_SC_bits": 54144.40041632781,
+          "L_S_bits": 62337.050030016355,
+          "L_X_bits": 86292.81244541399,
+          "R_bits_per_source_byte": 0.8813712790781321,
+          "S_bits_per_source_byte": 1.0147325502997844,
+          "baseline_bits_per_source_byte": 1.4046883130195011,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.468830741438607
+          },
+          "gamma_no_shared": 1.3498395551376396,
+          "hybrid_bits_per_source_byte": 1.896103847553285,
+          "rho_R": 0.46483280977223135,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 1.4758477533286402e-08,
+          "L_C_given_S_bits": 0.0009066427918248502,
+          "L_R_given_SC_bits": 39699.98030333679,
+          "L_S_bits": 50582.23192420967,
+          "L_X_bits": 47256.97618640388,
+          "R_bits_per_source_byte": 0.6462426797652168,
+          "S_bits_per_source_byte": 0.8233857260745161,
+          "baseline_bits_per_source_byte": 0.7692566770804122,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 2.0421072465088277
+          },
+          "gamma_no_shared": 1.9104526023432704,
+          "hybrid_bits_per_source_byte": 1.4696284205982102,
+          "rho_R": 0.4397320238963292,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 1.4628746588378544e-08,
+          "L_C_given_S_bits": 0.0008986731604172707,
+          "L_R_given_SC_bits": 32821.03381512746,
+          "L_S_bits": 41762.44150529228,
+          "L_X_bits": 38399.6710174871,
+          "R_bits_per_source_byte": 0.5342660798138993,
+          "S_bits_per_source_byte": 0.6798157557183924,
+          "baseline_bits_per_source_byte": 0.6250760355757113,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 2.0021198412224583
+          },
+          "gamma_no_shared": 1.9422946666685714,
+          "hybrid_bits_per_source_byte": 1.2140818501610382,
+          "rho_R": 0.4400577108891243,
+          "test_source_bytes": 61432
+        }
+      },
+      "S1a": {
+        "order_2": {
+          "C_bits_per_source_byte": 1.815945453268482e-08,
+          "L_C_given_S_bits": 0.001115571610851894,
+          "L_R_given_SC_bits": 54143.242835733545,
+          "L_S_bits": 39011.1874179474,
+          "L_X_bits": 86292.81244541399,
+          "R_bits_per_source_byte": 0.8813524357945948,
+          "S_bits_per_source_byte": 0.635030398130411,
+          "baseline_bits_per_source_byte": 1.4046883130195011,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.1417917227969006
+          },
+          "gamma_no_shared": 1.079515532399399,
+          "hybrid_bits_per_source_byte": 1.5163828520844602,
+          "rho_R": 0.5812202601625732,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 1.4616221927804554e-08,
+          "L_C_given_S_bits": 0.0008979037454688893,
+          "L_R_given_SC_bits": 39698.85989251964,
+          "L_S_bits": 36815.500886455855,
+          "L_X_bits": 47256.97618640388,
+          "R_bits_per_source_byte": 0.6462244415373037,
+          "S_bits_per_source_byte": 0.599288658784605,
+          "baseline_bits_per_source_byte": 0.7692566770804122,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.7070228062930717
+          },
+          "gamma_no_shared": 1.619112517378818,
+          "hybrid_bits_per_source_byte": 1.2455131149381307,
+          "rho_R": 0.5188419405518697,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 1.4576031666932616e-08,
+          "L_C_given_S_bits": 0.0008954347773630044,
+          "L_R_given_SC_bits": 32822.24534339667,
+          "L_S_bits": 35620.427882201104,
+          "L_X_bits": 38399.6710174871,
+          "R_bits_per_source_byte": 0.5342858012663868,
+          "S_bits_per_source_byte": 0.5798350677529805,
+          "baseline_bits_per_source_byte": 0.6250760355757113,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.821771914637878
+          },
+          "gamma_no_shared": 1.7823765753061782,
+          "hybrid_bits_per_source_byte": 1.114120883595399,
+          "rho_R": 0.4795581961826114,
+          "test_source_bytes": 61432
+        }
+      },
+      "S2k16": {
+        "order_2": {
+          "C_bits_per_source_byte": 9.795309846662708e-08,
+          "L_C_given_S_bits": 0.006017454745001835,
+          "L_R_given_SC_bits": 54142.36152392182,
+          "L_S_bits": 38723.75751537642,
+          "L_X_bits": 86292.81244541399,
+          "R_bits_per_source_byte": 0.8813380896588393,
+          "S_bits_per_source_byte": 0.6303515678372252,
+          "baseline_bits_per_source_byte": 1.4046883130195011,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.138134292037434
+          },
+          "gamma_no_shared": 1.0761745089198138,
+          "hybrid_bits_per_source_byte": 1.5116897554491633,
+          "rho_R": 0.5830151897781237,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 3.565945452758393e-08,
+          "L_C_given_S_bits": 0.0021906316105385357,
+          "L_R_given_SC_bits": 39710.246934101626,
+          "L_S_bits": 35713.54862449356,
+          "L_X_bits": 47256.97618640388,
+          "R_bits_per_source_byte": 0.6464098016359817,
+          "S_bits_per_source_byte": 0.5813509022088417,
+          "baseline_bits_per_source_byte": 0.7692566770804122,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.6846053035484336
+          },
+          "gamma_no_shared": 1.5960352065633578,
+          "hybrid_bits_per_source_byte": 1.2277607395042778,
+          "rho_R": 0.5264949275841617,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 3.1582232998440774e-08,
+          "L_C_given_S_bits": 0.0019401597375602138,
+          "L_R_given_SC_bits": 32893.64496917192,
+          "L_S_bits": 37517.036103713544,
+          "L_X_bits": 38399.6710174871,
+          "R_bits_per_source_byte": 0.535448055885726,
+          "S_bits_per_source_byte": 0.6107083621518679,
+          "baseline_bits_per_source_byte": 0.6250760355757113,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.8764140835289045
+          },
+          "gamma_no_shared": 1.8336272459464662,
+          "hybrid_bits_per_source_byte": 1.1461564496198269,
+          "rho_R": 0.46716838356869245,
+          "test_source_bytes": 61432
+        }
+      },
+      "S2k4": {
+        "order_2": {
+          "C_bits_per_source_byte": 1.1227181987927407e-07,
+          "L_C_given_S_bits": 0.006897082438823565,
+          "L_R_given_SC_bits": 54143.04516185249,
+          "L_S_bits": 43372.98622005857,
+          "L_X_bits": 86292.81244541399,
+          "R_bits_per_source_byte": 0.8813492180272902,
+          "S_bits_per_source_byte": 0.7060324622356194,
+          "baseline_bits_per_source_byte": 1.4046883130195011,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.2086704268023496
+          },
+          "gamma_no_shared": 1.1300597989047922,
+          "hybrid_bits_per_source_byte": 1.5873817925347293,
+          "rho_R": 0.5552219523823269,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 4.1462886646299184e-08,
+          "L_C_given_S_bits": 0.0025471480524554514,
+          "L_R_given_SC_bits": 39714.93120077692,
+          "L_S_bits": 40151.57467099848,
+          "L_X_bits": 47256.97618640388,
+          "R_bits_per_source_byte": 0.6464860528841144,
+          "S_bits_per_source_byte": 0.6535938056875649,
+          "baseline_bits_per_source_byte": 0.7692566770804122,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.8029474302812805
+          },
+          "gamma_no_shared": 1.6900469489180208,
+          "hybrid_bits_per_source_byte": 1.3000799000345657,
+          "rho_R": 0.4972664009857594,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 3.55508556331482e-08,
+          "L_C_given_S_bits": 0.0021839601632555605,
+          "L_R_given_SC_bits": 32889.01462588174,
+          "L_S_bits": 42067.82037330095,
+          "L_X_bits": 38399.6710174871,
+          "R_bits_per_source_byte": 0.5353726824111495,
+          "S_bits_per_source_byte": 0.6847867621646854,
+          "baseline_bits_per_source_byte": 0.6250760355757113,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 2.0200034491969907
+          },
+          "gamma_no_shared": 1.9520176917403207,
+          "hybrid_bits_per_source_byte": 1.2201594801266906,
+          "rho_R": 0.4387727105603943,
+          "test_source_bytes": 61432
+        }
+      },
+      "S2k8": {
+        "order_2": {
+          "C_bits_per_source_byte": 1.1813896418595518e-07,
+          "L_C_given_S_bits": 0.007257512847871598,
+          "L_R_given_SC_bits": 54142.41171281031,
+          "L_S_bits": 39452.146312344354,
+          "L_X_bits": 86292.81244541399,
+          "R_bits_per_source_byte": 0.8813389066416576,
+          "S_bits_per_source_byte": 0.6422083981043162,
+          "baseline_bits_per_source_byte": 1.4046883130195011,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.156062827380954
+          },
+          "gamma_no_shared": 1.084616002542186,
+          "hybrid_bits_per_source_byte": 1.5235474228849382,
+          "rho_R": 0.5784781578854854,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 5.2780475385227795e-08,
+          "L_C_given_S_bits": 0.003242410163865314,
+          "L_R_given_SC_bits": 39704.148726553714,
+          "L_S_bits": 36441.99712550469,
+          "L_X_bits": 47256.97618640388,
+          "R_bits_per_source_byte": 0.6463105340303704,
+          "S_bits_per_source_byte": 0.5932087043479732,
+          "baseline_bits_per_source_byte": 0.7692566770804122,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.7155124568702298
+          },
+          "gamma_no_shared": 1.6113208088920483,
+          "hybrid_bits_per_source_byte": 1.2395192911588189,
+          "rho_R": 0.5214203107933388,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 4.817504745326877e-08,
+          "L_C_given_S_bits": 0.002959489515149207,
+          "L_R_given_SC_bits": 32884.405985070414,
+          "L_S_bits": 38295.14769070961,
+          "L_X_bits": 38399.6710174871,
+          "R_bits_per_source_byte": 0.5352976622130228,
+          "S_bits_per_source_byte": 0.6233745880112906,
+          "baseline_bits_per_source_byte": 0.6250760355757113,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.9150605792265094
+          },
+          "gamma_no_shared": 1.8536501680666635,
+          "hybrid_bits_per_source_byte": 1.158672298399361,
+          "rho_R": 0.46199228457649816,
+          "test_source_bytes": 61432
+        }
+      },
+      "S3": {
+        "order_2": {
+          "C_bits_per_source_byte": 5.438243297211858e-08,
+          "L_C_given_S_bits": 0.0033408216223431886,
+          "L_R_given_SC_bits": 54144.04273715068,
+          "L_S_bits": 64590.04255759451,
+          "L_X_bits": 86292.81244541399,
+          "R_bits_per_source_byte": 0.8813654567188222,
+          "S_bits_per_source_byte": 1.0514071258886983,
+          "baseline_bits_per_source_byte": 1.4046883130195011,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.498522373455852
+          },
+          "gamma_no_shared": 1.3759441287265277,
+          "hybrid_bits_per_source_byte": 1.9327726369899534,
+          "rho_R": 0.4560109346805718,
+          "test_source_bytes": 61432
+        },
+        "order_3": {
+          "C_bits_per_source_byte": 2.2907938684740057e-08,
+          "L_C_given_S_bits": 0.0014072804892809512,
+          "L_R_given_SC_bits": 39706.31062715382,
+          "L_S_bits": 45069.91659023757,
+          "L_X_bits": 47256.97618640388,
+          "R_bits_per_source_byte": 0.6463457257968782,
+          "S_bits_per_source_byte": 0.7336553683786555,
+          "baseline_bits_per_source_byte": 0.7692566770804122,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.9132767918545952
+          },
+          "gamma_no_shared": 1.793941031907634,
+          "hybrid_bits_per_source_byte": 1.3800011170834723,
+          "rho_R": 0.46836608883540676,
+          "test_source_bytes": 61432
+        },
+        "order_4": {
+          "C_bits_per_source_byte": 1.7854319367450302e-08,
+          "L_C_given_S_bits": 0.001096826547381207,
+          "L_R_given_SC_bits": 32844.32391363225,
+          "L_S_bits": 40526.21120744705,
+          "L_X_bits": 38399.6710174871,
+          "R_bits_per_source_byte": 0.5346451997921645,
+          "S_bits_per_source_byte": 0.6596921996263682,
+          "baseline_bits_per_source_byte": 0.6250760355757113,
+          "covered_subset": {
+            "docs": 217,
+            "gamma_no_shared": 1.962518947279184
+          },
+          "gamma_no_shared": 1.9107074168550329,
+          "hybrid_bits_per_source_byte": 1.194337417272852,
+          "rho_R": 0.4476500460087506,
+          "test_source_bytes": 61432
+        }
+      }
+    }
+  }
+}

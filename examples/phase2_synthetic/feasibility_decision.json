@@ -1,0 +1,533 @@
+{
+  "by_arm": {
+    "C0": {
+      "by_family": {
+        "byte": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.6926064890475372,
+            "gamma_covered_subset": 1.77593909844114,
+            "gamma_whole_ci95": [
+              1.666475768139348,
+              1.7163131087326287
+            ],
+            "gamma_whole_no_shared": 1.6909454569914864,
+            "rho_R": 0.5115821018622309
+          },
+          "reasons": [
+            "gamma CI low 1.666 > 1.5",
+            "gamma at target scale 1.693 > 1.1"
+          ]
+        },
+        "symbol": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.5976962386194584,
+            "gamma_covered_subset": 1.6846053035484336,
+            "gamma_whole_ci95": [
+              1.5701399657135742,
+              1.62204902990046
+            ],
+            "gamma_whole_no_shared": 1.5960352065633578,
+            "rho_R": 0.5264949275841617
+          },
+          "reasons": [
+            "gamma CI low 1.570 > 1.5",
+            "gamma at target scale 1.598 > 1.1"
+          ]
+        }
+      },
+      "decision": "STOP"
+    },
+    "C1": {
+      "by_family": {
+        "byte": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.5820178801259965,
+            "gamma_covered_subset": 1.6097283602106984,
+            "gamma_whole_ci95": [
+              1.5587612066790901,
+              1.6029426711014063
+            ],
+            "gamma_whole_no_shared": 1.5803568480699457,
+            "rho_R": 0.4426194201441546
+          },
+          "reasons": [
+            "gamma CI low 1.559 > 1.5",
+            "gamma at target scale 1.582 > 1.1"
+          ]
+        },
+        "symbol": {
+          "decision": "REVISE",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.4877003178220183,
+            "gamma_covered_subset": 1.5277453548623832,
+            "gamma_whole_ci95": [
+              1.4629313764207315,
+              1.5096231693874138
+            ],
+            "gamma_whole_no_shared": 1.4860392857659177,
+            "rho_R": 0.4556499780642418
+          },
+          "reasons": [
+            "gamma at target scale 1.488 > 1.1"
+          ]
+        }
+      },
+      "decision": "STOP"
+    },
+    "C2": {
+      "by_family": {
+        "byte": {
+          "decision": "REVISE",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.4899621058555919,
+            "gamma_covered_subset": 1.5193788796618288,
+            "gamma_whole_ci95": [
+              1.467398447739009,
+              1.5107686448570292
+            ],
+            "gamma_whole_no_shared": 1.488301073799541,
+            "rho_R": 0.3037505593496322
+          },
+          "reasons": [
+            "gamma at target scale 1.490 > 1.1"
+          ]
+        },
+        "symbol": {
+          "decision": "REVISE",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.3651129176290548,
+            "gamma_covered_subset": 1.397693097102634,
+            "gamma_whole_ci95": [
+              1.3407986764083921,
+              1.3871422411348717
+            ],
+            "gamma_whole_no_shared": 1.3634518855729543,
+            "rho_R": 0.3168575398923241
+          },
+          "reasons": [
+            "gamma at target scale 1.365 > 1.1"
+          ]
+        }
+      },
+      "decision": "REVISE"
+    },
+    "C3": {
+      "by_family": {
+        "byte": {
+          "decision": "REVISE",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.4653128201912227,
+            "gamma_covered_subset": 1.49475151376621,
+            "gamma_whole_ci95": [
+              1.4434170375453623,
+              1.4851117705593386
+            ],
+            "gamma_whole_no_shared": 1.4636517881351718,
+            "rho_R": 0.26664442036708835
+          },
+          "reasons": [
+            "gamma at target scale 1.465 > 1.1"
+          ]
+        },
+        "symbol": {
+          "decision": "REVISE",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.3343628188734715,
+            "gamma_covered_subset": 1.368222382161803,
+            "gamma_whole_ci95": [
+              1.3111189440910105,
+              1.3553927393939071
+            ],
+            "gamma_whole_no_shared": 1.332701786817371,
+            "rho_R": 0.2790775243045024
+          },
+          "reasons": [
+            "gamma at target scale 1.334 > 1.1"
+          ]
+        }
+      },
+      "decision": "REVISE"
+    },
+    "C4": {
+      "by_family": {
+        "byte": {
+          "decision": "REVISE",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.4371394727119826,
+            "gamma_covered_subset": 1.4575548065340733,
+            "gamma_whole_ci95": [
+              1.4159143901062756,
+              1.45605358055107
+            ],
+            "gamma_whole_no_shared": 1.4354784406559318,
+            "rho_R": 0.2255019124808621
+          },
+          "reasons": [
+            "gamma at target scale 1.437 > 1.1"
+          ]
+        },
+        "symbol": {
+          "decision": "REVISE",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.297465041167045,
+            "gamma_covered_subset": 1.3190236815498049,
+            "gamma_whole_ci95": [
+              1.2748317857518803,
+              1.3177160562066883
+            ],
+            "gamma_whole_no_shared": 1.2958040091109444,
+            "rho_R": 0.23531930909048404
+          },
+          "reasons": [
+            "gamma at target scale 1.297 > 1.1"
+          ]
+        }
+      },
+      "decision": "REVISE"
+    },
+    "C5": {
+      "by_family": {
+        "byte": {
+          "decision": "REVISE",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.4586813022420422,
+            "gamma_covered_subset": 1.5017996760744179,
+            "gamma_whole_ci95": [
+              1.4332997049658036,
+              1.481963310000033
+            ],
+            "gamma_whole_no_shared": 1.4570202701859913,
+            "rho_R": 0.22216880882443968
+          },
+          "reasons": [
+            "gamma at target scale 1.459 > 1.1"
+          ]
+        },
+        "symbol": {
+          "decision": "REVISE",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.3126263426925389,
+            "gamma_covered_subset": 1.349634021253568,
+            "gamma_whole_ci95": [
+              1.2871921390462158,
+              1.3370991055087387
+            ],
+            "gamma_whole_no_shared": 1.3109653106364383,
+            "rho_R": 0.232598884363241
+          },
+          "reasons": [
+            "gamma at target scale 1.313 > 1.1"
+          ]
+        }
+      },
+      "decision": "REVISE"
+    },
+    "C6": {
+      "by_family": {
+        "byte": {
+          "decision": "REVISE",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.4463258448551186,
+            "gamma_covered_subset": 1.47299456015985,
+            "gamma_whole_ci95": [
+              1.4249469402456452,
+              1.465709011514522
+            ],
+            "gamma_whole_no_shared": 1.4446648127990678,
+            "rho_R": 0.2241741178232138
+          },
+          "reasons": [
+            "gamma at target scale 1.446 > 1.1"
+          ]
+        },
+        "symbol": {
+          "decision": "REVISE",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.297465041167045,
+            "gamma_covered_subset": 1.3190236815498049,
+            "gamma_whole_ci95": [
+              1.2748317857518803,
+              1.3177160562066883
+            ],
+            "gamma_whole_no_shared": 1.2958040091109444,
+            "rho_R": 0.23531930909048404
+          },
+          "reasons": [
+            "gamma at target scale 1.297 > 1.1"
+          ]
+        }
+      },
+      "decision": "REVISE"
+    },
+    "S0": {
+      "by_family": {
+        "byte": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 2.6409878658738877,
+            "gamma_covered_subset": 2.842417193281253,
+            "gamma_whole_ci95": [
+              2.6008330620897264,
+              2.6809900756383342
+            ],
+            "gamma_whole_no_shared": 2.6393268338178366,
+            "rho_R": 0.3347055237553946
+          },
+          "reasons": [
+            "gamma CI low 2.601 > 1.5",
+            "gamma at target scale 2.641 > 1.1"
+          ]
+        },
+        "symbol": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.912113634399371,
+            "gamma_covered_subset": 2.0421072465088277,
+            "gamma_whole_ci95": [
+              1.8757380460072697,
+              1.9464636539798545
+            ],
+            "gamma_whole_no_shared": 1.9104526023432704,
+            "rho_R": 0.4397320238963292
+          },
+          "reasons": [
+            "gamma CI low 1.876 > 1.5",
+            "gamma at target scale 1.912 > 1.1"
+          ]
+        }
+      },
+      "decision": "STOP"
+    },
+    "S1a": {
+      "by_family": {
+        "byte": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.867090918524111,
+            "gamma_covered_subset": 1.96326887216173,
+            "gamma_whole_ci95": [
+              1.8411684537242452,
+              1.8915139839987645
+            ],
+            "gamma_whole_no_shared": 1.86542988646806,
+            "rho_R": 0.47081476964229185
+          },
+          "reasons": [
+            "gamma CI low 1.841 > 1.5",
+            "gamma at target scale 1.867 > 1.1"
+          ]
+        },
+        "symbol": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.6207735494349185,
+            "gamma_covered_subset": 1.7070228062930717,
+            "gamma_whole_ci95": [
+              1.5946220653044731,
+              1.6444719757867063
+            ],
+            "gamma_whole_no_shared": 1.619112517378818,
+            "rho_R": 0.5188419405518697
+          },
+          "reasons": [
+            "gamma CI low 1.595 > 1.5",
+            "gamma at target scale 1.621 > 1.1"
+          ]
+        }
+      },
+      "decision": "STOP"
+    },
+    "S2k16": {
+      "by_family": {
+        "byte": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.6926064890475372,
+            "gamma_covered_subset": 1.77593909844114,
+            "gamma_whole_ci95": [
+              1.666475768139348,
+              1.7163131087326287
+            ],
+            "gamma_whole_no_shared": 1.6909454569914864,
+            "rho_R": 0.5115821018622309
+          },
+          "reasons": [
+            "gamma CI low 1.666 > 1.5",
+            "gamma at target scale 1.693 > 1.1"
+          ]
+        },
+        "symbol": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.5976962386194584,
+            "gamma_covered_subset": 1.6846053035484336,
+            "gamma_whole_ci95": [
+              1.5701399657135742,
+              1.62204902990046
+            ],
+            "gamma_whole_no_shared": 1.5960352065633578,
+            "rho_R": 0.5264949275841617
+          },
+          "reasons": [
+            "gamma CI low 1.570 > 1.5",
+            "gamma at target scale 1.598 > 1.1"
+          ]
+        }
+      },
+      "decision": "STOP"
+    },
+    "S2k4": {
+      "by_family": {
+        "byte": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.830990522562404,
+            "gamma_covered_subset": 1.9462331308108693,
+            "gamma_whole_ci95": [
+              1.7995064524165987,
+              1.8594999673212966
+            ],
+            "gamma_whole_no_shared": 1.829329490506353,
+            "rho_R": 0.4729444364493884
+          },
+          "reasons": [
+            "gamma CI low 1.800 > 1.5",
+            "gamma at target scale 1.831 > 1.1"
+          ]
+        },
+        "symbol": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.6917079809741213,
+            "gamma_covered_subset": 1.8029474302812805,
+            "gamma_whole_ci95": [
+              1.660580276117547,
+              1.7201592844307538
+            ],
+            "gamma_whole_no_shared": 1.6900469489180208,
+            "rho_R": 0.4972664009857594
+          },
+          "reasons": [
+            "gamma CI low 1.661 > 1.5",
+            "gamma at target scale 1.692 > 1.1"
+          ]
+        }
+      },
+      "decision": "STOP"
+    },
+    "S2k8": {
+      "by_family": {
+        "byte": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.7122786218255948,
+            "gamma_covered_subset": 1.8163923855163555,
+            "gamma_whole_ci95": [
+              1.6816407286679216,
+              1.7396205791508608
+            ],
+            "gamma_whole_no_shared": 1.710617589769544,
+            "rho_R": 0.5057069224539567
+          },
+          "reasons": [
+            "gamma CI low 1.682 > 1.5",
+            "gamma at target scale 1.712 > 1.1"
+          ]
+        },
+        "symbol": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.612981840948149,
+            "gamma_covered_subset": 1.7155124568702298,
+            "gamma_whole_ci95": [
+              1.5817436526767683,
+              1.6411092229637647
+            ],
+            "gamma_whole_no_shared": 1.6113208088920483,
+            "rho_R": 0.5214203107933388
+          },
+          "reasons": [
+            "gamma CI low 1.582 > 1.5",
+            "gamma at target scale 1.613 > 1.1"
+          ]
+        }
+      },
+      "decision": "STOP"
+    },
+    "S3": {
+      "by_family": {
+        "byte": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 2.1276930839156347,
+            "gamma_covered_subset": 2.274002681842537,
+            "gamma_whole_ci95": [
+              2.0905062769765204,
+              2.1630084484959498
+            ],
+            "gamma_whole_no_shared": 2.1260320518595837,
+            "rho_R": 0.4078242009541359
+          },
+          "reasons": [
+            "gamma CI low 2.091 > 1.5",
+            "gamma at target scale 2.128 > 1.1"
+          ]
+        },
+        "symbol": {
+          "decision": "STOP",
+          "inputs": {
+            "gamma_at_prereg_target_with_shared": 1.7956020639637347,
+            "gamma_covered_subset": 1.9132767918545952,
+            "gamma_whole_ci95": [
+              1.7623806897842944,
+              1.8260377010303699
+            ],
+            "gamma_whole_no_shared": 1.793941031907634,
+            "rho_R": 0.46836608883540676
+          },
+          "reasons": [
+            "gamma CI low 1.762 > 1.5",
+            "gamma at target scale 1.796 > 1.1"
+          ]
+        }
+      },
+      "decision": "STOP"
+    }
+  },
+  "byte_coverage_test": 0.8480270868602683,
+  "combination_rule": "per arm: most severe across coding families (byte, symbol); overall: least severe across preregistered arms",
+  "decision": "PENDING_REAL_DATA",
+  "diagnostic_decision_ignoring_synthetic_flag": "REVISE",
+  "eligible_arms_for_phase_III": [],
+  "model_training_permitted": false,
+  "not_assessed_in_phase_II": [
+    "semantic usefulness (requires Phase III training)",
+    "state-tracking accuracy (requires gold annotations)",
+    "whether explicit state or surface choices help a learner (arm contrasts are coding-cost comparisons only)",
+    "whether a stronger conditional coder would price C differently (order-k context models cannot exploit long-range dependencies)"
+  ],
+  "reasons": [
+    "[C2/byte] gamma at target scale 1.490 > 1.1",
+    "[C2/symbol] gamma at target scale 1.365 > 1.1",
+    "[C3/byte] gamma at target scale 1.465 > 1.1",
+    "[C3/symbol] gamma at target scale 1.334 > 1.1",
+    "[C4/byte] gamma at target scale 1.437 > 1.1",
+    "[C4/symbol] gamma at target scale 1.297 > 1.1",
+    "[C5/byte] gamma at target scale 1.459 > 1.1",
+    "[C5/symbol] gamma at target scale 1.313 > 1.1",
+    "[C6/byte] gamma at target scale 1.446 > 1.1",
+    "[C6/symbol] gamma at target scale 1.297 > 1.1"
+  ],
+  "selection_caveat": "overall decision selects the best of 13 preregistered arms on the same test split; confirm an eligible arm on a fresh split before Phase III",
+  "thresholds": {
+    "byte_coverage_revise_min": 0.3,
+    "byte_coverage_stop_min": 0.05,
+    "covered_subset_only_rule": "STOP if gamma_covered < 1.0 while gamma_whole >= 1.0",
+    "gamma_revise_max": 1.1,
+    "gamma_stop_ci_low": 1.5,
+    "rho_R_diagnostic_max": 0.85
+  }
+}

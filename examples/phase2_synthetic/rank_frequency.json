@@ -1,0 +1,2192 @@
+{
+  "H_Z1_operators": {
+    "caution": "fewer than 50 types: asymptotic power-law inference is not meaningful; read the full distribution",
+    "delta_bits_per_token_zipf_minus_sexp": 0.02875591632710428,
+    "empirical_add_half": {
+      "test_bits_per_token": 3.3227445780618257
+    },
+    "n_tokens_test": 9385,
+    "n_tokens_train": 37959,
+    "n_types_train": 26,
+    "preferred_parametric_on_test": "stretched_exp",
+    "status": "ok",
+    "stretched_exp": {
+      "beta": 0.3403790528897582,
+      "lambda": 2.402999763515769,
+      "test_bits_per_token": 3.363356412115897,
+      "train_bits_per_token": 3.346947917662182
+    },
+    "test_oov_rate": 0.0,
+    "top_types": [
+      [
+        "ENT",
+        11891
+      ],
+      [
+        "S",
+        7068
+      ],
+      [
+        "OUT",
+        5863
+      ],
+      [
+        "DEST",
+        2000
+      ],
+      [
+        "QTY",
+        1233
+      ],
+      [
+        "TEMP",
+        1190
+      ],
+      [
+        "MIX",
+        1171
+      ],
+      [
+        "U",
+        1119
+      ],
+      [
+        "ADD",
+        1098
+      ],
+      [
+        "PREHEAT",
+        973
+      ],
+      [
+        "STIR",
+        709
+      ],
+      [
+        "WHISK",
+        637
+      ],
+      [
+        "DUR",
+        527
+      ],
+      [
+        "CHOP",
+        403
+      ],
+      [
+        "PEEL",
+        218
+      ],
+      [
+        "DRAIN",
+        216
+      ],
+      [
+        "SEASON",
+        207
+      ],
+      [
+        "GRATE",
+        203
+      ],
+      [
+        "SLICE",
+        180
+      ],
+      [
+        "COOK",
+        173
+      ],
+      [
+        "COOL",
+        163
+      ],
+      [
+        "BOIL",
+        162
+      ],
+      [
+        "HEAT",
+        162
+      ],
+      [
+        "BAKE",
+        151
+      ],
+      [
+        "SIMMER",
+        138
+      ]
+    ],
+    "zipf": {
+      "alpha": 1.315483427974975,
+      "test_bits_per_token": 3.3921123284430013,
+      "train_bits_per_token": 3.377022633506219
+    }
+  },
+  "H_Z2_operands": {
+    "concept": {
+      "caution": "fewer than 50 types: asymptotic power-law inference is not meaningful; read the full distribution",
+      "delta_bits_per_token_zipf_minus_sexp": -3.1136105329565567e-06,
+      "empirical_add_half": {
+        "test_bits_per_token": 4.560048596399714
+      },
+      "n_tokens_test": 2900,
+      "n_tokens_train": 11891,
+      "n_types_train": 31,
+      "preferred_parametric_on_test": "zipf",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 1.970627806647405e-09,
+        "lambda": 350225588.31990284,
+        "test_bits_per_token": 4.66441001141982,
+        "train_bits_per_token": 4.631364036758803
+      },
+      "test_oov_rate": 0.0,
+      "top_types": [
+        [
+          "mixture",
+          2296
+        ],
+        [
+          "oven",
+          973
+        ],
+        [
+          "milk",
+          407
+        ],
+        [
+          "carrots",
+          391
+        ],
+        [
+          "cheese",
+          391
+        ],
+        [
+          "vanilla",
+          384
+        ],
+        [
+          "flour",
+          383
+        ],
+        [
+          "onions",
+          374
+        ],
+        [
+          "salt",
+          374
+        ],
+        [
+          "olive_oil",
+          372
+        ],
+        [
+          "baking_soda",
+          367
+        ],
+        [
+          "chicken",
+          363
+        ],
+        [
+          "garlic",
+          363
+        ],
+        [
+          "pepper",
+          363
+        ],
+        [
+          "brown_sugar",
+          359
+        ],
+        [
+          "potatoes",
+          358
+        ],
+        [
+          "rice",
+          350
+        ],
+        [
+          "tomatoes",
+          348
+        ],
+        [
+          "eggs",
+          346
+        ],
+        [
+          "sugar",
+          343
+        ],
+        [
+          "cream_cheese",
+          342
+        ],
+        [
+          "butter",
+          327
+        ],
+        [
+          "bowl",
+          171
+        ],
+        [
+          "baking_dish",
+          158
+        ],
+        [
+          "sheet",
+          156
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.6900982630030696,
+        "test_bits_per_token": 4.664406897809287,
+        "train_bits_per_token": 4.63136408293245
+      }
+    },
+    "entity_ref": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.3617565822254969,
+      "empirical_add_half": {
+        "test_bits_per_token": 5.180436473182928
+      },
+      "n_tokens_test": 7742,
+      "n_tokens_train": 31450,
+      "n_types_train": 97,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 1.2220479369739654,
+        "lambda": 0.03154075806597991,
+        "test_bits_per_token": 5.181396598942071,
+        "train_bits_per_token": 5.156802298677752
+      },
+      "test_oov_rate": 0.0002583311805734952,
+      "top_types": [
+        [
+          "e0.0",
+          1904
+        ],
+        [
+          "e1.0",
+          1903
+        ],
+        [
+          "e2.0",
+          1774
+        ],
+        [
+          "e3.0",
+          1632
+        ],
+        [
+          "e0",
+          1600
+        ],
+        [
+          "e1",
+          1548
+        ],
+        [
+          "e4.0",
+          1501
+        ],
+        [
+          "e2",
+          1436
+        ],
+        [
+          "e3",
+          1320
+        ],
+        [
+          "e5.0",
+          1290
+        ],
+        [
+          "e4",
+          1188
+        ],
+        [
+          "e6.0",
+          1113
+        ],
+        [
+          "e5",
+          1029
+        ],
+        [
+          "e1.1",
+          921
+        ],
+        [
+          "e6",
+          891
+        ],
+        [
+          "e7.0",
+          881
+        ],
+        [
+          "e7",
+          731
+        ],
+        [
+          "e8.0",
+          709
+        ],
+        [
+          "e2.1",
+          628
+        ],
+        [
+          "e0.1",
+          618
+        ],
+        [
+          "e8",
+          575
+        ],
+        [
+          "e9.0",
+          552
+        ],
+        [
+          "e9",
+          458
+        ],
+        [
+          "e3.1",
+          418
+        ],
+        [
+          "e10.0",
+          414
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.9151130236402721,
+        "test_bits_per_token": 5.543153181167568,
+        "train_bits_per_token": 5.5410655396522195
+      }
+    },
+    "literal": {
+      "caution": "fewer than 50 types: asymptotic power-law inference is not meaningful; read the full distribution",
+      "delta_bits_per_token_zipf_minus_sexp": 0.04434284853803172,
+      "empirical_add_half": {
+        "test_bits_per_token": 3.627902344182484
+      },
+      "n_tokens_test": 766,
+      "n_tokens_train": 2950,
+      "n_types_train": 13,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 3.083051216961813,
+        "lambda": 0.0005457015519523334,
+        "test_bits_per_token": 3.6809163562969585,
+        "train_bits_per_token": 3.6516333334555178
+      },
+      "test_oov_rate": 0.0,
+      "top_types": [
+        [
+          "3",
+          322
+        ],
+        [
+          "1",
+          309
+        ],
+        [
+          "4",
+          307
+        ],
+        [
+          "400",
+          303
+        ],
+        [
+          "2",
+          295
+        ],
+        [
+          "350",
+          293
+        ],
+        [
+          "425",
+          211
+        ],
+        [
+          "325",
+          196
+        ],
+        [
+          "375",
+          187
+        ],
+        [
+          "45",
+          145
+        ],
+        [
+          "20-25",
+          133
+        ],
+        [
+          "5",
+          125
+        ],
+        [
+          "10",
+          124
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.434835432260939,
+        "test_bits_per_token": 3.72525920483499,
+        "train_bits_per_token": 3.715606044785787
+      }
+    },
+    "relation": {
+      "caution": "fewer than 50 types: asymptotic power-law inference is not meaningful; read the full distribution",
+      "delta_bits_per_token_zipf_minus_sexp": 0.32019924168864045,
+      "empirical_add_half": {
+        "test_bits_per_token": 0.995820058262333
+      },
+      "n_tokens_test": 481,
+      "n_tokens_train": 2000,
+      "n_types_train": 2,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 12.20982009181697,
+        "lambda": 4.151655463566447e-05,
+        "test_bits_per_token": 0.9954608122615932,
+        "train_bits_per_token": 0.9930610464607458
+      },
+      "test_oov_rate": 0.0,
+      "top_types": [
+        [
+          "to",
+          1098
+        ],
+        [
+          "in",
+          902
+        ]
+      ],
+      "zipf": {
+        "alpha": 1.401469981662114,
+        "test_bits_per_token": 1.3156600539502337,
+        "train_bits_per_token": 1.3038043754567137
+      }
+    },
+    "unit": {
+      "caution": "fewer than 50 types: asymptotic power-law inference is not meaningful; read the full distribution",
+      "delta_bits_per_token_zipf_minus_sexp": 0.013309058119602035,
+      "empirical_add_half": {
+        "test_bits_per_token": 2.272324433935437
+      },
+      "n_tokens_test": 766,
+      "n_tokens_train": 2950,
+      "n_types_train": 6,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.649753049302547,
+        "lambda": 0.99219307380421,
+        "test_bits_per_token": 2.3333009777822773,
+        "train_bits_per_token": 2.3456242127933886
+      },
+      "test_oov_rate": 0.0,
+      "top_types": [
+        [
+          "cups",
+          1233
+        ],
+        [
+          "minutes",
+          527
+        ],
+        [
+          "degrees",
+          476
+        ],
+        [
+          "degrees_c",
+          256
+        ],
+        [
+          "degf",
+          233
+        ],
+        [
+          "degrees_f",
+          225
+        ]
+      ],
+      "zipf": {
+        "alpha": 1.1484656410213085,
+        "test_bits_per_token": 2.3466100359018793,
+        "train_bits_per_token": 2.355591075398334
+      }
+    }
+  },
+  "H_Z3_serialized_symbols": {
+    "C0": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.1025024350002175,
+      "empirical_add_half": {
+        "test_bits_per_token": 6.194421902455646
+      },
+      "n_tokens_test": 50878,
+      "n_tokens_train": 210367,
+      "n_types_train": 170,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.4644315311255862,
+        "lambda": 0.5112524298291996,
+        "test_bits_per_token": 6.201355191655236,
+        "train_bits_per_token": 6.19373198997681
+      },
+      "test_oov_rate": 1.9654860647038014e-05,
+      "top_types": [
+        [
+          "b2c",
+          15684
+        ],
+        [
+          "b31",
+          10662
+        ],
+        [
+          "ENT",
+          10083
+        ],
+        [
+          "b20",
+          8485
+        ],
+        [
+          "S",
+          7068
+        ],
+        [
+          "b3a",
+          6458
+        ],
+        [
+          "b52",
+          5944
+        ],
+        [
+          "b65",
+          5367
+        ],
+        [
+          "b69",
+          5354
+        ],
+        [
+          "b74",
+          5184
+        ],
+        [
+          "n1",
+          5028
+        ],
+        [
+          "b34",
+          4780
+        ],
+        [
+          "b0a",
+          4471
+        ],
+        [
+          "b6f",
+          4067
+        ],
+        [
+          "b6e",
+          3998
+        ],
+        [
+          "b32",
+          3890
+        ],
+        [
+          "b33",
+          3522
+        ],
+        [
+          "b61",
+          3364
+        ],
+        [
+          "b44",
+          3206
+        ],
+        [
+          "b3b",
+          2963
+        ],
+        [
+          "b72",
+          2826
+        ],
+        [
+          "b37",
+          2822
+        ],
+        [
+          "b73",
+          2573
+        ],
+        [
+          "b2e",
+          2393
+        ],
+        [
+          "E1",
+          2159
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.8674241896334595,
+        "test_bits_per_token": 6.303857626655454,
+        "train_bits_per_token": 6.3044192996326
+      }
+    },
+    "C1": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.11916044163011463,
+      "empirical_add_half": {
+        "test_bits_per_token": 6.309815334988878
+      },
+      "n_tokens_test": 48166,
+      "n_tokens_train": 198443,
+      "n_types_train": 181,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.5117222767135593,
+        "lambda": 0.3791317423847325,
+        "test_bits_per_token": 6.320174531766999,
+        "train_bits_per_token": 6.3119708391052685
+      },
+      "test_oov_rate": 2.0761533031599053e-05,
+      "top_types": [
+        [
+          "b2c",
+          12674
+        ],
+        [
+          "ENT",
+          10083
+        ],
+        [
+          "b20",
+          7990
+        ],
+        [
+          "b31",
+          7469
+        ],
+        [
+          "S",
+          7068
+        ],
+        [
+          "b34",
+          5369
+        ],
+        [
+          "b65",
+          5174
+        ],
+        [
+          "n1",
+          5028
+        ],
+        [
+          "b74",
+          4975
+        ],
+        [
+          "b69",
+          4908
+        ],
+        [
+          "b3a",
+          4604
+        ],
+        [
+          "b52",
+          4079
+        ],
+        [
+          "b44",
+          3862
+        ],
+        [
+          "b6f",
+          3762
+        ],
+        [
+          "b3b",
+          3663
+        ],
+        [
+          "b6e",
+          3658
+        ],
+        [
+          "b33",
+          3411
+        ],
+        [
+          "b32",
+          3404
+        ],
+        [
+          "SEP=1",
+          3295
+        ],
+        [
+          "+0",
+          3210
+        ],
+        [
+          "b61",
+          2882
+        ],
+        [
+          "b72",
+          2671
+        ],
+        [
+          "b37",
+          2457
+        ],
+        [
+          "b73",
+          2410
+        ],
+        [
+          "E1",
+          2159
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.8478963164853698,
+        "test_bits_per_token": 6.439334973397114,
+        "train_bits_per_token": 6.438856349689265
+      }
+    },
+    "C2": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.11330865481459362,
+      "empirical_add_half": {
+        "test_bits_per_token": 6.451918287337407
+      },
+      "n_tokens_test": 43957,
+      "n_tokens_train": 180731,
+      "n_types_train": 186,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.5055982280863813,
+        "lambda": 0.36577209351771006,
+        "test_bits_per_token": 6.463035980405511,
+        "train_bits_per_token": 6.4527154250665575
+      },
+      "test_oov_rate": 6.824851559478581e-05,
+      "top_types": [
+        [
+          "ENT",
+          10083
+        ],
+        [
+          "b20",
+          7769
+        ],
+        [
+          "b2c",
+          7125
+        ],
+        [
+          "S",
+          7068
+        ],
+        [
+          "b65",
+          5426
+        ],
+        [
+          "ART=3",
+          5257
+        ],
+        [
+          "n1",
+          5028
+        ],
+        [
+          "b74",
+          4832
+        ],
+        [
+          "b69",
+          4657
+        ],
+        [
+          "b31",
+          4064
+        ],
+        [
+          "b6f",
+          3714
+        ],
+        [
+          "b3a",
+          3690
+        ],
+        [
+          "+1",
+          3535
+        ],
+        [
+          "b6e",
+          3509
+        ],
+        [
+          "+0",
+          3389
+        ],
+        [
+          "SEP=1",
+          3295
+        ],
+        [
+          "b52",
+          2920
+        ],
+        [
+          "b32",
+          2605
+        ],
+        [
+          "b72",
+          2569
+        ],
+        [
+          "b73",
+          2346
+        ],
+        [
+          "E1",
+          2159
+        ],
+        [
+          "E0",
+          2056
+        ],
+        [
+          "DEST",
+          2000
+        ],
+        [
+          "E2",
+          1933
+        ],
+        [
+          "+2",
+          1811
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.8164105129411792,
+        "test_bits_per_token": 6.576344635220105,
+        "train_bits_per_token": 6.56973377001226
+      }
+    },
+    "C3": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.09959301288240408,
+      "empirical_add_half": {
+        "test_bits_per_token": 6.486228171876657
+      },
+      "n_tokens_test": 41794,
+      "n_tokens_train": 172784,
+      "n_types_train": 190,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.4754399579980047,
+        "lambda": 0.425678005546692,
+        "test_bits_per_token": 6.498755562659741,
+        "train_bits_per_token": 6.487137414395467
+      },
+      "test_oov_rate": 4.78537589127626e-05,
+      "top_types": [
+        [
+          "ENT",
+          10083
+        ],
+        [
+          "b20",
+          7712
+        ],
+        [
+          "S",
+          7068
+        ],
+        [
+          "b2c",
+          6029
+        ],
+        [
+          "ART=3",
+          5257
+        ],
+        [
+          "n1",
+          5028
+        ],
+        [
+          "b74",
+          4824
+        ],
+        [
+          "b65",
+          4638
+        ],
+        [
+          "b31",
+          3887
+        ],
+        [
+          "b69",
+          3874
+        ],
+        [
+          "+0",
+          3751
+        ],
+        [
+          "SEP=1",
+          3295
+        ],
+        [
+          "b3a",
+          3161
+        ],
+        [
+          "b6f",
+          3134
+        ],
+        [
+          "+1",
+          2959
+        ],
+        [
+          "b6e",
+          2929
+        ],
+        [
+          "b72",
+          2569
+        ],
+        [
+          "b32",
+          2505
+        ],
+        [
+          "b52",
+          2348
+        ],
+        [
+          "b73",
+          2335
+        ],
+        [
+          "E1",
+          2159
+        ],
+        [
+          "E0",
+          2056
+        ],
+        [
+          "+2",
+          2010
+        ],
+        [
+          "DEST",
+          2000
+        ],
+        [
+          "E2",
+          1933
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.8171515066435657,
+        "test_bits_per_token": 6.598348575542145,
+        "train_bits_per_token": 6.592579574170564
+      }
+    },
+    "C4": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.08786645259410619,
+      "empirical_add_half": {
+        "test_bits_per_token": 6.5591234474247155
+      },
+      "n_tokens_test": 40466,
+      "n_tokens_train": 167904,
+      "n_types_train": 196,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.45509991208799283,
+        "lambda": 0.4618501589239193,
+        "test_bits_per_token": 6.576546090143188,
+        "train_bits_per_token": 6.562661005510883
+      },
+      "test_oov_rate": 7.413631196560076e-05,
+      "top_types": [
+        [
+          "ENT",
+          10083
+        ],
+        [
+          "b20",
+          7303
+        ],
+        [
+          "S",
+          7068
+        ],
+        [
+          "ART=3",
+          5257
+        ],
+        [
+          "b2c",
+          5249
+        ],
+        [
+          "n1",
+          5028
+        ],
+        [
+          "b65",
+          4634
+        ],
+        [
+          "b74",
+          3639
+        ],
+        [
+          "b31",
+          3473
+        ],
+        [
+          "+0",
+          3328
+        ],
+        [
+          "SEP=1",
+          3295
+        ],
+        [
+          "b6f",
+          3076
+        ],
+        [
+          "b6e",
+          2931
+        ],
+        [
+          "b3a",
+          2826
+        ],
+        [
+          "b69",
+          2661
+        ],
+        [
+          "+2",
+          2624
+        ],
+        [
+          "b73",
+          2336
+        ],
+        [
+          "b72",
+          2196
+        ],
+        [
+          "E1",
+          2159
+        ],
+        [
+          "E0",
+          2056
+        ],
+        [
+          "DEST",
+          2000
+        ],
+        [
+          "+1",
+          1977
+        ],
+        [
+          "E2",
+          1933
+        ],
+        [
+          "b52",
+          1896
+        ],
+        [
+          "b61",
+          1779
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.8084531321728853,
+        "test_bits_per_token": 6.664412542737294,
+        "train_bits_per_token": 6.656371085959629
+      }
+    },
+    "C5": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.10813696180040999,
+      "empirical_add_half": {
+        "test_bits_per_token": 6.587832637446479
+      },
+      "n_tokens_test": 40846,
+      "n_tokens_train": 169134,
+      "n_types_train": 216,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.4893755082027082,
+        "lambda": 0.38535403164107457,
+        "test_bits_per_token": 6.612478327348649,
+        "train_bits_per_token": 6.593240374373116
+      },
+      "test_oov_rate": 9.792880575821377e-05,
+      "top_types": [
+        [
+          "ENT",
+          10083
+        ],
+        [
+          "b20",
+          7303
+        ],
+        [
+          "S",
+          7068
+        ],
+        [
+          "ART=3",
+          5257
+        ],
+        [
+          "b2c",
+          5249
+        ],
+        [
+          "n1",
+          5028
+        ],
+        [
+          "b65",
+          4634
+        ],
+        [
+          "b74",
+          3639
+        ],
+        [
+          "b31",
+          3473
+        ],
+        [
+          "+0",
+          3328
+        ],
+        [
+          "SEP=1",
+          3295
+        ],
+        [
+          "b6f",
+          3076
+        ],
+        [
+          "b6e",
+          2931
+        ],
+        [
+          "b3a",
+          2826
+        ],
+        [
+          "b69",
+          2661
+        ],
+        [
+          "+2",
+          2624
+        ],
+        [
+          "b73",
+          2336
+        ],
+        [
+          "E1",
+          2206
+        ],
+        [
+          "b72",
+          2196
+        ],
+        [
+          "E0",
+          2103
+        ],
+        [
+          "DEST",
+          2000
+        ],
+        [
+          "E2",
+          1980
+        ],
+        [
+          "+1",
+          1977
+        ],
+        [
+          "b52",
+          1896
+        ],
+        [
+          "b61",
+          1779
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.8279947337674589,
+        "test_bits_per_token": 6.720615289149059,
+        "train_bits_per_token": 6.7086534051052436
+      }
+    },
+    "C6": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.08786645259410619,
+      "empirical_add_half": {
+        "test_bits_per_token": 6.5591234474247155
+      },
+      "n_tokens_test": 40466,
+      "n_tokens_train": 167904,
+      "n_types_train": 196,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.45509991208799283,
+        "lambda": 0.4618501589239193,
+        "test_bits_per_token": 6.576546090143188,
+        "train_bits_per_token": 6.562661005510883
+      },
+      "test_oov_rate": 7.413631196560076e-05,
+      "top_types": [
+        [
+          "ENT",
+          10083
+        ],
+        [
+          "b20",
+          7303
+        ],
+        [
+          "S",
+          7068
+        ],
+        [
+          "ART=2",
+          5257
+        ],
+        [
+          "b2c",
+          5249
+        ],
+        [
+          "n1",
+          5028
+        ],
+        [
+          "b65",
+          4634
+        ],
+        [
+          "b74",
+          3639
+        ],
+        [
+          "b31",
+          3473
+        ],
+        [
+          "+0",
+          3328
+        ],
+        [
+          "SEP=6",
+          3295
+        ],
+        [
+          "b6f",
+          3076
+        ],
+        [
+          "b6e",
+          2931
+        ],
+        [
+          "b3a",
+          2826
+        ],
+        [
+          "b69",
+          2661
+        ],
+        [
+          "+2",
+          2624
+        ],
+        [
+          "b73",
+          2336
+        ],
+        [
+          "b72",
+          2196
+        ],
+        [
+          "E1",
+          2159
+        ],
+        [
+          "E0",
+          2056
+        ],
+        [
+          "DEST",
+          2000
+        ],
+        [
+          "+1",
+          1977
+        ],
+        [
+          "E2",
+          1933
+        ],
+        [
+          "b52",
+          1896
+        ],
+        [
+          "b61",
+          1779
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.8084531321728853,
+        "test_bits_per_token": 6.664412542737294,
+        "train_bits_per_token": 6.656371085959629
+      }
+    },
+    "S0": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.05512434166797231,
+      "empirical_add_half": {
+        "test_bits_per_token": 6.101748174610685
+      },
+      "n_tokens_test": 65177,
+      "n_tokens_train": 268491,
+      "n_types_train": 244,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.2685904867167546,
+        "lambda": 1.778245574738071,
+        "test_bits_per_token": 6.142504396431289,
+        "train_bits_per_token": 6.14176738562509
+      },
+      "test_oov_rate": 4.6028506988661645e-05,
+      "top_types": [
+        [
+          "<NL>",
+          37959
+        ],
+        [
+          "b2c",
+          15684
+        ],
+        [
+          "ENT",
+          11891
+        ],
+        [
+          "b31",
+          10662
+        ],
+        [
+          "b20",
+          8485
+        ],
+        [
+          "S",
+          7068
+        ],
+        [
+          "b3a",
+          6458
+        ],
+        [
+          "b52",
+          5944
+        ],
+        [
+          "OUT",
+          5863
+        ],
+        [
+          "b65",
+          5367
+        ],
+        [
+          "b69",
+          5354
+        ],
+        [
+          "b74",
+          5184
+        ],
+        [
+          "b34",
+          4780
+        ],
+        [
+          "b0a",
+          4471
+        ],
+        [
+          "b6f",
+          4067
+        ],
+        [
+          "b6e",
+          3998
+        ],
+        [
+          "b32",
+          3890
+        ],
+        [
+          "b33",
+          3522
+        ],
+        [
+          "b61",
+          3364
+        ],
+        [
+          "b44",
+          3206
+        ],
+        [
+          "b3b",
+          2963
+        ],
+        [
+          "b72",
+          2826
+        ],
+        [
+          "b37",
+          2822
+        ],
+        [
+          "b73",
+          2573
+        ],
+        [
+          "b2e",
+          2393
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.9944351526669701,
+        "test_bits_per_token": 6.197628738099262,
+        "train_bits_per_token": 6.203820057463448
+      }
+    },
+    "S1a": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.04908567886348436,
+      "empirical_add_half": {
+        "test_bits_per_token": 5.893192381494429
+      },
+      "n_tokens_test": 56604,
+      "n_tokens_train": 233587,
+      "n_types_train": 166,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.2933101953365331,
+        "lambda": 1.5352647679207518,
+        "test_bits_per_token": 5.9103585556712215,
+        "train_bits_per_token": 5.912150888578191
+      },
+      "test_oov_rate": 1.7666596000282665e-05,
+      "top_types": [
+        [
+          "<NL>",
+          30288
+        ],
+        [
+          "b2c",
+          15684
+        ],
+        [
+          "b31",
+          10662
+        ],
+        [
+          "ENT",
+          10083
+        ],
+        [
+          "b20",
+          8485
+        ],
+        [
+          "S",
+          7068
+        ],
+        [
+          "b3a",
+          6458
+        ],
+        [
+          "b52",
+          5944
+        ],
+        [
+          "b65",
+          5367
+        ],
+        [
+          "b69",
+          5354
+        ],
+        [
+          "b74",
+          5184
+        ],
+        [
+          "b34",
+          4780
+        ],
+        [
+          "b0a",
+          4471
+        ],
+        [
+          "b6f",
+          4067
+        ],
+        [
+          "b6e",
+          3998
+        ],
+        [
+          "b32",
+          3890
+        ],
+        [
+          "b33",
+          3522
+        ],
+        [
+          "b61",
+          3364
+        ],
+        [
+          "b44",
+          3206
+        ],
+        [
+          "b3b",
+          2963
+        ],
+        [
+          "b72",
+          2826
+        ],
+        [
+          "b37",
+          2822
+        ],
+        [
+          "b73",
+          2573
+        ],
+        [
+          "b2e",
+          2393
+        ],
+        [
+          "e1",
+          2159
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.9577926608251327,
+        "test_bits_per_token": 5.959444234534706,
+        "train_bits_per_token": 5.968046372807656
+      }
+    },
+    "S2k16": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.1025024350002175,
+      "empirical_add_half": {
+        "test_bits_per_token": 6.194421902455646
+      },
+      "n_tokens_test": 50878,
+      "n_tokens_train": 210367,
+      "n_types_train": 170,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.4644315311255862,
+        "lambda": 0.5112524298291996,
+        "test_bits_per_token": 6.201355191655236,
+        "train_bits_per_token": 6.19373198997681
+      },
+      "test_oov_rate": 1.9654860647038014e-05,
+      "top_types": [
+        [
+          "b2c",
+          15684
+        ],
+        [
+          "b31",
+          10662
+        ],
+        [
+          "ENT",
+          10083
+        ],
+        [
+          "b20",
+          8485
+        ],
+        [
+          "S",
+          7068
+        ],
+        [
+          "b3a",
+          6458
+        ],
+        [
+          "b52",
+          5944
+        ],
+        [
+          "b65",
+          5367
+        ],
+        [
+          "b69",
+          5354
+        ],
+        [
+          "b74",
+          5184
+        ],
+        [
+          "n1",
+          5028
+        ],
+        [
+          "b34",
+          4780
+        ],
+        [
+          "b0a",
+          4471
+        ],
+        [
+          "b6f",
+          4067
+        ],
+        [
+          "b6e",
+          3998
+        ],
+        [
+          "b32",
+          3890
+        ],
+        [
+          "b33",
+          3522
+        ],
+        [
+          "b61",
+          3364
+        ],
+        [
+          "b44",
+          3206
+        ],
+        [
+          "b3b",
+          2963
+        ],
+        [
+          "b72",
+          2826
+        ],
+        [
+          "b37",
+          2822
+        ],
+        [
+          "b73",
+          2573
+        ],
+        [
+          "b2e",
+          2393
+        ],
+        [
+          "E1",
+          2159
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.8674241896334595,
+        "test_bits_per_token": 6.303857626655454,
+        "train_bits_per_token": 6.3044192996326
+      }
+    },
+    "S2k4": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.13324135427254902,
+      "empirical_add_half": {
+        "test_bits_per_token": 6.30492880484034
+      },
+      "n_tokens_test": 55170,
+      "n_tokens_train": 228113,
+      "n_types_train": 192,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.5304258810299787,
+        "lambda": 0.34836448369618433,
+        "test_bits_per_token": 6.315559581288812,
+        "train_bits_per_token": 6.307085860271376
+      },
+      "test_oov_rate": 1.81257930034439e-05,
+      "top_types": [
+        [
+          "b2c",
+          15684
+        ],
+        [
+          "b31",
+          10662
+        ],
+        [
+          "ENT",
+          10083
+        ],
+        [
+          "b20",
+          8485
+        ],
+        [
+          "S",
+          7068
+        ],
+        [
+          "b3a",
+          6458
+        ],
+        [
+          "b52",
+          5944
+        ],
+        [
+          "V0",
+          5598
+        ],
+        [
+          "b65",
+          5367
+        ],
+        [
+          "b69",
+          5354
+        ],
+        [
+          "b74",
+          5184
+        ],
+        [
+          "n1",
+          5034
+        ],
+        [
+          "b34",
+          4780
+        ],
+        [
+          "b0a",
+          4471
+        ],
+        [
+          "b6f",
+          4067
+        ],
+        [
+          "b6e",
+          3998
+        ],
+        [
+          "b32",
+          3890
+        ],
+        [
+          "b33",
+          3522
+        ],
+        [
+          "b61",
+          3364
+        ],
+        [
+          "E1",
+          3267
+        ],
+        [
+          "b44",
+          3206
+        ],
+        [
+          "E0",
+          3170
+        ],
+        [
+          "E2",
+          3007
+        ],
+        [
+          "b3b",
+          2963
+        ],
+        [
+          "b72",
+          2826
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.8651677834634987,
+        "test_bits_per_token": 6.448800935561361,
+        "train_bits_per_token": 6.449158245450361
+      }
+    },
+    "S2k8": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.12400148971204583,
+      "empirical_add_half": {
+        "test_bits_per_token": 6.222433938985573
+      },
+      "n_tokens_test": 51258,
+      "n_tokens_train": 211597,
+      "n_types_train": 190,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.49059798323652526,
+        "lambda": 0.44790624520640426,
+        "test_bits_per_token": 6.235617747095397,
+        "train_bits_per_token": 6.222565659800244
+      },
+      "test_oov_rate": 3.9018299582504195e-05,
+      "top_types": [
+        [
+          "b2c",
+          15684
+        ],
+        [
+          "b31",
+          10662
+        ],
+        [
+          "ENT",
+          10083
+        ],
+        [
+          "b20",
+          8485
+        ],
+        [
+          "S",
+          7068
+        ],
+        [
+          "b3a",
+          6458
+        ],
+        [
+          "b52",
+          5944
+        ],
+        [
+          "b65",
+          5367
+        ],
+        [
+          "b69",
+          5354
+        ],
+        [
+          "b74",
+          5184
+        ],
+        [
+          "n1",
+          5028
+        ],
+        [
+          "b34",
+          4780
+        ],
+        [
+          "b0a",
+          4471
+        ],
+        [
+          "b6f",
+          4067
+        ],
+        [
+          "b6e",
+          3998
+        ],
+        [
+          "b32",
+          3890
+        ],
+        [
+          "b33",
+          3522
+        ],
+        [
+          "b61",
+          3364
+        ],
+        [
+          "b44",
+          3206
+        ],
+        [
+          "b3b",
+          2963
+        ],
+        [
+          "b72",
+          2826
+        ],
+        [
+          "b37",
+          2822
+        ],
+        [
+          "b73",
+          2573
+        ],
+        [
+          "b2e",
+          2393
+        ],
+        [
+          "E1",
+          2206
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.8888186352301675,
+        "test_bits_per_token": 6.3596192368074425,
+        "train_bits_per_token": 6.356460338555656
+      }
+    },
+    "S3": {
+      "delta_bits_per_token_zipf_minus_sexp": 0.1335282675274021,
+      "empirical_add_half": {
+        "test_bits_per_token": 6.2512054851895655
+      },
+      "n_tokens_test": 62402,
+      "n_tokens_train": 257159,
+      "n_types_train": 179,
+      "preferred_parametric_on_test": "stretched_exp",
+      "status": "ok",
+      "stretched_exp": {
+        "beta": 0.5440293971172203,
+        "lambda": 0.32842378553934626,
+        "test_bits_per_token": 6.26124310428209,
+        "train_bits_per_token": 6.257012312880199
+      },
+      "test_oov_rate": 1.6025127399762828e-05,
+      "top_types": [
+        [
+          "b2c",
+          15684
+        ],
+        [
+          "V0",
+          14569
+        ],
+        [
+          "ENT",
+          11891
+        ],
+        [
+          "b31",
+          10662
+        ],
+        [
+          "b20",
+          8485
+        ],
+        [
+          "S",
+          7068
+        ],
+        [
+          "b3a",
+          6458
+        ],
+        [
+          "b52",
+          5944
+        ],
+        [
+          "OUT",
+          5863
+        ],
+        [
+          "b65",
+          5367
+        ],
+        [
+          "b69",
+          5354
+        ],
+        [
+          "b74",
+          5184
+        ],
+        [
+          "n1",
+          5028
+        ],
+        [
+          "b34",
+          4780
+        ],
+        [
+          "E1",
+          4616
+        ],
+        [
+          "b0a",
+          4471
+        ],
+        [
+          "E0",
+          4277
+        ],
+        [
+          "V1",
+          4087
+        ],
+        [
+          "b6f",
+          4067
+        ],
+        [
+          "E2",
+          4030
+        ],
+        [
+          "b6e",
+          3998
+        ],
+        [
+          "b32",
+          3890
+        ],
+        [
+          "b33",
+          3522
+        ],
+        [
+          "E3",
+          3453
+        ],
+        [
+          "b61",
+          3364
+        ]
+      ],
+      "zipf": {
+        "alpha": 0.8567235387201707,
+        "test_bits_per_token": 6.394771371809492,
+        "train_bits_per_token": 6.397616830974942
+      }
+    }
+  },
+  "conditional_entropy_concept_given_action": {
+    "heldout_cross_entropy_bits": {
+      "H(Y)": 4.560048596399715,
+      "H(Y|C)": 4.010255209835128,
+      "gain": 0.5497933865645868
+    },
+    "n_contexts": 18,
+    "n_test": 2900,
+    "n_train": 11891,
+    "note": "plug-in values are biased low for large vocabularies; held-out cross-entropies are upper bounds",
+    "plugin_mm_bits": {
+      "H(Y)": 4.543230445372837,
+      "H(Y|C)": 3.9855694355057825,
+      "I(Y;C)": 0.5576610098670542
+    },
+    "status": "ok"
+  },
+  "notes": [
+    "H_Z1/H_Z2 are computed on the canonical (explicit) instruction list and do not depend on the arm",
+    "entity_ref operands are document-local IDs; their rank distribution reflects numbering, not language",
+    "compare held-out bits/token across models rather than reading a fitted exponent alone"
+  ]
+}

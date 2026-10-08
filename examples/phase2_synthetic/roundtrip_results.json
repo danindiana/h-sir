@@ -1,0 +1,94 @@
+{
+  "all_exact": true,
+  "by_arm": {
+    "C0": {
+      "cset": "C0",
+      "exact": 2000,
+      "failed": 0,
+      "smode": "S1"
+    },
+    "C1": {
+      "cset": "C1",
+      "exact": 2000,
+      "failed": 0,
+      "smode": "S1"
+    },
+    "C2": {
+      "cset": "C2",
+      "exact": 2000,
+      "failed": 0,
+      "smode": "S1"
+    },
+    "C3": {
+      "cset": "C3",
+      "exact": 2000,
+      "failed": 0,
+      "smode": "S1"
+    },
+    "C4": {
+      "cset": "C4",
+      "exact": 2000,
+      "failed": 0,
+      "smode": "S1"
+    },
+    "C5": {
+      "cset": "C4",
+      "exact": 2000,
+      "failed": 0,
+      "smode": "S2k8"
+    },
+    "C6": {
+      "cset": "C4P",
+      "exact": 2000,
+      "failed": 0,
+      "smode": "S1"
+    },
+    "S0": {
+      "cset": "C0",
+      "exact": 2000,
+      "failed": 0,
+      "smode": "S0"
+    },
+    "S1a": {
+      "cset": "C0",
+      "exact": 2000,
+      "failed": 0,
+      "smode": "S1a"
+    },
+    "S2k16": {
+      "cset": "C0",
+      "exact": 2000,
+      "failed": 0,
+      "smode": "S2k16"
+    },
+    "S2k4": {
+      "cset": "C0",
+      "exact": 2000,
+      "failed": 0,
+      "smode": "S2k4"
+    },
+    "S2k8": {
+      "cset": "C0",
+      "exact": 2000,
+      "failed": 0,
+      "smode": "S2k8"
+    },
+    "S3": {
+      "cset": "C0",
+      "exact": 2000,
+      "failed": 0,
+      "smode": "S3"
+    }
+  },
+  "checks": [
+    "length",
+    "crc32",
+    "byte equality",
+    "state replay validation",
+    "canonical re-encoding",
+    "surface choice range/default checks"
+  ],
+  "documents": 2000,
+  "mode_A_fallback": 1,
+  "mode_B_predictive": 1999
+}
