@@ -1,0 +1,48 @@
+digraph entity_state {
+    graph [bgcolor="#0d1117", rankdir=TB, fontname="Helvetica",
+           fontcolor="#e6edf3", labelloc="t", fontsize=20, nodesep=0.4, ranksep=0.5,
+           label="Versioned entity state (state.py): one transition function shared by encoder and every decoder\n "];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d",
+           style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18",
+           fillcolor="#161b22", fontsize=12];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7",
+           penwidth=1.6, arrowsize=0.9, fontsize=10];
+
+    ref [label="ref = e<id>.<version>\nidentity e3, state version 2 → e3.2", color="#3fb950", fillcolor="#1f2937"];
+
+    subgraph cluster_rules {
+        label="state.transition(op, args, dest)  →  derived lines (composite ENT, OUT)";
+        style="rounded"; color="#58a6ff"; fontcolor="#58a6ff"; fontsize=13;
+        comb [label="combining, ≥2 args\nMIX · WHISK\n→ new composite 'mixture' v0\nbecomes focus", color="#58a6ff", fillcolor="#13294d"];
+        absb [label="absorbing, with DEST\nADD · POUR · PLACE · SPREAD · SPRINKLE\n→ destination v+1\nbecomes composite + focus", color="#58a6ff", fillcolor="#13294d"];
+        tran [label="transforming\nCHOP … WAIT (+ MIX/WHISK with 1 arg)\n→ each argument v+1", color="#58a6ff", fillcolor="#13294d"];
+        obsv [label="observing\nPREHEAT · SERVE\n→ no state change", color="#58a6ff", fillcolor="#13294d"];
+    }
+
+    subgraph cluster_ana {
+        label="reference resolution (parser)"; style="rounded"; color="#d29922"; fontcolor="#d29922"; fontsize=13;
+        pron [label="pronoun: it · them · everything · all\n→ focus, else last-touched entity", color="#d29922", fillcolor="#1f2937"];
+        lexa [label="lexical 'the mixture'\n→ focus only, else new entity\n(rules 0.3.2 fix)", color="#d29922", fillcolor="#1f2937"];
+        same [label="repeated lexeme\n→ same identity", color="#d29922", fillcolor="#1f2937"];
+    }
+
+    subgraph cluster_users {
+        label="callers of the same function"; style="rounded,dashed"; color="#bc8cff"; fontcolor="#bc8cff"; fontsize=13;
+        p  [label="parser.py\nemits derived lines", color="#bc8cff"];
+        dx [label="explicit decode (S0, S3)\nreplay must equal stored OUT/ENT\nelse ValueError", color="#bc8cff"];
+        di [label="implicit decode (S1, S1a)\nregenerates versions + OUT", color="#bc8cff"];
+        dc [label="checkpoint decode (S2k*)\nCK snapshot must equal replay\nelse 'checkpoint mismatch'", color="#bc8cff"];
+    }
+
+    unsup [label="unsupported sentence (U)\nstate untouched", color="#f85149"];
+
+    hub [label="state.transition()\nsingle implementation", color="#58a6ff", fillcolor="#0d3a6b", penwidth=3];
+    pron -> ref [color="#d29922"]; lexa -> ref [color="#d29922"]; same -> ref [color="#d29922"];
+    ref -> hub;
+    hub -> comb; hub -> absb; hub -> tran; hub -> obsv;
+    hub -> p  [color="#bc8cff", style=dashed, label="same code"];
+    hub -> dx [color="#bc8cff", style=dashed];
+    hub -> di [color="#bc8cff", style=dashed];
+    hub -> dc [color="#bc8cff", style=dashed];
+    unsup -> ref [style=dotted, color="#f85149", label="no effect"];
+}

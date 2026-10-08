@@ -1,0 +1,46 @@
+digraph phase2_harness {
+    graph [bgcolor="#0d1117", rankdir=LR, fontname="Helvetica",
+           fontcolor="#e6edf3", labelloc="t", fontsize=20, nodesep=0.35, ranksep=0.6,
+           label="Phase II harness (phase2.py): representation economics before any model training\n "];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d",
+           style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18",
+           fillcolor="#161b22", fontsize=12];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7",
+           penwidth=1.6, arrowsize=0.9, fontsize=10];
+
+    subgraph cluster_in {
+        label="inputs"; style="rounded"; color="#3fb950"; fontcolor="#3fb950"; fontsize=13;
+        csv   [label="RecipeNLG CSV / JSONL\n'directions' field only\n(title, ingredients, NER excluded)", color="#3fb950", fillcolor="#1f2937"];
+        synth [label="--synthetic N\n(unit tests; forces\nPENDING_REAL_DATA)", color="#8b949e"];
+        pre   [label="spec/prereg.json\nthresholds · 13 arms · orders\nSHA-256 → manifest", color="#bc8cff"];
+        frz   [label="FREEZE.json\nfreeze.py --verify", color="#bc8cff"];
+    }
+
+    dd    [label="dedupe\nexact (normalized) +\nMinHash-LSH, Jaccard ≥ 0.8", color="#39c5cf", fillcolor="#0d2e2e"];
+    split [label="document-level split\nseeded hash, 20% test", color="#39c5cf", fillcolor="#0d2e2e"];
+    enc   [label="encode every doc in\n13 arms (smode × cset)\none parse, shared", color="#58a6ff", fillcolor="#13294d"];
+    rt    [label="round trip every arm\nlength · CRC · bytes ·\nreplay · canonical", color="#58a6ff", fillcolor="#13294d"];
+
+    subgraph cluster_code {
+        label="matched coding (same model class, order, train split per arm)"; style="rounded"; color="#58a6ff"; fontcolor="#58a6ff"; fontsize=13;
+        byte [label="byte family\nWitten–Bell order k", color="#58a6ff", fillcolor="#0d3a6b"];
+        sym  [label="symbol family\nmodel-facing symbols\nunseen = ESC + 8 bits/char", color="#58a6ff", fillcolor="#0d3a6b"];
+        xz   [label="lzma xz -9e\n(sensitivity only)", color="#8b949e"];
+        sweep [label="order sweep k = 0…6\narms S0 C0 C4 C5\n(sensitivity only)", color="#8b949e"];
+    }
+
+    acct  [label="L(S) + L(C|S) + L(R|S,C)\nvs L(X); γ, ρ_R\n+ L_shared (MDL, amortized)", color="#d29922", fillcolor="#1f2937"];
+    boot  [label="paired document bootstrap\n2000 resamples, 95% CI\nper arm and per contrast", color="#d29922", fillcolor="#1f2937"];
+    dec   [label="feasibility_decision.json\nGO · REVISE · STOP\nINVALID · PENDING_REAL_DATA", color="#f0883e"];
+    out   [label="11-file report + order_sweep.png\nmanifest · audit · coverage · round trip\ncoding · residual · rank-frequency\nbootstrap · shared costs · failures · decision", color="#d29922", fillcolor="#1f2937"];
+
+    csv -> dd; synth -> dd [style=dashed];
+    dd -> split -> enc -> rt;
+    rt -> byte; rt -> sym; rt -> xz [style=dashed]; rt -> sweep [style=dashed];
+    byte -> acct; sym -> acct;
+    acct -> boot -> dec -> out;
+    pre -> enc [style=dashed, color="#bc8cff"];
+    pre -> dec [style=dashed, color="#bc8cff"];
+    frz -> pre [style=dashed, color="#bc8cff", label="pins"];
+    rt -> dec [label="any failure → INVALID", color="#f85149", style=dashed];
+}

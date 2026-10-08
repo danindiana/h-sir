@@ -1,0 +1,58 @@
+digraph codec_pipeline {
+    graph [bgcolor="#0d1117", rankdir=LR, fontname="Helvetica",
+           fontcolor="#e6edf3", labelloc="t", fontsize=20, nodesep=0.35, ranksep=0.55,
+           label="H-SIR codec: E(x) = (S, C, R) and D(E(x)) = x for every byte string\n "];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d",
+           style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18",
+           fillcolor="#161b22", fontsize=12];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7",
+           penwidth=1.6, arrowsize=0.9, fontsize=10];
+
+    x [label="x\nraw source bytes", color="#3fb950", fillcolor="#1f2937"];
+
+    subgraph cluster_enc {
+        label="encoder"; style="rounded"; color="#58a6ff"; fontcolor="#58a6ff"; fontsize=14;
+        utf8   [label="strict UTF-8?", shape=diamond, style="filled", margin="0.05,0.05"];
+        parse  [label="parser.py\nrule-based, 'directions' only\nversioned entity state", color="#58a6ff", fillcolor="#13294d"];
+        anysup [label="any supported\nsentence?", shape=diamond, style="filled", margin="0.05,0.05"];
+        instr  [label="canonical\ninstruction list", color="#58a6ff", fillcolor="#0d3a6b"];
+        sser   [label="serial.encode(smode)\nS0 S3 S1 S1a S2k*", color="#58a6ff", fillcolor="#13294d"];
+        csel   [label="surface.encode(cset)\nnon-default choices only", color="#bc8cff", fillcolor="#161b22"];
+        G      [label="G(S, C)\nsurface.render", color="#58a6ff", fillcolor="#13294d"];
+        diff   [label="residual.diff(ŷ, x)\nbyte edit script", color="#f0883e"];
+        S [label="S\nsemantic stream", color="#58a6ff", fillcolor="#0d3a6b"];
+        C [label="C\nsurface choices", color="#bc8cff", fillcolor="#1f2937"];
+        R [label="R\nresidual", color="#f0883e", fillcolor="#161b22"];
+    }
+
+    modeA [label="Mode A fallback\nS = C = ∅, R = x", color="#f85149"];
+    pack  [label="codec.pack\ncontainer v3 + CRC32", color="#39c5cf", fillcolor="#0d2e2e"];
+
+    subgraph cluster_dec {
+        label="decoder"; style="rounded"; color="#3fb950"; fontcolor="#3fb950"; fontsize=14;
+        dser  [label="serial.decode\nstate replay +\ncanonical re-encode check", color="#3fb950", fillcolor="#1f2937"];
+        dreal [label="surface.realize(cset, C)\nŷ = G(S, C)", color="#3fb950", fillcolor="#1f2937"];
+        apply [label="residual.apply(ŷ, R)", color="#3fb950", fillcolor="#1f2937"];
+        check [label="length + CRC32\nmust match", color="#3fb950", fillcolor="#1f2937"];
+    }
+    xout [label="x\n(byte-exact)", color="#3fb950", fillcolor="#1f2937"];
+
+    x -> utf8;
+    utf8 -> parse [label="yes"];
+    utf8 -> modeA [label="no", color="#f85149", constraint=false];
+    parse -> anysup;
+    anysup -> instr [label="yes"];
+    anysup -> modeA [label="no", color="#f85149"];
+    instr -> sser -> S;
+    instr -> csel [color="#bc8cff"];
+    parse -> csel [label="observed surface", style=dashed, color="#bc8cff", constraint=false];
+    csel -> C [color="#bc8cff"];
+    S -> G; C -> G [color="#bc8cff"];
+    G -> diff [label="ŷ"];
+    x -> diff [style=dashed, color="#3fb950", constraint=false, label="x"];
+    diff -> R [color="#f0883e"];
+    S -> pack; C -> pack [color="#bc8cff"]; R -> pack [color="#f0883e"];
+    modeA -> pack [color="#f85149"];
+    pack -> dser [color="#39c5cf"];
+    dser -> dreal -> apply -> check -> xout [color="#3fb950"];
+}

@@ -1,0 +1,35 @@
+digraph roadmap {
+    graph [bgcolor="#0d1117", rankdir=LR, fontname="Helvetica",
+           fontcolor="#e6edf3", labelloc="t", fontsize=20, nodesep=0.4, ranksep=0.55,
+           label="H-SIR research path: done (solid) · pending gate (orange) · planned, NOT run (dashed)\n "];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d",
+           style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18",
+           fillcolor="#161b22", fontsize=12];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7",
+           penwidth=1.6, arrowsize=0.9, fontsize=10];
+
+    subgraph cluster_done {
+        label="implemented and tested (synthetic evidence only)"; style="rounded"; color="#3fb950"; fontcolor="#3fb950"; fontsize=13;
+        v01 [label="v0.1\narray-IR proposal\nnon-Zipf hypothesis", color="#3fb950", fillcolor="#1f2937"];
+        v02 [label="v0.2–0.3\nfeasibility before training\nreal data · whole-corpus\nmatched coders", color="#3fb950", fillcolor="#1f2937"];
+        v031 [label="v0.3.1\ncodec + harness\nS0 γ ≈ 1.9–2.7", color="#3fb950", fillcolor="#1f2937"];
+        v032 [label="v0.3.2\nstate modes S0–S3\nbest S1 γ 1.60", color="#3fb950", fillcolor="#1f2937"];
+        v033 [label="v0.3.3 (frozen)\nsurface layer C0–C6\nC4 γ 1.30 · order sweep\ndiagnostic REVISE", color="#3fb950", fillcolor="#1f2937"];
+    }
+
+    gate [label="real-data Phase II gate\n20k RecipeNLG recipes\nPENDING", color="#f0883e", penwidth=3];
+
+    subgraph cluster_plan {
+        label="planned, NOT run (spec/phase3_prediction.md + clarifications)"; style="rounded,dashed"; color="#bc8cff"; fontcolor="#bc8cff"; fontsize=13;
+        comp  [label="compression track\nrequires GO", color="#bc8cff", style="filled,rounded,dashed"];
+        pivot [label="documented pivot\nif REVISE / STOP", color="#bc8cff", style="filled,rounded,dashed"];
+        ib    [label="inductive-bias track", color="#bc8cff", style="filled,rounded,dashed"];
+        hp1   [label="H-P1 capacity substitution\n{2M, 8M, 30M} × {128, 512} ctx\nBPE · nonsemantic control · C0 · C4\nmatched source documents", color="#bc8cff", style="filled,rounded,dashed"];
+    }
+
+    v01 -> v02 -> v031 -> v032 -> v033 -> gate [color="#3fb950"];
+    gate -> comp [label="GO", style=dashed, color="#3fb950"];
+    gate -> pivot [label="REVISE / STOP", style=dashed, color="#d29922"];
+    pivot -> ib [style=dashed];
+    comp -> hp1 [style=dashed]; ib -> hp1 [style=dashed];
+}

@@ -1,0 +1,35 @@
+digraph serialization_modes {
+    graph [bgcolor="#0d1117", rankdir=LR, fontname="Helvetica",
+           fontcolor="#e6edf3", labelloc="t", fontsize=20, nodesep=0.45, ranksep=1.1,
+           label="Serialization modes (serial.py): spelling × state; all decode to the same canonical list\nedge labels: Δγ, symbol coder, order 3, SYNTHETIC corpus (examples/phase2_synthetic) — not real-data evidence\n "];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d",
+           style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18",
+           fillcolor="#161b22", fontsize=12];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7",
+           penwidth=1.6, arrowsize=0.9, fontsize=10];
+
+    subgraph cluster_explicit {
+        label="explicit state\nversions, composite ENT, OUT serialized"; style="rounded"; color="#f0883e"; fontcolor="#f0883e"; fontsize=12;
+        S0 [label="S0  ascii\nγ 1.91\n'MIX e0.0 e1.0' / 'OUT e2.0'", color="#f0883e"];
+        S3 [label="S3  compact\nγ 1.79\nopcode bytes + varints", color="#f0883e"];
+    }
+    subgraph cluster_implicit {
+        label="implicit state\ndecoder replays state.transition"; style="rounded"; color="#3fb950"; fontcolor="#3fb950"; fontsize=12;
+        S1a [label="S1a  ascii\nγ 1.62\n'MIX e0 e1'", color="#3fb950", fillcolor="#1f2937"];
+        S1  [label="S1  compact\nγ 1.60  (= arm C0)", color="#3fb950", fillcolor="#1f2937"];
+    }
+    subgraph cluster_ckpt {
+        label="checkpointed\nS1 + CK snapshot every k actions"; style="rounded"; color="#bc8cff"; fontcolor="#bc8cff"; fontsize=12;
+        K4  [label="S2k4\nγ 1.69", color="#bc8cff"];
+        K8  [label="S2k8\nγ 1.61", color="#bc8cff"];
+        K16 [label="S2k16\nγ 1.60\n(few synthetic docs reach 16 actions)", color="#bc8cff"];
+    }
+
+    S0 -> S3  [label="spelling  +0.117", color="#f0883e"];
+    S3 -> S1  [label="explicit state  +0.198", color="#f0883e"];
+    S0 -> S1a [label="explicit state  +0.291", color="#f0883e", style=dashed];
+    S1a -> S1 [label="spelling  +0.023", color="#3fb950", style=dashed];
+    K4 -> S1  [label="+0.094", color="#bc8cff"];
+    K8 -> S1  [label="+0.015", color="#bc8cff"];
+    K16 -> S1 [label="+0.000", color="#bc8cff"];
+}

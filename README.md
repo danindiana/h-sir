@@ -1,5 +1,15 @@
 # H-SIR Phase II — codec and feasibility harness (protocol v0.3.3)
 
+[![tests](https://github.com/danindiana/h-sir/actions/workflows/tests.yml/badge.svg)](https://github.com/danindiana/h-sir/actions/workflows/tests.yml)
+![python](https://img.shields.io/badge/python-3.10%20%7C%203.12%20%7C%203.13-3776AB?logo=python&logoColor=white)
+![tests](https://img.shields.io/badge/tests-399-2ea44f)
+![round trip](https://img.shields.io/badge/round%20trip-byte--exact-2ea44f)
+![protocol](https://img.shields.io/badge/protocol-v0.3.3%20frozen-6f42c1)
+![phase II](https://img.shields.io/badge/phase%20II-pending%20real%20data-d29922)
+![synthetic diagnostic](https://img.shields.io/badge/synthetic%20diagnostic-REVISE-d29922)
+![license](https://img.shields.io/badge/license-not%20yet%20chosen-lightgrey)
+[![diagrams](https://img.shields.io/badge/diagrams-graphviz-58a6ff)](docs/diagrams/)
+
 Reversible semantic-instruction codec for recipe text, plus the measurement
 harness that decides whether H-SIR is worth training a transformer on.
 **No model training happens here.** Training is permitted only after a
@@ -11,6 +21,8 @@ E(x) = (S, C, R)   S = semantic instruction stream (rule-based, versioned entiti
                    R = byte-exact edit script from G(S, C) to x
 D(E(x)) == x       for every byte string, verified by length + CRC + equality
 ```
+
+![H-SIR codec pipeline](docs/diagrams/01_codec_pipeline.svg)
 
 ## Setup (Ubuntu 24.04, bash/zsh)
 
@@ -41,6 +53,23 @@ coding families × three orders, plus the order-0…6 sensitivity sweep on four
 arms). Start with `--limit 20000`; the full 2.2 M-row corpus will
 take hours and is not needed for a feasibility gate.
 
+## Diagrams
+
+Graphviz sources and renders live in [`docs/diagrams/`](docs/diagrams/)
+(`bash docs/diagrams/render.sh` regenerates them).
+
+| | |
+|---|---|
+| [Codec pipeline](docs/diagrams/01_codec_pipeline.svg) | [Container format v3](docs/diagrams/02_container_format_v3.svg) |
+| [Entity state machine](docs/diagrams/03_entity_state_machine.svg) | [Serialization modes](docs/diagrams/04_serialization_modes.svg) |
+| [Surface layer](docs/diagrams/05_surface_layer.svg) | [Phase II harness](docs/diagrams/06_phase2_harness.svg) |
+| [Decision logic](docs/diagrams/07_decision_logic.svg) | [Research roadmap](docs/diagrams/08_research_roadmap.svg) |
+
+![Phase II harness](docs/diagrams/06_phase2_harness.svg)
+
+Numbers shown in the serialization-mode and surface-layer diagrams come from
+the synthetic example report and are labelled as such.
+
 ## Layout
 
 ```
@@ -54,6 +83,8 @@ src/hsir/    lexicon (frozen rules) · state (shared transition rules) · parser
              phase2 (report writer + decision logic) · synthetic (tests only)
 experiments/ corpus_generator.py, entropy_report.py, rank_frequency.py
 examples/    phase2_synthetic/ — full 11-file report from 2,000 synthetic docs
+docs/        diagrams/ — Graphviz .dot sources + .png/.svg renders
+.github/     workflows/tests.yml — tests on 3.10/3.12/3.13, freeze check, diagram render
 ```
 
 ## Arms

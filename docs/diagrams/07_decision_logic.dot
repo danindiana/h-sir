@@ -1,0 +1,35 @@
+digraph decision_logic {
+    graph [bgcolor="#0d1117", rankdir=TB, fontname="Helvetica",
+           fontcolor="#e6edf3", labelloc="t", fontsize=20, nodesep=0.45, ranksep=0.45,
+           label="Preregistered Phase II decision rule (thresholds from spec/prereg.json, primary order 3)\n "];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d",
+           style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18",
+           fillcolor="#161b22", fontsize=12];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7",
+           penwidth=1.6, arrowsize=0.9, fontsize=10];
+
+    rt   [label="all arms round-trip exactly?", shape=diamond, style="filled", margin="0.1,0.05"];
+    inv  [label="INVALID\nimplementation bug;\nno measurement trusted", color="#f85149"];
+
+    subgraph cluster_fam {
+        label="for each arm × coding family (byte, symbol)"; style="rounded"; color="#58a6ff"; fontcolor="#58a6ff"; fontsize=13;
+        stop [label="STOP if any:\nγ 95% CI lower bound > 1.50\nbyte coverage < 0.05\nγ_covered < 1 while γ_whole ≥ 1", color="#f85149"];
+        rev  [label="REVISE if any:\nρ_R > 0.85\nγ at 100 MB target (with L_shared) > 1.10\nbyte coverage < 0.30", color="#d29922", fillcolor="#1f2937"];
+        go   [label="GO otherwise", color="#3fb950", fillcolor="#1f2937"];
+    }
+
+    arm  [label="per arm: most severe across families\n(no coder can be cherry-picked)", color="#58a6ff", fillcolor="#13294d"];
+    all  [label="overall: least severe across 13 arms\n+ selection caveat: confirm the arm\non a fresh split before Phase III", color="#58a6ff", fillcolor="#13294d"];
+    syn  [label="synthetic corpus?", shape=diamond, style="filled", margin="0.1,0.05"];
+    pend [label="PENDING_REAL_DATA\n(diagnostic decision still reported)", color="#8b949e"];
+    fin  [label="decision\ntraining permitted only if GO", color="#3fb950", fillcolor="#1f2937"];
+
+    rt -> inv [label="no", color="#f85149"];
+    rt -> stop [label="yes"];
+    stop -> rev [label="not triggered"];
+    rev -> go [label="not triggered"];
+    stop -> arm [color="#f85149"]; rev -> arm [color="#d29922"]; go -> arm [color="#3fb950"];
+    arm -> all -> syn;
+    syn -> pend [label="yes"];
+    syn -> fin [label="no"];
+}

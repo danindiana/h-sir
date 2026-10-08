@@ -1,0 +1,41 @@
+digraph container_format {
+    graph [bgcolor="#0d1117", rankdir=TB, fontname="Helvetica",
+           fontcolor="#e6edf3", labelloc="t", fontsize=20, nodesep=0.4, ranksep=0.45,
+           label="Container format v3 (codec.py): length-delimited, CRC-checked; v2 still decodes as C0\n "];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d",
+           style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18",
+           fillcolor="#161b22", fontsize=12];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7",
+           penwidth=1.6, arrowsize=0.9, fontsize=10];
+
+    layout [shape=plain, style="", label=<
+      <TABLE BORDER="0" CELLBORDER="2" CELLSPACING="3" CELLPADDING="7" COLOR="#30363d">
+        <TR>
+          <TD PORT="magic" BGCOLOR="#0d2e2e" COLOR="#39c5cf"><FONT COLOR="#e6edf3">MAGIC<BR/>"HSIR"<BR/><FONT POINT-SIZE="9">4 B</FONT></FONT></TD>
+          <TD PORT="ver" BGCOLOR="#0d2e2e" COLOR="#39c5cf"><FONT COLOR="#e6edf3">VER<BR/>3<BR/><FONT POINT-SIZE="9">1 B</FONT></FONT></TD>
+          <TD PORT="mode" BGCOLOR="#1f2937" COLOR="#f85149"><FONT COLOR="#e6edf3">MODE<BR/>A=0 B=1<BR/><FONT POINT-SIZE="9">1 B</FONT></FONT></TD>
+          <TD PORT="smode" BGCOLOR="#13294d" COLOR="#58a6ff"><FONT COLOR="#e6edf3">SMODE<BR/>MODE_IDS<BR/><FONT POINT-SIZE="9">1 B</FONT></FONT></TD>
+          <TD PORT="cset" BGCOLOR="#1f2937" COLOR="#bc8cff"><FONT COLOR="#e6edf3">CSET<BR/>CSET_IDS<BR/><FONT POINT-SIZE="9">1 B</FONT></FONT></TD>
+          <TD BGCOLOR="#161b22" COLOR="#8b949e"><FONT COLOR="#e6edf3">|x|<BR/><FONT POINT-SIZE="9">varint</FONT></FONT></TD>
+          <TD BGCOLOR="#161b22" COLOR="#8b949e"><FONT COLOR="#e6edf3">|S|<BR/><FONT POINT-SIZE="9">varint</FONT></FONT></TD>
+          <TD BGCOLOR="#161b22" COLOR="#8b949e"><FONT COLOR="#e6edf3">|C|<BR/><FONT POINT-SIZE="9">varint</FONT></FONT></TD>
+          <TD BGCOLOR="#161b22" COLOR="#8b949e"><FONT COLOR="#e6edf3">|R|<BR/><FONT POINT-SIZE="9">varint</FONT></FONT></TD>
+          <TD BGCOLOR="#0d3a6b" COLOR="#58a6ff"><FONT COLOR="#e6edf3">S bytes</FONT></TD>
+          <TD BGCOLOR="#1f2937" COLOR="#bc8cff"><FONT COLOR="#e6edf3">C bytes</FONT></TD>
+          <TD PORT="r" BGCOLOR="#161b22" COLOR="#f0883e"><FONT COLOR="#e6edf3">R bytes</FONT></TD>
+          <TD BGCOLOR="#1f2937" COLOR="#3fb950"><FONT COLOR="#e6edf3">CRC32(x)<BR/><FONT POINT-SIZE="9">4 B big-endian</FONT></FONT></TD>
+        </TR>
+      </TABLE>>];
+
+    modeA [label="Mode A (raw fallback)\nnot strict UTF-8, or no supported sentence\nS and C empty, R = x\nnever chosen on size grounds", color="#f85149"];
+    smode [label="SMODE (append-only)\nS0 · S3 · S1 · S1a · S2k4 · S2k8 · S2k16", color="#58a6ff", fillcolor="#13294d"];
+    cset  [label="CSET (append-only)\nC0 · C1 · C2 · C3 · C4 · C4P", color="#bc8cff"];
+    v2    [label="format v2 (legacy)\nno CSET byte, no |C|, no C\ndecoded as C0", color="#8b949e"];
+    rfmt  [label="R wire ops vs ŷ\nR skip,del,ins:bytes · D skip,del; · I skip,ins:bytes\nequal runs < 6 B between edits coalesced", color="#f0883e"];
+
+    layout:mode:s  -> modeA [color="#f85149"];
+    layout:smode:s -> smode [color="#58a6ff"];
+    layout:cset:s  -> cset  [color="#bc8cff"];
+    layout:r:s     -> rfmt  [color="#f0883e"];
+    layout:ver:s   -> v2    [style=dashed];
+}

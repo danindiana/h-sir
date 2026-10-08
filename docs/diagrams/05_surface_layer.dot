@@ -1,0 +1,47 @@
+digraph surface_layer {
+    graph [bgcolor="#0d1117", rankdir=LR, fontname="Helvetica",
+           fontcolor="#e6edf3", labelloc="t", fontsize=20, nodesep=0.35, ranksep=0.7,
+           label="Surface-factorized residuals (surface.py, schema 1): sparse categorical choices C between S and R\ncost columns: ΔL(C) / ΔL(R) bits per source byte, symbol coder, order 3, SYNTHETIC corpus\n "];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d",
+           style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18",
+           fillcolor="#161b22", fontsize=12];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7",
+           penwidth=1.6, arrowsize=0.9, fontsize=10];
+
+    subgraph cluster_slots {
+        label="slots per supported sentence j (enumerated from S alone)"; style="rounded"; color="#bc8cff"; fontcolor="#bc8cff"; fontsize=13;
+        slots [shape=plain, style="", label=<
+          <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="6" COLOR="#30363d">
+            <TR><TD BGCOLOR="#1f2937"><FONT COLOR="#bc8cff"><B>field</B></FONT></TD><TD BGCOLOR="#1f2937"><FONT COLOR="#bc8cff"><B>values (index 0 = default)</B></FONT></TD></TR>
+            <TR><TD><FONT COLOR="#e6edf3">SEP (j &gt; 0)</FONT></TD><TD><FONT COLOR="#adbac7">" " · "\n" · "" · "\n\n" · … (8)</FONT></TD></TR>
+            <TR><TD><FONT COLOR="#e6edf3">CASE</FONT></TD><TD><FONT COLOR="#adbac7">upper · lower</FONT></TD></TR>
+            <TR><TD><FONT COLOR="#e6edf3">VERB</FONT></TD><TD><FONT COLOR="#adbac7">op's surface forms (Mix · Combine · Blend)</FONT></TD></TR>
+            <TR><TD><FONT COLOR="#e6edf3">REF (per NP)</FONT></TD><TD><FONT COLOR="#adbac7">NP · it · them · everything · all</FONT></TD></TR>
+            <TR><TD><FONT COLOR="#e6edf3">ART (per NP, no qty)</FONT></TD><TD><FONT COLOR="#adbac7">the · a · an · none · some · your</FONT></TD></TR>
+            <TR><TD><FONT COLOR="#e6edf3">LIST (≥3 items)</FONT></TD><TD><FONT COLOR="#adbac7">Oxford · plain</FONT></TD></TR>
+          </TABLE>>];
+    }
+
+    obs  [label="parser observations\nverb word, determiners,\npronouns, case, whitespace", color="#3fb950", fillcolor="#1f2937"];
+    enc  [label="store only non-default\n(gap varint, value varint)\nunrepresentable → R fallback", color="#bc8cff"];
+    G    [label="ŷ = G(S, C)", color="#58a6ff", fillcolor="#13294d"];
+    R    [label="R = diff(ŷ, x)\nexactness still guaranteed", color="#f0883e"];
+
+    subgraph cluster_sets {
+        label="surface sets (arms on S1 state)"; style="rounded"; color="#d29922"; fontcolor="#d29922"; fontsize=13;
+        C0 [label="C0  none\nγ 1.596", color="#8b949e"];
+        C1 [label="C1  + SEP, LIST\nΔC +0.041  ΔR −0.126", color="#d29922", fillcolor="#1f2937"];
+        C2 [label="C2  + ART, CASE\nΔC +0.094  ΔR −0.189", color="#d29922", fillcolor="#1f2937"];
+        C3 [label="C3  + VERB\nΔC +0.023  ΔR −0.046", color="#d29922", fillcolor="#1f2937"];
+        C4 [label="C4  + REF\nΔC +0.023  ΔR −0.052\nγ 1.296  (Δγ −0.300 vs C0)", color="#d29922", fillcolor="#1f2937"];
+        C4P [label="C4P control\npermuted ids\nΔγ 0.000 (symbol)", color="#8b949e"];
+    }
+
+    obs -> enc [color="#3fb950"];
+    slots -> enc [color="#bc8cff"];
+    enc -> G [label="C", color="#bc8cff"];
+    G -> R [color="#f0883e"];
+    C0 -> C1 -> C2 -> C3 -> C4 [color="#d29922"];
+    C4 -> C4P [style=dashed];
+    enc -> C0 [style=invis];
+}
